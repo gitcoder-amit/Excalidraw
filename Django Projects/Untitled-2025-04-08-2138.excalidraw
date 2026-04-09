@@ -1,0 +1,52 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "qRdaIWRiwsuHSC6D5bx2f",
+      "type": "text",
+      "x": 1957.8490983576967,
+      "y": 5633.652310343081,
+      "width": 1243,
+      "height": 425,
+      "angle": 0,
+      "strokeColor": "#e03131",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bET",
+      "roundness": null,
+      "seed": 1751682495,
+      "version": 902,
+      "versionNonce": 1611026637,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1770699025510,
+      "link": null,
+      "locked": false,
+      "text": "wsgi.py\nconcurrency -> more control to OS\nasync await -> more control to code\n\nwsgi.py -> howmany workers -> worker can be decided by\n    1 no of cores in our system\n    2 RAM Size\n\nin each worker inside wsgi a request should be complete first then only other request will be handled\nif 1 request is stuck on loop then that worker cant take another request\n\nasync await can run multiple request using await using uvicorn, fastapi uses that thats why it is fast\n\n\nwsgi -> gunicorn -> worker -> takes request -> 1 worker will complete 1 request first only then it can take other\n\nasgi -> gunicorn -> worker -> takes reuest can run multiple with async await feature using uvicorn",
+      "fontSize": 20,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "wsgi.py\nconcurrency -> more control to OS\nasync await -> more control to code\n\nwsgi.py -> howmany workers -> worker can be decided by\n    1 no of cores in our system\n    2 RAM Size\n\nin each worker inside wsgi a request should be complete first then only other request will be handled\nif 1 request is stuck on loop then that worker cant take another request\n\nasync await can run multiple request using await using uvicorn, fastapi uses that thats why it is fast\n\n\nwsgi -> gunicorn -> worker -> takes request -> 1 worker will complete 1 request first only then it can take other\n\nasgi -> gunicorn -> worker -> takes reuest can run multiple with async await feature using uvicorn",
+      "autoResize": true,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff",
+    "lockedMultiSelections": {}
+  },
+  "files": {}
+}
