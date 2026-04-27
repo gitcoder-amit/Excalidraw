@@ -546,16 +546,7 @@
       "version": 85,
       "versionNonce": 130269145,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "id": "qhC6Y2CueQdf6biXU-P-x",
-          "type": "arrow"
-        },
-        {
-          "id": "rUxAeS-fSwEYBBg1n_JrZ",
-          "type": "arrow"
-        }
-      ],
+      "boundElements": [],
       "updated": 1775707100047,
       "link": null,
       "locked": false
@@ -987,12 +978,7 @@
       "version": 174,
       "versionNonce": 244171735,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "byOhWMCPaYdetKZgNghWC"
-        }
-      ],
+      "boundElements": [],
       "updated": 1775707100047,
       "link": null,
       "locked": false,
@@ -1193,12 +1179,7 @@
       "version": 104,
       "versionNonce": 1670616793,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "6v2J-axbpE4hlraQkhzp7"
-        }
-      ],
+      "boundElements": [],
       "updated": 1775707100047,
       "link": null,
       "locked": false,
@@ -1365,12 +1346,7 @@
       "version": 71,
       "versionNonce": 956069017,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "Z_SN1UeBv1VCwURIZQgWK"
-        }
-      ],
+      "boundElements": [],
       "updated": 1775707100047,
       "link": null,
       "locked": false
@@ -1437,12 +1413,7 @@
       "version": 48,
       "versionNonce": 1251244409,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "id": "67_Gwo5nFHoX8lF3Ml0oU",
-          "type": "arrow"
-        }
-      ],
+      "boundElements": [],
       "updated": 1775707100047,
       "link": null,
       "locked": false
@@ -1724,12 +1695,7 @@
       "version": 11,
       "versionNonce": 747342327,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "id": "1_DI3EyEB0hKkruL3liHr",
-          "type": "arrow"
-        }
-      ],
+      "boundElements": [],
       "updated": 1775707100047,
       "link": null,
       "locked": false,
@@ -1861,16 +1827,7 @@
       "version": 277,
       "versionNonce": 551316953,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "id": "vp3s-mJw74PQ4Po99GJhY",
-          "type": "arrow"
-        },
-        {
-          "id": "asO3Ly_WXCSmb7bZzfy5V",
-          "type": "arrow"
-        }
-      ],
+      "boundElements": [],
       "updated": 1775707100047,
       "link": null,
       "locked": false
@@ -2334,16 +2291,7 @@
       "version": 56,
       "versionNonce": 2015344087,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "id": "xix2UWkvp9ImXmtTlEPQy",
-          "type": "arrow"
-        },
-        {
-          "id": "vp3s-mJw74PQ4Po99GJhY",
-          "type": "arrow"
-        }
-      ],
+      "boundElements": [],
       "updated": 1775707100048,
       "link": null,
       "locked": false
@@ -2373,16 +2321,7 @@
       "version": 77,
       "versionNonce": 1665169177,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "id": "X_p6js8TW_cPAvjZ1GGYW",
-          "type": "arrow"
-        },
-        {
-          "id": "asO3Ly_WXCSmb7bZzfy5V",
-          "type": "arrow"
-        }
-      ],
+      "boundElements": [],
       "updated": 1775707100048,
       "link": null,
       "locked": false
@@ -3032,20 +2971,7 @@
       "version": 187,
       "versionNonce": 1044066007,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "id": "MfSzmpDTZFwNY70LpwglN",
-          "type": "arrow"
-        },
-        {
-          "id": "QIVb6nEpQkf5i3XeBzwbD",
-          "type": "arrow"
-        },
-        {
-          "id": "MTQoX2G_KF6G0tBrgb9EC",
-          "type": "arrow"
-        }
-      ],
+      "boundElements": [],
       "updated": 1775707100048,
       "link": null,
       "locked": false
@@ -3950,12 +3876,7 @@
       "version": 171,
       "versionNonce": 1200419545,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "id": "Y2lGKOvAi3VD0wMHyYD-m",
-          "type": "arrow"
-        }
-      ],
+      "boundElements": [],
       "updated": 1775707100048,
       "link": null,
       "locked": false,
@@ -4756,12 +4677,7 @@
       "version": 84,
       "versionNonce": 62175863,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "id": "AAC9JXy6t50zkMBX56QqP",
-          "type": "arrow"
-        }
-      ],
+      "boundElements": [],
       "updated": 1775707100048,
       "link": null,
       "locked": false,
@@ -4798,12 +4714,7 @@
       "version": 95,
       "versionNonce": 1256426617,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "id": "o_8v_pXQv3i8L4KdtMt0j",
-          "type": "arrow"
-        }
-      ],
+      "boundElements": [],
       "updated": 1775707100048,
       "link": null,
       "locked": false,
@@ -4842,12 +4753,7 @@
       "version": 56,
       "versionNonce": 1883526039,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "2rV0hIODaUbBfsX7bS4iT"
-        }
-      ],
+      "boundElements": [],
       "updated": 1775707100048,
       "link": null,
       "locked": false,
@@ -4936,12 +4842,7 @@
       "version": 73,
       "versionNonce": 365152439,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "OBkzqGBetpy6xziNm48wO"
-        }
-      ],
+      "boundElements": [],
       "updated": 1775707100048,
       "link": null,
       "locked": false,
@@ -5118,12 +5019,7 @@
       "version": 9,
       "versionNonce": 429147895,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "id": "Vex5ya6yeHi7pn6NT4dZR",
-          "type": "arrow"
-        }
-      ],
+      "boundElements": [],
       "updated": 1775707100048,
       "link": null,
       "locked": false,
@@ -5160,12 +5056,7 @@
       "version": 6,
       "versionNonce": 770770937,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "id": "O449tGI_c7Pt-lnLRPDTy",
-          "type": "arrow"
-        }
-      ],
+      "boundElements": [],
       "updated": 1775707100048,
       "link": null,
       "locked": false,
@@ -5306,12 +5197,7 @@
       "version": 8,
       "versionNonce": 1099576631,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "id": "c7kmD8edRy6VPB-0ymv0N",
-          "type": "arrow"
-        }
-      ],
+      "boundElements": [],
       "updated": 1775707100048,
       "link": null,
       "locked": false,
@@ -5601,12 +5487,7 @@
       "version": 26,
       "versionNonce": 443965879,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "id": "6yUHvzohPMYAp7b86HW9e",
-          "type": "arrow"
-        }
-      ],
+      "boundElements": [],
       "updated": 1775707100048,
       "link": null,
       "locked": false,
@@ -5777,12 +5658,7 @@
       "version": 41,
       "versionNonce": 1127522295,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "id": "4Mu3AIg9RrAh5aIUSHI9a",
-          "type": "arrow"
-        }
-      ],
+      "boundElements": [],
       "updated": 1775707100048,
       "link": null,
       "locked": false,
@@ -5819,12 +5695,7 @@
       "version": 9,
       "versionNonce": 803127033,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "id": "UAIPpEPjAXS-FmuGU2GKP",
-          "type": "arrow"
-        }
-      ],
+      "boundElements": [],
       "updated": 1775707100048,
       "link": null,
       "locked": false,
@@ -6116,12 +5987,7 @@
       "version": 143,
       "versionNonce": 355822711,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "KtZP1XedHN1Zhd2LTv86_"
-        }
-      ],
+      "boundElements": [],
       "updated": 1775707100048,
       "link": null,
       "locked": false
@@ -6188,12 +6054,7 @@
       "version": 117,
       "versionNonce": 853460375,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "giPqoYqcNILOIZYYNodFX"
-        }
-      ],
+      "boundElements": [],
       "updated": 1775707100048,
       "link": null,
       "locked": false
@@ -6976,12 +6837,7 @@
       "version": 79,
       "versionNonce": 853383193,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "Z6k15bdtPw8B2meA1AvTI"
-        }
-      ],
+      "boundElements": [],
       "updated": 1775707100048,
       "link": null,
       "locked": false
@@ -7093,12 +6949,7 @@
       "version": 88,
       "versionNonce": 74119959,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "-Bi9SGW0kP7eqaECHydC0"
-        }
-      ],
+      "boundElements": [],
       "updated": 1775707100048,
       "link": null,
       "locked": false
@@ -7214,12 +7065,7 @@
       "version": 103,
       "versionNonce": 1540817593,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "FLf3CO6GoJv2NRPobvc0o"
-        }
-      ],
+      "boundElements": [],
       "updated": 1775707100048,
       "link": null,
       "locked": false
@@ -7792,12 +7638,7 @@
       "version": 103,
       "versionNonce": 1334614327,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "Nu5_hN_GvJ8p_JIgKUy-G"
-        }
-      ],
+      "boundElements": [],
       "updated": 1775707100048,
       "link": null,
       "locked": false
@@ -7864,12 +7705,7 @@
       "version": 150,
       "versionNonce": 456284759,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "E1g_sDgBlJ4T1aCtlipmy"
-        }
-      ],
+      "boundElements": [],
       "updated": 1775707100048,
       "link": null,
       "locked": false
@@ -8084,12 +7920,7 @@
       "version": 106,
       "versionNonce": 841401783,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "nhVrxHoaPxVH1NF0VOjLd"
-        }
-      ],
+      "boundElements": [],
       "updated": 1775707100048,
       "link": null,
       "locked": false
@@ -8156,12 +7987,7 @@
       "version": 315,
       "versionNonce": 1926428375,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "rAyRRjBtPqruopMWhzroy"
-        }
-      ],
+      "boundElements": [],
       "updated": 1775707100048,
       "link": null,
       "locked": false
@@ -8534,28 +8360,7 @@
       "version": 631,
       "versionNonce": 1289868921,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "id": "wfeoPTwEXKE_eSVzGymqN",
-          "type": "arrow"
-        },
-        {
-          "id": "DRSokwlftdlislW18W8O2",
-          "type": "arrow"
-        },
-        {
-          "id": "Uanv_jjgH0XLPnfq5TNxe",
-          "type": "arrow"
-        },
-        {
-          "id": "eoQ3hX_P8kAJPGbX1TMkq",
-          "type": "arrow"
-        },
-        {
-          "id": "3N-EzGBVRhHOuyJdSsYbD",
-          "type": "arrow"
-        }
-      ],
+      "boundElements": [],
       "updated": 1775707100048,
       "link": null,
       "locked": false
@@ -8585,12 +8390,7 @@
       "version": 49,
       "versionNonce": 1269279127,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "id": "DRSokwlftdlislW18W8O2",
-          "type": "arrow"
-        }
-      ],
+      "boundElements": [],
       "updated": 1775707100048,
       "link": null,
       "locked": false
@@ -8620,12 +8420,7 @@
       "version": 142,
       "versionNonce": 1664261977,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "id": "Uanv_jjgH0XLPnfq5TNxe",
-          "type": "arrow"
-        }
-      ],
+      "boundElements": [],
       "updated": 1775707100048,
       "link": null,
       "locked": false
@@ -8655,12 +8450,7 @@
       "version": 103,
       "versionNonce": 374103735,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "id": "eoQ3hX_P8kAJPGbX1TMkq",
-          "type": "arrow"
-        }
-      ],
+      "boundElements": [],
       "updated": 1775707100048,
       "link": null,
       "locked": false
@@ -9498,12 +9288,7 @@
       "version": 639,
       "versionNonce": 1380054041,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "lRWIDU6_OkSx8AJ4NHrcC"
-        }
-      ],
+      "boundElements": [],
       "updated": 1775707100048,
       "link": null,
       "locked": false,
@@ -9630,12 +9415,7 @@
       "version": 201,
       "versionNonce": 1065213719,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "2Jx47bnuUwPHt7a-hEClD"
-        }
-      ],
+      "boundElements": [],
       "updated": 1775707100048,
       "link": null,
       "locked": false
@@ -9702,16 +9482,7 @@
       "version": 425,
       "versionNonce": 1824515127,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "_h_sOqNb58ClEqlH6PM2S"
-        },
-        {
-          "id": "r9EmpH19j7DXj8Qlz6p8_",
-          "type": "arrow"
-        }
-      ],
+      "boundElements": [],
       "updated": 1775707100048,
       "link": null,
       "locked": false
@@ -10353,7 +10124,7 @@
       "version": 3,
       "versionNonce": 1449978073,
       "isDeleted": true,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1775707097791,
       "link": null,
       "locked": false,
@@ -10390,7 +10161,7 @@
       "version": 3,
       "versionNonce": 2137174329,
       "isDeleted": true,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1775707105739,
       "link": null,
       "locked": false,
@@ -10429,7 +10200,7 @@
       "version": 94,
       "versionNonce": 446462777,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1775707109420,
       "link": null,
       "locked": false
@@ -10457,7 +10228,7 @@
       "version": 26,
       "versionNonce": 730921047,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1775707117236,
       "link": null,
       "locked": false,
@@ -10494,7 +10265,7 @@
       "version": 3,
       "versionNonce": 412606967,
       "isDeleted": true,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1775707122119,
       "link": null,
       "locked": false,
@@ -10513,7 +10284,7 @@
       "type": "text",
       "x": 996.8389364213419,
       "y": 40401.62794892791,
-      "width": 55,
+      "width": 11,
       "height": 25,
       "angle": 0,
       "strokeColor": "#1e1e1e",
@@ -10528,20 +10299,20 @@
       "index": "bVV",
       "roundness": null,
       "seed": 1565952791,
-      "version": 11,
-      "versionNonce": 138350457,
-      "isDeleted": false,
-      "boundElements": null,
-      "updated": 1775707126263,
+      "version": 13,
+      "versionNonce": 1497979629,
+      "isDeleted": true,
+      "boundElements": [],
+      "updated": 1776921067523,
       "link": null,
       "locked": false,
-      "text": "Flow ",
+      "text": "",
       "fontSize": 20,
       "fontFamily": 8,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Flow ",
+      "originalText": "",
       "autoResize": true,
       "lineHeight": 1.25
     },
@@ -10550,8 +10321,8 @@
       "type": "text",
       "x": 1031.920967671342,
       "y": 40438.97560517791,
-      "width": 737,
-      "height": 550,
+      "width": 11,
+      "height": 25,
       "angle": 0,
       "strokeColor": "#1971c2",
       "backgroundColor": "#a5d8ff",
@@ -10565,20 +10336,20 @@
       "index": "bVW",
       "roundness": null,
       "seed": 723096567,
-      "version": 4,
-      "versionNonce": 2030067831,
-      "isDeleted": false,
-      "boundElements": null,
-      "updated": 1775707182117,
+      "version": 6,
+      "versionNonce": 1545887715,
+      "isDeleted": true,
+      "boundElements": [],
+      "updated": 1776921064990,
       "link": null,
       "locked": false,
-      "text": "1. System initializes with users, songs, artists, albums, playlists\n2. User signs up / logs in\n3. User searches for song/artist/album\n4. System returns matching results\n5. User selects a song\n6. System validates:\n   - Song exists\n   - User access (free/premium)\n7. Song is added to user's play queue\n8. Music player starts playing the song\n9. While playing:\n   - User can pause/resume/skip\n10. If song ends:\n    - Next song from queue is played\n11. User can like the song\n12. User can add song to a playlist\n13. Playlist gets updated\n14. System stores play history\n15. Recommendations get updated based on history\n16. If queue becomes empty:\n    - Autoplay suggested songs OR stop\n17. Repeat until user session ends",
+      "text": "",
       "fontSize": 20,
       "fontFamily": 8,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "1. System initializes with users, songs, artists, albums, playlists\n2. User signs up / logs in\n3. User searches for song/artist/album\n4. System returns matching results\n5. User selects a song\n6. System validates:\n   - Song exists\n   - User access (free/premium)\n7. Song is added to user's play queue\n8. Music player starts playing the song\n9. While playing:\n   - User can pause/resume/skip\n10. If song ends:\n    - Next song from queue is played\n11. User can like the song\n12. User can add song to a playlist\n13. Playlist gets updated\n14. System stores play history\n15. Recommendations get updated based on history\n16. If queue becomes empty:\n    - Autoplay suggested songs OR stop\n17. Repeat until user session ends",
+      "originalText": "",
       "autoResize": true,
       "lineHeight": 1.25
     },
@@ -10586,8 +10357,8 @@
       "id": "tTPI6d9SCRwLymQd3Nefh",
       "type": "text",
       "x": 976.3350301713419,
-      "y": 41064.93263642791,
-      "width": 88,
+      "y": 41065.05373017791,
+      "width": 11,
       "height": 25,
       "angle": 0,
       "strokeColor": "#1e1e1e",
@@ -10602,20 +10373,20 @@
       "index": "bVX",
       "roundness": null,
       "seed": 1021177527,
-      "version": 13,
-      "versionNonce": 662271031,
-      "isDeleted": false,
-      "boundElements": null,
-      "updated": 1775707200925,
+      "version": 16,
+      "versionNonce": 462546637,
+      "isDeleted": true,
+      "boundElements": [],
+      "updated": 1776921068991,
       "link": null,
       "locked": false,
-      "text": "Entities",
+      "text": "",
       "fontSize": 20,
       "fontFamily": 8,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Entities",
+      "originalText": "",
       "autoResize": true,
       "lineHeight": 1.25
     },
@@ -10624,8 +10395,8 @@
       "type": "text",
       "x": 1020.5303426713419,
       "y": 41109.12794892791,
-      "width": 242,
-      "height": 250,
+      "width": 11,
+      "height": 25,
       "angle": 0,
       "strokeColor": "#1971c2",
       "backgroundColor": "#a5d8ff",
@@ -10639,28 +10410,28 @@
       "index": "bVY",
       "roundness": null,
       "seed": 729092727,
-      "version": 6,
-      "versionNonce": 940025879,
-      "isDeleted": false,
-      "boundElements": null,
-      "updated": 1775707215153,
+      "version": 8,
+      "versionNonce": 1144905197,
+      "isDeleted": true,
+      "boundElements": [],
+      "updated": 1776921071969,
       "link": null,
       "locked": false,
-      "text": "User\nSong\nArtist\nAlbum\nPlaylist\nPlaylistSong (Mapping)\nPlayer\nQueue\nPlayHistory\nLike",
+      "text": "",
       "fontSize": 20,
       "fontFamily": 8,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "User\nSong\nArtist\nAlbum\nPlaylist\nPlaylistSong (Mapping)\nPlayer\nQueue\nPlayHistory\nLike",
+      "originalText": "",
       "autoResize": true,
       "lineHeight": 1.25
     },
     {
       "id": "DaKUlVbVCZNFb5p6yBa-4",
       "type": "text",
-      "x": 973.5225301713419,
-      "y": 41422.52248017791,
+      "x": 985.1279989213419,
+      "y": 41363.01076142791,
       "width": 253,
       "height": 25,
       "angle": 0,
@@ -10676,11 +10447,11 @@
       "index": "bVZ",
       "roundness": null,
       "seed": 2133839447,
-      "version": 4,
-      "versionNonce": 1115056855,
+      "version": 43,
+      "versionNonce": 216088611,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1775707228304,
+      "boundElements": [],
+      "updated": 1776921157236,
       "link": null,
       "locked": false,
       "text": "Working in Python (LLD)",
@@ -10696,10 +10467,10 @@
     {
       "id": "42r3WfJC_4b9VwFzpvi79",
       "type": "text",
-      "x": 1011.7100301713419,
+      "x": 1011.8272176713419,
       "y": 41483.45607392791,
-      "width": 935,
-      "height": 3500,
+      "width": 11,
+      "height": 25,
       "angle": 0,
       "strokeColor": "#1971c2",
       "backgroundColor": "#a5d8ff",
@@ -10713,20 +10484,353 @@
       "index": "bVa",
       "roundness": null,
       "seed": 1029497111,
-      "version": 41,
-      "versionNonce": 1210212921,
-      "isDeleted": false,
-      "boundElements": null,
-      "updated": 1775707311031,
+      "version": 44,
+      "versionNonce": 865751629,
+      "isDeleted": true,
+      "boundElements": [],
+      "updated": 1776921062091,
       "link": null,
       "locked": false,
-      "text": "class Song:\n    def __init__(self, id, title, artist, duration):\n        self.id = id\n        self.title = title\n        self.artist = artist\n        self.duration = duration\n\n    def __str__(self):\n        return self.title\n\n\nclass User:\n    def __init__(self, id, name):\n        self.id = id\n        self.name = name\n        self.playlists = []\n        self.liked_songs = set()\n\n\nclass Playlist:\n    def __init__(self, id, name):\n        self.id = id\n        self.name = name\n        self.songs = []\n\n    def add_song(self, song):\n        self.songs.append(song)\n\n    def remove_song(self, song):\n        self.songs.remove(song)\n\n\nQueue (Core Component)\nclass PlayQueue:\n    def __init__(self):\n        self.queue = []\n\n    def add_song(self, song):\n        self.queue.append(song)\n\n    def get_next_song(self):\n        if self.queue:\n            return self.queue.pop(0)\n        return None\n\n\n\nclass MusicPlayer:\n    def __init__(self):\n        self.queue = PlayQueue()\n        self.current_song = None\n        self.is_playing = False\n\n    def play(self):\n        if not self.current_song:\n            self.current_song = self.queue.get_next_song()\n\n        if self.current_song:\n            self.is_playing = True\n            print(f\"Playing: {self.current_song}\")\n        else:\n            print(\"No songs in queue\")\n\n    def pause(self):\n        self.is_playing = False\n        print(\"Paused\")\n\n    def resume(self):\n        if self.current_song:\n            self.is_playing = True\n            print(f\"Resumed: {self.current_song}\")\n\n    def skip(self):\n        print(\"Skipping...\")\n        self.current_song = self.queue.get_next_song()\n        self.play()\n\n\n\nMusic System (Controller)\n\nclass MusicSystem:\n    def __init__(self):\n        self.users = {}\n        self.songs = {}\n        self.player = MusicPlayer()\n\n    def add_song(self, song):\n        self.songs[song.id] = song\n\n    def register_user(self, user):\n        self.users[user.id] = user\n\n    def search_song(self, keyword):\n        return [s for s in self.songs.values() if keyword.lower() in s.title.lower()]\n\n    def play_song(self, song_id):\n        song = self.songs.get(song_id)\n        if not song:\n            print(\"Song not found\")\n            return\n        \n        self.player.queue.add_song(song)\n        self.player.play()\n\n    def like_song(self, user, song):\n        user.liked_songs.add(song)\n        print(f\"{user.name} liked {song}\")\n\n\n\nExample Execution\n\nsystem = MusicSystem()\n\n# Add songs\ns1 = Song(1, \"Shape of You\", \"Ed Sheeran\", 240)\ns2 = Song(2, \"Believer\", \"Imagine Dragons\", 210)\n\nsystem.add_song(s1)\nsystem.add_song(s2)\n\n# Register user\nuser = User(1, \"Amit\")\nsystem.register_user(user)\n\n# Search\nprint(system.search_song(\"shape\"))\n\n# Play song\nsystem.play_song(1)\n\n# Add another song\nsystem.player.queue.add_song(s2)\n\n# Skip\nsystem.player.skip()\n\n# Like song\nsystem.like_song(user, s2)",
+      "text": "",
       "fontSize": 20,
       "fontFamily": 8,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "class Song:\n    def __init__(self, id, title, artist, duration):\n        self.id = id\n        self.title = title\n        self.artist = artist\n        self.duration = duration\n\n    def __str__(self):\n        return self.title\n\n\nclass User:\n    def __init__(self, id, name):\n        self.id = id\n        self.name = name\n        self.playlists = []\n        self.liked_songs = set()\n\n\nclass Playlist:\n    def __init__(self, id, name):\n        self.id = id\n        self.name = name\n        self.songs = []\n\n    def add_song(self, song):\n        self.songs.append(song)\n\n    def remove_song(self, song):\n        self.songs.remove(song)\n\n\nQueue (Core Component)\nclass PlayQueue:\n    def __init__(self):\n        self.queue = []\n\n    def add_song(self, song):\n        self.queue.append(song)\n\n    def get_next_song(self):\n        if self.queue:\n            return self.queue.pop(0)\n        return None\n\n\n\nclass MusicPlayer:\n    def __init__(self):\n        self.queue = PlayQueue()\n        self.current_song = None\n        self.is_playing = False\n\n    def play(self):\n        if not self.current_song:\n            self.current_song = self.queue.get_next_song()\n\n        if self.current_song:\n            self.is_playing = True\n            print(f\"Playing: {self.current_song}\")\n        else:\n            print(\"No songs in queue\")\n\n    def pause(self):\n        self.is_playing = False\n        print(\"Paused\")\n\n    def resume(self):\n        if self.current_song:\n            self.is_playing = True\n            print(f\"Resumed: {self.current_song}\")\n\n    def skip(self):\n        print(\"Skipping...\")\n        self.current_song = self.queue.get_next_song()\n        self.play()\n\n\n\nMusic System (Controller)\n\nclass MusicSystem:\n    def __init__(self):\n        self.users = {}\n        self.songs = {}\n        self.player = MusicPlayer()\n\n    def add_song(self, song):\n        self.songs[song.id] = song\n\n    def register_user(self, user):\n        self.users[user.id] = user\n\n    def search_song(self, keyword):\n        return [s for s in self.songs.values() if keyword.lower() in s.title.lower()]\n\n    def play_song(self, song_id):\n        song = self.songs.get(song_id)\n        if not song:\n            print(\"Song not found\")\n            return\n        \n        self.player.queue.add_song(song)\n        self.player.play()\n\n    def like_song(self, user, song):\n        user.liked_songs.add(song)\n        print(f\"{user.name} liked {song}\")\n\n\n\nExample Execution\n\nsystem = MusicSystem()\n\n# Add songs\ns1 = Song(1, \"Shape of You\", \"Ed Sheeran\", 240)\ns2 = Song(2, \"Believer\", \"Imagine Dragons\", 210)\n\nsystem.add_song(s1)\nsystem.add_song(s2)\n\n# Register user\nuser = User(1, \"Amit\")\nsystem.register_user(user)\n\n# Search\nprint(system.search_song(\"shape\"))\n\n# Play song\nsystem.play_song(1)\n\n# Add another song\nsystem.player.queue.add_song(s2)\n\n# Skip\nsystem.player.skip()\n\n# Like song\nsystem.like_song(user, s2)",
+      "originalText": "",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "Fs3XxmEuZ37Ig6ewULDSQ",
+      "type": "text",
+      "x": 910.8858114213419,
+      "y": 40425.33693330291,
+      "width": 11,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#e03131",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bVb",
+      "roundness": null,
+      "seed": 772118605,
+      "version": 9,
+      "versionNonce": 1164167597,
+      "isDeleted": true,
+      "boundElements": null,
+      "updated": 1776921076888,
+      "link": null,
+      "locked": false,
+      "text": "",
+      "fontSize": 20,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "bvc2bE4VmB9iSM2ObKOxj",
+      "type": "text",
+      "x": 999.8819051713419,
+      "y": 40409.73146455291,
+      "width": 44,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bVc",
+      "roundness": null,
+      "seed": 855116813,
+      "version": 9,
+      "versionNonce": 223440653,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1776921080136,
+      "link": null,
+      "locked": false,
+      "text": "Flow",
+      "fontSize": 20,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Flow",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "GGtVqH6bT9_IuO8KHSuF5",
+      "type": "text",
+      "x": 1026.588936421342,
+      "y": 40451.84474580291,
+      "width": 11,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bVd",
+      "roundness": null,
+      "seed": 550835171,
+      "version": 3,
+      "versionNonce": 960027331,
+      "isDeleted": true,
+      "boundElements": null,
+      "updated": 1776921083992,
+      "link": null,
+      "locked": false,
+      "text": "",
+      "fontSize": 20,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "Xq6wLY7xxqJPSfeRO2bZK",
+      "type": "text",
+      "x": 1028.428780171342,
+      "y": 40463.04005830291,
+      "width": 550,
+      "height": 275,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bVe",
+      "roundness": null,
+      "seed": 899499523,
+      "version": 7,
+      "versionNonce": 453246499,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1776921122587,
+      "link": null,
+      "locked": false,
+      "text": "User opens system\nSearches songs / artists / albums\nSystem returns matching songs\nUser selects a song\nSong starts playing\nUser can:\nPause / Resume\nSkip\nAdd to playlist\nSystem tracks play history\n(Optional) Subscription check for premium features",
+      "fontSize": 20,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "User opens system\nSearches songs / artists / albums\nSystem returns matching songs\nUser selects a song\nSong starts playing\nUser can:\nPause / Resume\nSkip\nAdd to playlist\nSystem tracks play history\n(Optional) Subscription check for premium features",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "SWvRSHJDM0X3KL-Ug21PP",
+      "type": "text",
+      "x": 992.3819051713419,
+      "y": 40831.39162080291,
+      "width": 11,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bVf",
+      "roundness": null,
+      "seed": 949086701,
+      "version": 13,
+      "versionNonce": 1817822851,
+      "isDeleted": true,
+      "boundElements": null,
+      "updated": 1776921122558,
+      "link": null,
+      "locked": false,
+      "text": "",
+      "fontSize": 20,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "XccHbsqRqUXGe10oLzTfv",
+      "type": "text",
+      "x": 987.1279989213419,
+      "y": 40895.20802705291,
+      "width": 88,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bVg",
+      "roundness": null,
+      "seed": 1712756909,
+      "version": 28,
+      "versionNonce": 1293383107,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1776921135418,
+      "link": null,
+      "locked": false,
+      "text": "Entities",
+      "fontSize": 20,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Entities",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "YRe2-OCPHYHx7kpWtc7Pj",
+      "type": "text",
+      "x": 1027.877998921342,
+      "y": 40937.66505830291,
+      "width": 451,
+      "height": 250,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bVh",
+      "roundness": null,
+      "seed": 2054194957,
+      "version": 4,
+      "versionNonce": 893740589,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1776921149134,
+      "link": null,
+      "locked": false,
+      "text": "MusicSystem\nUser\nSong\nArtist\nAlbum\nPlaylist\nPlayer\nSubscription\nSearchService (Strategy)\nRecommendationService (optional advanced)",
+      "fontSize": 20,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "MusicSystem\nUser\nSong\nArtist\nAlbum\nPlaylist\nPlayer\nSubscription\nSearchService (Strategy)\nRecommendationService (optional advanced)",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "Kg_rkWNyoVQ_dwX0xbQ4y",
+      "type": "text",
+      "x": 1022.4092489213419,
+      "y": 41415.35255830291,
+      "width": 825,
+      "height": 2925,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bVi",
+      "roundness": null,
+      "seed": 1263103747,
+      "version": 74,
+      "versionNonce": 1140722435,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1776921275352,
+      "link": null,
+      "locked": false,
+      "text": "class Song:\n    def __init__(self, song_id, title, duration, artist):\n        self.song_id = song_id\n        self.title = title\n        self.duration = duration\n        self.artist = artist\n\n\nclass Artist:\n    def __init__(self, artist_id, name):\n        self.artist_id = artist_id\n        self.name = name\n\n\nclass Album:\n    def __init__(self, album_id, name):\n        self.album_id = album_id\n        self.name = name\n        self.songs = []\n\n    def add_song(self, song):\n        self.songs.append(song)\n\n\nclass User:\n    def __init__(self, user_id, name):\n        self.user_id = user_id\n        self.name = name\n        self.playlists = []\n        self.history = []\n\n    def create_playlist(self, playlist_name):\n        playlist = Playlist(playlist_name)\n        self.playlists.append(playlist)\n        return playlist\n\nclass Playlist:\n    def __init__(self, name):\n        self.name = name\n        self.songs = []\n\n    def add_song(self, song):\n        self.songs.append(song)\n\n    def remove_song(self, song):\n        self.songs.remove(song)\n\n\nclass Player:\n    def __init__(self):\n        self.current_song = None\n        self.is_playing = False\n\n    def play(self, song):\n        self.current_song = song\n        self.is_playing = True\n        print(f\"Playing: {song.title}\")\n\n    def pause(self):\n        if self.is_playing:\n            self.is_playing = False\n            print(\"Paused\")\n\n    def resume(self):\n        if not self.is_playing and self.current_song:\n            self.is_playing = True\n            print(\"Resumed\")\n\n    def stop(self):\n        self.current_song = None\n        self.is_playing = False\n        print(\"Stopped\")\n\n\nclass SearchStrategy:\n    def search(self, songs, query):\n        raise NotImplementedError\n\n\nclass SearchByTitle(SearchStrategy):\n    def search(self, songs, query):\n        return [s for s in songs if query.lower() in s.title.lower()]\n\n\nclass SearchByArtist(SearchStrategy):\n    def search(self, songs, query):\n        return [s for s in songs if query.lower() in s.artist.name.lower()]\n\n\n\nclass MusicSystem:\n    def __init__(self):\n        self.songs = []\n        self.users = []\n        self.player = Player()\n\n    def add_song(self, song):\n        self.songs.append(song)\n\n    def register_user(self, user):\n        self.users.append(user)\n\n    def search(self, strategy, query):\n        return strategy.search(self.songs, query)\n\n    def play_song(self, user, song):\n        self.player.play(song)\n        user.history.append(song)\n\n\nclass Subscription:  -> similar to payment optinal\n    def __init__(self, user, is_premium=False):\n        self.user = user\n        self.is_premium = is_premium\n\n    def upgrade(self):\n        self.is_premium = True",
+      "fontSize": 20,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "class Song:\n    def __init__(self, song_id, title, duration, artist):\n        self.song_id = song_id\n        self.title = title\n        self.duration = duration\n        self.artist = artist\n\n\nclass Artist:\n    def __init__(self, artist_id, name):\n        self.artist_id = artist_id\n        self.name = name\n\n\nclass Album:\n    def __init__(self, album_id, name):\n        self.album_id = album_id\n        self.name = name\n        self.songs = []\n\n    def add_song(self, song):\n        self.songs.append(song)\n\n\nclass User:\n    def __init__(self, user_id, name):\n        self.user_id = user_id\n        self.name = name\n        self.playlists = []\n        self.history = []\n\n    def create_playlist(self, playlist_name):\n        playlist = Playlist(playlist_name)\n        self.playlists.append(playlist)\n        return playlist\n\nclass Playlist:\n    def __init__(self, name):\n        self.name = name\n        self.songs = []\n\n    def add_song(self, song):\n        self.songs.append(song)\n\n    def remove_song(self, song):\n        self.songs.remove(song)\n\n\nclass Player:\n    def __init__(self):\n        self.current_song = None\n        self.is_playing = False\n\n    def play(self, song):\n        self.current_song = song\n        self.is_playing = True\n        print(f\"Playing: {song.title}\")\n\n    def pause(self):\n        if self.is_playing:\n            self.is_playing = False\n            print(\"Paused\")\n\n    def resume(self):\n        if not self.is_playing and self.current_song:\n            self.is_playing = True\n            print(\"Resumed\")\n\n    def stop(self):\n        self.current_song = None\n        self.is_playing = False\n        print(\"Stopped\")\n\n\nclass SearchStrategy:\n    def search(self, songs, query):\n        raise NotImplementedError\n\n\nclass SearchByTitle(SearchStrategy):\n    def search(self, songs, query):\n        return [s for s in songs if query.lower() in s.title.lower()]\n\n\nclass SearchByArtist(SearchStrategy):\n    def search(self, songs, query):\n        return [s for s in songs if query.lower() in s.artist.name.lower()]\n\n\n\nclass MusicSystem:\n    def __init__(self):\n        self.songs = []\n        self.users = []\n        self.player = Player()\n\n    def add_song(self, song):\n        self.songs.append(song)\n\n    def register_user(self, user):\n        self.users.append(user)\n\n    def search(self, strategy, query):\n        return strategy.search(self.songs, query)\n\n    def play_song(self, user, song):\n        self.player.play(song)\n        user.history.append(song)\n\n\nclass Subscription:  -> similar to payment optinal\n    def __init__(self, user, is_premium=False):\n        self.user = user\n        self.is_premium = is_premium\n\n    def upgrade(self):\n        self.is_premium = True",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "QXb2iuewD74RNQo0ceHXw",
+      "type": "text",
+      "x": 1032.627998921342,
+      "y": 44461.12990205291,
+      "width": 583,
+      "height": 1200,
+      "angle": 0,
+      "strokeColor": "#e03131",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bVj",
+      "roundness": null,
+      "seed": 410997613,
+      "version": 15,
+      "versionNonce": 1891226765,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1776921357101,
+      "link": null,
+      "locked": false,
+      "text": "🚀 Demo\n\n\n# Create system\nmusic_system = MusicSystem()\n\n# Artist\nartist = Artist(1, \"Arijit Singh\")\n\n# Songs\nsong1 = Song(1, \"Tum Hi Ho\", 240, artist)\nsong2 = Song(2, \"Channa Mereya\", 300, artist)\n\nmusic_system.add_song(song1)\nmusic_system.add_song(song2)\n\n# User\nuser = User(1, \"Amit\")\nmusic_system.register_user(user)\n\n# Search\nresults = music_system.search(SearchByTitle(), \"Tum\")\nsong = results[0]\n\n# Play\nmusic_system.play_song(user, song)\n\n# Playlist\nplaylist = user.create_playlist(\"Favorites\")\nplaylist.add_song(song)\n\n# Pause / Resume\nmusic_system.player.pause()\nmusic_system.player.resume()\n\n\n\n\n\n4. Real-world Enhancements (if interviewer pushes)\n\nYou can say:\n\nCache popular songs (Redis)\nUse CDN for streaming\nUse queue (Kafka) for play events\nStore play history for recommendations\nRate limiting for free users",
+      "fontSize": 20,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "🚀 Demo\n\n\n# Create system\nmusic_system = MusicSystem()\n\n# Artist\nartist = Artist(1, \"Arijit Singh\")\n\n# Songs\nsong1 = Song(1, \"Tum Hi Ho\", 240, artist)\nsong2 = Song(2, \"Channa Mereya\", 300, artist)\n\nmusic_system.add_song(song1)\nmusic_system.add_song(song2)\n\n# User\nuser = User(1, \"Amit\")\nmusic_system.register_user(user)\n\n# Search\nresults = music_system.search(SearchByTitle(), \"Tum\")\nsong = results[0]\n\n# Play\nmusic_system.play_song(user, song)\n\n# Playlist\nplaylist = user.create_playlist(\"Favorites\")\nplaylist.add_song(song)\n\n# Pause / Resume\nmusic_system.player.pause()\nmusic_system.player.resume()\n\n\n\n\n\n4. Real-world Enhancements (if interviewer pushes)\n\nYou can say:\n\nCache popular songs (Redis)\nUse CDN for streaming\nUse queue (Kafka) for play events\nStore play history for recommendations\nRate limiting for free users",
       "autoResize": true,
       "lineHeight": 1.25
     }
