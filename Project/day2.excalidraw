@@ -28,12 +28,7 @@
       "version": 224,
       "versionNonce": 938162101,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "8KyV9qNKFXaOXqunYoXC3"
-        }
-      ],
+      "boundElements": [],
       "updated": 1785473996429,
       "link": null,
       "locked": false
@@ -73,7 +68,8 @@
       "containerId": "EavhucWYmr3Oyg1IxJs2b",
       "originalText": "Day 1",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "zmWWBR3pXA1qafgitQ_aY",
@@ -110,7 +106,8 @@
       "containerId": null,
       "originalText": "Imagine you are the first backend engineer at a startup.\n\nThe product owner says:\n\n    \"We want an AI Workspace where companies can manage projects, documents, tasks, and ask AI questions.\"\n\nYour job is not to start coding.\nYour first job is to understand the business.",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "8i8TrcOdM0FilBvw_KziH",
@@ -147,7 +144,8 @@
       "containerId": null,
       "originalText": "Organizations\nOne user can belong to multiple organizations.\nAmit\n├── OpenAI\n├── Infosys\n└── Personal Workspace\n\n\nTeams\nInside organizations\nEngineering\nMarketing\nHR\nFinance\n\nProjects\nExample\nBackend API\nAI Module\nMobile App\nWebsite\n\nTasks\nEvery project contains\nTasks\nSubtasks\nComments\nAttachments\n\nAI\nLater\nChat\nSummarization\nReport Generation\nDocument Search",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "UPEhBFHKdKEW3LmhJZBsO",
@@ -184,7 +182,8 @@
       "containerId": null,
       "originalText": "1. Why is an Organization needed?",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "GAh766WJjs-t8vBMk8rZI",
@@ -221,7 +220,8 @@
       "containerId": null,
       "originalText": "An Organization is the highest logical boundary (tenant) in the system. It isolates users, \nteams, projects, permissions, documents, AI knowledge, and settings so that one company's data \nis completely separate from another's.\n\nIt also stores company-specific information such as:\n\nName\nOwner\nBilling plan\nBranding\nAI configuration\nMembers\nTeams\nSecurity settings\n\nThink of it as the root container for everything.",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "_e-SFfPudmBUq4pscZZZi",
@@ -258,7 +258,8 @@
       "containerId": null,
       "originalText": "2. Can one user belong to multiple organizations?",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "Wt2qJgYOVqhPV73KAFyzA",
@@ -295,7 +296,8 @@
       "containerId": null,
       "originalText": "The same user can participate in multiple workspaces(company, freelancing, personal workspace),\n each with different roles.\n\nAmit\n↓\nCompany A\n↓\nCompany B\n↓\nPersonal Workspace",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "8AsWOmJ7QdLntWUKCSyQl",
@@ -332,7 +334,8 @@
       "containerId": null,
       "originalText": "3. Why does a project belong to a team instead of directly to a user?",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "5eCR2lIfxKk6s_tgFxs5m",
@@ -369,7 +372,8 @@
       "containerId": null,
       "originalText": "Projects outlive individual employees.\nIf a developer leaves the company, the project remains owned by the team rather than becoming \norphaned.\nThat's a key modeling decision.",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "z_CbADxQvK3BHPh9XM9lB",
@@ -406,7 +410,8 @@
       "containerId": null,
       "originalText": "4. What information should Task store?",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "-axax2vt85kZEZjbiQjOp",
@@ -443,7 +448,8 @@
       "containerId": null,
       "originalText": "A production task typically stores:\n\nTitle\nDescription\nStatus\nPriority\nAssignee\nReporter\nDue Date\nSprint\nLabels\nStory Points\nEstimated Time\nActual Time\nAttachments\nComments\nActivity History\nCreated By\nUpdated By\nCreated At\nUpdated At\n\nWe'll grow the model gradually rather than adding everything on Day 1.",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "Q31NRT1C8OJMyQRHhMtBF",
@@ -480,7 +486,8 @@
       "containerId": null,
       "originalText": "5. AI Features Using Task Data",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "M_E-THki-r3wHtQmkcHF_",
@@ -517,7 +524,8 @@
       "containerId": null,
       "originalText": "AI Sprint Planner",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "6YJcFvXmMyXlgXTVbmcMw",
@@ -554,7 +562,8 @@
       "containerId": null,
       "originalText": "Input:\n\"Implement payment module.\"\n\nAI generates:\nEpic\nStories\nTasks\nSubtasks\nDependencies\nStory points",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "M3wI_kyi3Cq4TG-C0SCkC",
@@ -591,7 +600,8 @@
       "containerId": null,
       "originalText": "AI Risk Detector",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "99CIRuCYp4vAVCQUghgxw",
@@ -628,7 +638,8 @@
       "containerId": null,
       "originalText": "Warns\n\"This sprint has too many high-priority tasks.\"",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "NegwyI4zJ1dMAO3k4LZ8X",
@@ -665,7 +676,8 @@
       "containerId": null,
       "originalText": "AI Deadline Predictor",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "hGJZ0whboFXOaiaIcoJ23",
@@ -702,7 +714,8 @@
       "containerId": null,
       "originalText": "Predicts:\n\"This project is likely to be delayed by 5 days.\"\nbased on historical completion data.",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "35WtYwe048LqvJx_MJ8pB",
@@ -739,7 +752,8 @@
       "containerId": null,
       "originalText": "AI Smart Assignment",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "LcDJhN-rHLuZFjiH-Wfb9",
@@ -776,7 +790,8 @@
       "containerId": null,
       "originalText": "Suggests:\n\"Assign this task to Amit because he has completed similar authentication tasks successfully.\"\n\nIt can consider:\n\nSkills\nWorkload\nPast experience\nAvailability",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "JYHPUT5NO6sMPQXwVt3-y",
@@ -813,7 +828,8 @@
       "containerId": null,
       "originalText": "AI Daily Standup Generator",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "r6f2wU1BimQxen_gLqy8y",
@@ -850,7 +866,8 @@
       "containerId": null,
       "originalText": "Instead of manually writing updates:\n\nYesterday\nCompleted Login API\nToday\nWorking on OAuth\nBlockers\nWaiting for UI API contract\n\nthe system generates the update automatically.",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "DHv_zHgIRUty11EOjaLuq",
@@ -887,7 +904,8 @@
       "containerId": null,
       "originalText": "AI Release Notes",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "r_ixxu57Y_MwaXze5j06y",
@@ -924,7 +942,8 @@
       "containerId": null,
       "originalText": "Generates release notes from completed tasks and merged features.",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "Y4fRSWo0MAgzVbpw5lRAE",
@@ -961,7 +980,8 @@
       "containerId": null,
       "originalText": "AI Documentation Generator",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "27RXveexn2E4nKqWftfA4",
@@ -998,7 +1018,8 @@
       "containerId": null,
       "originalText": "Creates API documentation or feature summaries from task descriptions and implementation metadata.",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "Y8vknCtZzPq8gKIh1mfp9",
@@ -1035,7 +1056,8 @@
       "containerId": null,
       "originalText": "AI Code Review Assistant",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "AwUcvELjmckfa5oh8D2-i",
@@ -1072,7 +1094,8 @@
       "containerId": null,
       "originalText": "Reviews pull requests and links findings back to related tasks.",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "DdqeSY4KsDg1cdLjmwc3X",
@@ -1109,7 +1132,8 @@
       "containerId": null,
       "originalText": "AI Knowledge Assistant",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "vQ3YdtSE5s_exUTDl26di",
@@ -1146,7 +1170,8 @@
       "containerId": null,
       "originalText": "Qus How does authentication work in our system?\n\nIt searches:\n\nDocumentation\nTasks\nDesign decisions\nCode metadata (where available)\n\nand answers using RAG.",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "US76LvZgFjCltNpArno0j",
@@ -1183,7 +1208,8 @@
       "containerId": null,
       "originalText": "AI Workflow Builder",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "Zwa1Nd_Lp4x1-GUWug9RB",
@@ -1220,7 +1246,8 @@
       "containerId": null,
       "originalText": "Instead of hardcoding every automation, users can create workflows such as:\n\nNew document uploaded\n        │\n        ▼\nAI summarizes it\n        │\n        ▼\nCreate tasks automatically\n        │\n        ▼\nAssign to engineering team\n        │\n        ▼\nNotify Slack/Email\n\nThis introduces event-driven architecture, background processing, AI orchestration, and automation—all \nvaluable backend engineering concepts.",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "TYB0bADXQyF3KUfubPxP3",
@@ -1257,7 +1284,8 @@
       "containerId": null,
       "originalText": "Diagram 1: Entity Relationship Diagram (ERD)",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "oH2RDegINAJ4ebVTLjCBT",
@@ -1294,7 +1322,8 @@
       "containerId": null,
       "originalText": "This shows what data our application stores and how entities relate to each other.\n\n                                     User\n+--------------------------------------------------+\n| id                                               |\n| full_name                                        |\n| email                                            |\n| password                                         |\n| is_active                                        |\n| created_at                                       |\n+--------------------------------------------------+\n          ▲\n          │\n          │ Many-to-Many (through Membership)\n          │\n+--------------------------------------------------+\n|              OrganizationMember                  |\n+--------------------------------------------------+\n| id                                               |\n| organization_id (FK)                             |\n| user_id (FK)                                     |\n| role (Owner/Admin/Member)                        |\n| joined_at                                        |\n+--------------------------------------------------+\n          │\n          │\n          ▼\n+--------------------------------------------------+\n|                 Organization                     |\n+--------------------------------------------------+\n| id                                               |\n| name                                             |\n| slug                                             |\n| owner_id (FK -> User)                            |\n| created_at                                       |\n+--------------------------------------------------+\n          │\n          │ One-to-Many\n          ▼\n+--------------------------------------------------+\n|                     Team                         |\n+--------------------------------------------------+\n| id                                               |\n| organization_id (FK)                             |\n| name                                             |\n| description                                      |\n+--------------------------------------------------+\n          ▲\n          │\n          │ Many-to-Many\n          │\n+--------------------------------------------------+\n|                 TeamMember                       |\n+--------------------------------------------------+\n| id                                               |\n| team_id (FK)                                     |\n| user_id (FK)                                     |\n| role                                              |\n+--------------------------------------------------+\n          │\n          ▼\n+--------------------------------------------------+\n|                    Project                       |\n+--------------------------------------------------+\n| id                                               |\n| team_id (FK)                                     |\n| name                                             |\n| description                                      |\n| status                                           |\n+--------------------------------------------------+\n          │\n          ▼\n+--------------------------------------------------+\n|                     Task                         |\n+--------------------------------------------------+\n| id                                               |\n| project_id (FK)                                  |\n| assignee_id (FK -> User)                         |\n| title                                            |\n| description                                      |\n| priority                                         |\n| status                                           |\n| due_date                                         |\n+--------------------------------------------------+",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "7m1875addVC0BSPcTLzK8",
@@ -1331,7 +1360,8 @@
       "containerId": null,
       "originalText": "Relationship Summary",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "jx7msh9aq0QvKfgUx4X5r",
@@ -1368,7 +1398,8 @@
       "containerId": null,
       "originalText": "User\n │\n ├───---------───────────┐\n │                        │\n ▼                        ▼\nOrganizationMember      TeamMember\n │                          │\n ▼                          ▼\nOrganization              Team\n                            │\n                            ▼\n                         Project\n                            │\n                            ▼\n                           Task",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "LJboDm5ziIh0rkNLVu6kX",
@@ -1405,7 +1436,8 @@
       "containerId": null,
       "originalText": "Diagram 2: High-Level Architecture\nThis shows how a request travels through the system.",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "k_lUV82_9oCW7nSYTuLV4",
@@ -1442,7 +1474,8 @@
       "containerId": null,
       "originalText": "                              Users\n                                │\n                     Web / Mobile Application\n                                │\n                          HTTPS Request\n                                │\n                        Route53 (Later)\n                                │\n                   Application Load Balancer\n                                │\n                     Nginx / Kubernetes Ingress\n                                │\n                     Django REST API Backend\n                                │\n      ┌──────────────┬───────────────┬───────────────┐\n      │              │               │               │\n      ▼              ▼               ▼               ▼\n Authentication   Workspace      AI Service    Notification\n      │              │               │               │\n      └──────────────┴───────────────┴───────────────┘\n                                │\n                   Business Logic / Services\n                                │\n      ┌──────────────┬───────────────┬───────────────┐\n      │              │               │               │\n      ▼              ▼               ▼               ▼\n PostgreSQL      Redis Cache     Celery Workers    Amazon S3\n      │              │               │               │\n      └──────────────┴───────────────┴───────────────┘\n                                │\n                      Monitoring Layer\n                                │\n        Prometheus → Grafana → Loki → CloudWatch",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "gwvUNivqNBrivT4BGf9ra",
@@ -1479,7 +1512,8 @@
       "containerId": null,
       "originalText": "Diagram 3: User Journey",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "vpv8OVDhOSqhSw_0_qy8H",
@@ -1516,7 +1550,8 @@
       "containerId": null,
       "originalText": "This answers:\nWhat happens after a user opens our application?",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "3X0Z8r35hrd-beWNDbb0s",
@@ -1553,7 +1588,8 @@
       "containerId": null,
       "originalText": "                    User Visits Website\n                             │\n                             ▼\n                      Clicks \"Sign Up\"\n                             │\n                             ▼\n                 Enter Name / Email / Password\n                             │\n                             ▼\n                    Account Created\n                             │\n                             ▼\n                 Email Verification Sent\n                             │\n                             ▼\n                    Verify Email\n                             │\n                             ▼\n                        Login\n                             │\n                             ▼\n                 Access Token + Refresh Token\n                             │\n                             ▼\n                 Create Organization\n                             │\n                             ▼\n                   Invite Team Members\n                             │\n                             ▼\n                     Create Team\n                             │\n                             ▼\n                   Create First Project\n                             │\n                             ▼\n                      Create Tasks\n                             │\n                             ▼\n                 Upload Documents\n                             │\n                             ▼\n                 Ask AI Questions\n                             │\n                             ▼\n             Receive Reports / Notifications",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "amuNAe1hoo52p6dBja2T-",
@@ -1590,7 +1626,8 @@
       "containerId": null,
       "originalText": "Bonus Diagram: Where AI Fits",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "fKggFT2DvhY61r9-i6CO2",
@@ -1627,7 +1664,8 @@
       "containerId": null,
       "originalText": "This is one you'll appreciate later because it shows AI as a service, not as a separate app.\n\n                  User asks AI\n                        │\n                        ▼\n                 Django API\n                        │\n                        ▼\n                 AI Service\n            ┌───────────┼────────────┐\n            │            │              │\n            ▼            ▼              ▼\n      Prompt Builder  RAG Search    LLM API\n            │            │              │\n            └───────────┴────────────┘\n                        │\n                        ▼\n                AI Response Returned",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "xst5d1iorTc2odb747DkX",
@@ -1664,7 +1702,8 @@
       "containerId": null,
       "originalText": "We'll use:",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "h7fEsTcK7BWZ4NODGPZg7",
@@ -1701,7 +1740,8 @@
       "containerId": null,
       "originalText": "User\n │\n ▼\nOrganization\n │\n ▼\nOrganizationMember\n │\n ▼\nTeam\n │\n ▼\nTeamMember\n │\n ▼\nProject\n │\n ▼\nSprint\n │\n ▼\nTask\n │\n ▼\nComment",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "-2QI8aKG-PEHw-afounkr",
@@ -1738,7 +1778,8 @@
       "containerId": null,
       "originalText": "Why add Sprint now?",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "Y4_3EJ5gn33I3sx4sJUXF",
@@ -1775,7 +1816,8 @@
       "containerId": null,
       "originalText": "Because almost every software company works in sprints (Agile/Scrum). By including it from the \nbeginning, we can later build AI features such as:\n\nAI Sprint Planner\nSprint Burndown Analysis\nSprint Summary\nVelocity Prediction\nDelay Prediction",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "ejkkUez0FI7W3s8Qio2F1",
@@ -1800,7 +1842,7 @@
       "version": 7,
       "versionNonce": 654960821,
       "isDeleted": true,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1785473996429,
       "link": null,
       "locked": false,
@@ -1812,7 +1854,8 @@
       "containerId": null,
       "originalText": "Can a user belongs to multiple teams?",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "fAw6njQ7uerDs57qUFZHo",
@@ -1837,7 +1880,7 @@
       "version": 14,
       "versionNonce": 359524635,
       "isDeleted": true,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1785473996429,
       "link": null,
       "locked": false,
@@ -1849,7 +1892,8 @@
       "containerId": null,
       "originalText": "Yes, a user can belong to multiple teams.\n\nLet's say you work at Google.\n\nYou are:\n\nBackend Engineer\nAI Enthusiast\nInfrastructure Contribut\n\nSo you might belong to:\nGoogle\n│\n├── Backend Team\n├── AI Team\n├── Platform Team\n└── Hackathon Committee",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "VOzfe66p1GDDHK7cPVZm2",
@@ -1874,7 +1918,7 @@
       "version": 8,
       "versionNonce": 798296597,
       "isDeleted": true,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1785473996429,
       "link": null,
       "locked": false,
@@ -1886,7 +1930,8 @@
       "containerId": null,
       "originalText": "This is exactly how you should think\nDon't memorize relationships. Instead, ask:\n\"Can this happen in the real world?\"\nIf the answer is yes, your database should support it.\nFor example:\n\n✅ Can a user belong to multiple organizations? → Yes\n✅ Can a user belong to multiple teams? → Yes\n✅ Can a project have many tasks? → Yes\n✅ Can one task have multiple comments? → Yes\n✅ Can one document belong to a project? → Yes\n✅ Can one user upload many documents? → Yes",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "oZEDAKNvNYtEq6hb-du76",
@@ -1911,7 +1956,7 @@
       "version": 5,
       "versionNonce": 128454075,
       "isDeleted": true,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1785473996429,
       "link": null,
       "locked": false,
@@ -1923,7 +1968,8 @@
       "containerId": null,
       "originalText": "Can a project have multiple documents?",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "B57rh-Tu3PeQlC7aZS2c_",
@@ -1948,12 +1994,7 @@
       "version": 75,
       "versionNonce": 821362549,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "id": "dpdrXlhAHCNE_32EBILXN",
-          "type": "arrow"
-        }
-      ],
+      "boundElements": [],
       "updated": 1785473996429,
       "link": null,
       "locked": false,
@@ -1965,7 +2006,8 @@
       "containerId": null,
       "originalText": "Yes\n\nReal-World Example\nProject:\nAI Enterprise Workspace\n\nDocuments could be:\n\nAI Enterprise Workspace\n\n\n├── HLD.pdf\n├── LLD.pdf\n├── API_Design.pdf\n├── Database_Schema.pdf\n├── Sprint_1_Report.pdf\n├── Architecture.png\n├── Meeting_Notes.docx=\n└── Requirements.pdf\n\nSo one project can definitely have many documents.\n\nDatabase Relationship\n           one to many\nProject (1)           Document (Many)",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "dpdrXlhAHCNE_32EBILXN",
@@ -1992,7 +2034,7 @@
       "version": 48,
       "versionNonce": 1148493403,
       "isDeleted": true,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1785473996429,
       "link": null,
       "locked": false,
@@ -2050,7 +2092,7 @@
       "version": 5,
       "versionNonce": 677004507,
       "isDeleted": true,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1785473994760,
       "link": null,
       "locked": false,
@@ -2062,7 +2104,8 @@
       "containerId": null,
       "originalText": "",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "DGTJjUb5kadRrzVkdZwG8",
@@ -2122,7 +2165,7 @@
       "version": 7,
       "versionNonce": 1478823221,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1785474007168,
       "link": null,
       "locked": false,
@@ -2134,7 +2177,8 @@
       "containerId": "DGTJjUb5kadRrzVkdZwG8",
       "originalText": "Day 2",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "Nd274WNQSiTTlF4TS1ZzK",
@@ -2159,7 +2203,7 @@
       "version": 10,
       "versionNonce": 1548321589,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1785474044411,
       "link": null,
       "locked": false,
@@ -2171,7 +2215,8 @@
       "containerId": null,
       "originalText": "Today is one of the most important days in backend engineering.\n\nIf you understand today's concepts deeply, then JWT, OAuth, sessions, cookies, middleware, \nAPI security, refresh tokens, and even microservices will become much easier.\n\n\nWeek 1 Goal\n\nEpic: Authentication & Platform Foundation\n\nYesterday:\n\n✅ Product vision\n✅ Architecture\n✅ ER Diagram\n\nToday:\n\n✅ Authentication Design\n✅ JWT\n✅ Password Hashing\n✅ API Design\n✅ Sequence Diagrams\n\nNo coding today. We are designing like software architects.",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "GflmPxwN9AXytbdf-O8cH",
@@ -2196,7 +2241,7 @@
       "version": 3,
       "versionNonce": 1292362261,
       "isDeleted": true,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1785474071901,
       "link": null,
       "locked": false,
@@ -2208,7 +2253,8 @@
       "containerId": null,
       "originalText": "",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "IPVDCI5riIVINsCcUPePa",
@@ -2233,7 +2279,7 @@
       "version": 7,
       "versionNonce": 742584309,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1785474082691,
       "link": null,
       "locked": false,
@@ -2245,7 +2291,8 @@
       "containerId": null,
       "originalText": "Part 1 (15 Minutes) Authentication vs Authorization",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "bmvrmPbYTmk6HZ48VMh2m",
@@ -2270,7 +2317,7 @@
       "version": 81,
       "versionNonce": 1710949525,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1785474194911,
       "link": null,
       "locked": false,
@@ -2282,7 +2329,8 @@
       "containerId": null,
       "originalText": "This is one of the most frequently asked interview questions.\nMany people confuse them.\n\nAuthentication\nAuthentication answers:\nWho are you?\n\nExample:\nUser:\nEmail = amit@gmail.com\nPassword = ********\n\nServer checks: Is this really Amit?\n\nIf yes : ✅ User is authenticated.\n\n\nAuthorization\nAuthorization answers:\nWhat are you allowed to do?\n\nExample:\nUser = Amit\nRole = Member\n\nCan Amit\nDelete Organization? ❌ No\nCreate Task? ✅ Yes\nInvite Users? ❌ Maybe (depends on permissions)",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "ugN5uthWkvl1XYPyGdgTh",
@@ -2307,7 +2355,7 @@
       "version": 4,
       "versionNonce": 184930517,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1785474213358,
       "link": null,
       "locked": false,
@@ -2319,7 +2367,8 @@
       "containerId": null,
       "originalText": "Part 2 (20 Minutes)\nComplete Authentication Flow",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "ELxAWM7N7W-FTGs6M5olF",
@@ -2344,7 +2393,7 @@
       "version": 229,
       "versionNonce": 1435949307,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1785474432881,
       "link": null,
       "locked": false,
@@ -2356,7 +2405,8 @@
       "containerId": null,
       "originalText": "Imagine a brand new user.\n\nUser -> Clicks Signup -> Enter Name\n -> validate data -> Hash Password -> Store User -> Generate Verification Token -> Send Email -> success\n\n\nNotice:\nWe never store the actual password.\n\nWhy Not Store Plain Passwords?\n    Imagine our database is hacked.\n    If we stored:\n    amit@gmail.com\n    password123\n\nThe hacker immediately knows the password.\nInstead we store:\namit@gmail.com\n$2b$12$S9vXJ...\n\nThis is a hash.\nIt cannot be reversed.",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "FK4TyKa5f0DKVp0L3hR2U",
@@ -2381,7 +2431,7 @@
       "version": 98,
       "versionNonce": 31262043,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1785474284564,
       "link": null,
       "locked": false,
@@ -2393,7 +2443,8 @@
       "containerId": null,
       "originalText": "-> Enter Email -> Enter Password -> Click submit -> backend ",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "EyNweMQxNgGBUYb0VRALl",
@@ -2418,7 +2469,7 @@
       "version": 5,
       "versionNonce": 1065818171,
       "isDeleted": true,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1785474385161,
       "link": null,
       "locked": false,
@@ -2430,7 +2481,8 @@
       "containerId": null,
       "originalText": "",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "40NOpI5960mxyAKVuyPC0",
@@ -2455,7 +2507,7 @@
       "version": 4,
       "versionNonce": 1116512443,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1785474440726,
       "link": null,
       "locked": false,
@@ -2467,7 +2519,8 @@
       "containerId": null,
       "originalText": "Password Hashing Flow",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "Ld3NWCiG5ra9UIHzk4w0m",
@@ -2492,7 +2545,7 @@
       "version": 102,
       "versionNonce": 237248405,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1785474562081,
       "link": null,
       "locked": false,
@@ -2504,7 +2557,8 @@
       "containerId": null,
       "originalText": "Password -> Hash Function (bcrypt/Argon2) -> Random Salt Added -> Hash Generated -> Store Hash\n\nDuring login:\n    Entered Password -> Hash Again -> Compare Hashes -> Match? -> if yes login success else fail\nWe never decrypt passwords because there is nothing to decrypt.",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "Fpo3RaN62_bVd0ojOWbR3",
@@ -2529,7 +2583,7 @@
       "version": 3,
       "versionNonce": 385580309,
       "isDeleted": true,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1785474453380,
       "link": null,
       "locked": false,
@@ -2541,7 +2595,8 @@
       "containerId": null,
       "originalText": "",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "tsWlbGNBV_actlu_JCKHA",
@@ -2566,7 +2621,7 @@
       "version": 7,
       "versionNonce": 465780085,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1785474625812,
       "link": null,
       "locked": false,
@@ -2578,7 +2633,8 @@
       "containerId": null,
       "originalText": "Part 3 (20 Minutes) JWT Authentication",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "P-jAqih28tF4f-0wSS7ES",
@@ -2603,7 +2659,7 @@
       "version": 253,
       "versionNonce": 1092845301,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1785474886371,
       "link": null,
       "locked": false,
@@ -2615,7 +2671,8 @@
       "containerId": null,
       "originalText": "After login, how does the server remember the user?\nMany beginners answer: Database\nActually, for JWT, the server doesn't remember the login state.\nIt trusts the token.\n\nLogin Flow\n    User -> Login API -> Email + Password -> Backend -> Verify Password -> Generate JWT -> Return Token -> Client Stores Token\n\nThen every request becomes:\n    GET /projects\n    Authorization:\n    Bearer <JWT>\n\nBackend:\n    Receive JWT -> Verify Signature -> Extract User ID -> Load User -> Continue Request\n\nWhy JWT?\n    Without JWT:\n        Login ->  Server Stores Session -> Every Request ->  Lookup Session\n\n    With JWT:\n        Login -> Return Token -> Client Sends Token -> Server Verifies -> Done\n\nThis is why JWT is called stateless authentication.",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "UrEMYZDdVJirenY5h9ZDO",
@@ -2640,7 +2697,7 @@
       "version": 10,
       "versionNonce": 1325267707,
       "isDeleted": true,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1785474672452,
       "link": null,
       "locked": false,
@@ -2652,7 +2709,8 @@
       "containerId": null,
       "originalText": "",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "DPAuGb-9rurGqH-2eRue3",
@@ -2677,7 +2735,7 @@
       "version": 8,
       "versionNonce": 508450811,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1785474939983,
       "link": null,
       "locked": false,
@@ -2689,7 +2747,8 @@
       "containerId": null,
       "originalText": "Part 4 (10 Minutes) Access Token vs Refresh Token",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "jDVwp1F7EH6Y7eaMv6jqW",
@@ -2714,7 +2773,7 @@
       "version": 5,
       "versionNonce": 670613045,
       "isDeleted": true,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1785474906538,
       "link": null,
       "locked": false,
@@ -2726,7 +2785,8 @@
       "containerId": null,
       "originalText": "",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "g1zcErPlgFUf0nKrR2z76",
@@ -2751,7 +2811,7 @@
       "version": 236,
       "versionNonce": 755020277,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1785475262065,
       "link": null,
       "locked": false,
@@ -2763,7 +2823,8 @@
       "containerId": null,
       "originalText": "One of the most common interview topics.\nImagine the access token never expires.\nIf someone steals it:\n    Attacker -> Uses Token Forever\n\nThat's dangerous.\nInstead:\n    Access Token -> 15 Minutes\n    Refresh Token -> 7 days\n\nFlow:\n    Login -> Access Token -> 15 minutes pass -> 401 Unauthorized -> Client Sends Refresh Token \n        -> Backend Verifies -> New Access Token\n\nThe user doesn't have to log in again.\n\nAPIs We'll Build -> For our project, we'll eventually implement:\n\nPOST   /api/auth/signup\nPOST   /api/auth/verify-email\nPOST   /api/auth/login\nPOST   /api/auth/refresh\nPOST   /api/auth/logout\nPOST   /api/auth/forgot-password\nPOST   /api/auth/reset-password\nGET    /api/users/me\n\nWe'll keep these endpoints stable as the project grows.\n\nDesign Exercise\nSuppose a user signs up.\nWhich tables change?\nThink before answering.\nExpected thought process:\n    Signup -> User table\nnew user created\n\nLater, after the user creates their first organization:\nOrganization -> OrganizationMember (user becomes owner)\n\nNotice how the authentication system and the organization system are related but separate.",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "mL63D5l8Lrho4KGfzo8fv",
@@ -2788,7 +2849,7 @@
       "version": 7,
       "versionNonce": 976242261,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1785475341269,
       "link": null,
       "locked": false,
@@ -2800,7 +2861,8 @@
       "containerId": null,
       "originalText": "Flow",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "YSS-vmcmdj9umgO4Go5A6",
@@ -2825,7 +2887,7 @@
       "version": 251,
       "versionNonce": 1100247227,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1785475491514,
       "link": null,
       "locked": false,
@@ -2837,7 +2899,8 @@
       "containerId": null,
       "originalText": "1. Signup\n    User -> Signup API -> Validate Input -> Hash Password -> Save User -> Send Verification Email\n                 -> success\n\n2. Login\n    User -> Login API -> Find User -> compare password hash -> Generate JWT -> Return Access + Refresh Token\n\n3. Authenticated Request\n    Client ->  GET /projects + bearer token -> Backend -> Verify jwt -> Load User -> check permissions\n            -> Return Projects",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
     },
     {
       "id": "Y1BeTDosoHJFead-hXv7i",
@@ -2862,7 +2925,7 @@
       "version": 3,
       "versionNonce": 755836725,
       "isDeleted": true,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1785475356206,
       "link": null,
       "locked": false,
@@ -2874,7 +2937,426 @@
       "containerId": null,
       "originalText": "",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "T8ptIgy_onHynqLRJkduh",
+      "type": "text",
+      "x": 627.9619465977696,
+      "y": 10512.162077774046,
+      "width": 11,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b40",
+      "roundness": null,
+      "seed": 1597549449,
+      "version": 3,
+      "versionNonce": 1367874889,
+      "isDeleted": true,
+      "boundElements": null,
+      "updated": 1788785879894,
+      "link": null,
+      "locked": false,
+      "text": "",
+      "fontSize": 20,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "W9ixcLw2cx2d1CUHsEw9G",
+      "type": "text",
+      "x": 627.9619465977696,
+      "y": 10531.162077774046,
+      "width": 209,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b41",
+      "roundness": null,
+      "seed": 348516871,
+      "version": 25,
+      "versionNonce": 652463367,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1788785890946,
+      "link": null,
+      "locked": false,
+      "text": "Interview Questions",
+      "fontSize": 20,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Interview Questions",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "0mAOvRlWf02NFxsh6mxQ8",
+      "type": "text",
+      "x": 627.9619465977696,
+      "y": 10596.162077774046,
+      "width": 253,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b42",
+      "roundness": null,
+      "seed": 811267687,
+      "version": 5,
+      "versionNonce": 1912933095,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1788785894863,
+      "link": null,
+      "locked": false,
+      "text": "1 Why is JWT stateless?",
+      "fontSize": 20,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "1 Why is JWT stateless?",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "pafYRTOX5d-NPkIniRfYX",
+      "type": "text",
+      "x": 676.9619465977696,
+      "y": 10624.162077774046,
+      "width": 1122,
+      "height": 75,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b43",
+      "roundness": null,
+      "seed": 1120693897,
+      "version": 8,
+      "versionNonce": 1206765671,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1788785933924,
+      "link": null,
+      "locked": false,
+      "text": "JWT authentication is considered stateless because the server doesn't need to maintain authentication \nsession state for each client. The token carries the necessary claims and is cryptographically signed,\n so the server can validate it independently on each request.",
+      "fontSize": 20,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "JWT authentication is considered stateless because the server doesn't need to maintain authentication \nsession state for each client. The token carries the necessary claims and is cryptographically signed,\n so the server can validate it independently on each request.",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "W_aKLdZFga03fWkRP4N_o",
+      "type": "text",
+      "x": 626.9619465977696,
+      "y": 10747.162077774046,
+      "width": 539,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b44",
+      "roundness": null,
+      "seed": 142224839,
+      "version": 4,
+      "versionNonce": 1014763303,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1788785944425,
+      "link": null,
+      "locked": false,
+      "text": "2. Why are passwords hashed instead of encrypted?",
+      "fontSize": 20,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "2. Why are passwords hashed instead of encrypted?",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "3OU2-RmzrPhJ4c-HtheJC",
+      "type": "text",
+      "x": 669.9619465977696,
+      "y": 10774.162077774046,
+      "width": 1111,
+      "height": 100,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b45",
+      "roundness": null,
+      "seed": 1843610473,
+      "version": 7,
+      "versionNonce": 1989974631,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1788785969976,
+      "link": null,
+      "locked": false,
+      "text": "Passwords should be hashed rather than encrypted because the application never needs to recover \nthe original password. A password hash is one-way, so even if the database is compromised, attackers \ncannot simply decrypt the stored passwords.\n",
+      "fontSize": 20,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Passwords should be hashed rather than encrypted because the application never needs to recover \nthe original password. A password hash is one-way, so even if the database is compromised, attackers \ncannot simply decrypt the stored passwords.\n",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "7fieOjWXnU5NVuTQSA1qD",
+      "type": "text",
+      "x": 622.9619465977696,
+      "y": 10901.162077774046,
+      "width": 242,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b46",
+      "roundness": null,
+      "seed": 152552489,
+      "version": 4,
+      "versionNonce": 167373001,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1788786053259,
+      "link": null,
+      "locked": false,
+      "text": "3. Why do we use salt?",
+      "fontSize": 20,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "3. Why do we use salt?",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "j-bMImWoq5fhRdXYalo5W",
+      "type": "text",
+      "x": 655.8330403477696,
+      "y": 10935.029265274046,
+      "width": 1089,
+      "height": 900,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b47",
+      "roundness": null,
+      "seed": 1294210471,
+      "version": 33,
+      "versionNonce": 1431553513,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1788786349056,
+      "link": null,
+      "locked": false,
+      "text": "Without salt:\n\nhash(password123)\n      ↓\nABC123\n\nAmit  → ABC123\nRahul → ABC123\n\nWith salt\n\nAmit:\n\npassword123 + random_salt_A\n             ↓\n           hash A\n\nRahul:\n\npassword123 + random_salt_B\n             ↓\n           hash B\n\nSo:\n\nAmit  → hash_A\nRahul → hash_B\n\nImportant\n\nYou do not need to remember the salt yourself.\n\nThe password-hashing library handles it.\n\nA salt is a unique random value added during password hashing. It ensures that identical passwords \nproduce different hashes and makes precomputed attacks such as rainbow-table attacks much harder.",
+      "fontSize": 20,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Without salt:\n\nhash(password123)\n      ↓\nABC123\n\nAmit  → ABC123\nRahul → ABC123\n\nWith salt\n\nAmit:\n\npassword123 + random_salt_A\n             ↓\n           hash A\n\nRahul:\n\npassword123 + random_salt_B\n             ↓\n           hash B\n\nSo:\n\nAmit  → hash_A\nRahul → hash_B\n\nImportant\n\nYou do not need to remember the salt yourself.\n\nThe password-hashing library handles it.\n\nA salt is a unique random value added during password hashing. It ensures that identical passwords \nproduce different hashes and makes precomputed attacks such as rainbow-table attacks much harder.",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "3YHXbRnBN46osJkcOuIdH",
+      "type": "text",
+      "x": 584.9619465977696,
+      "y": 11940.162077774046,
+      "width": 11,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b48",
+      "roundness": null,
+      "seed": 129516169,
+      "version": 3,
+      "versionNonce": 1917711433,
+      "isDeleted": true,
+      "boundElements": null,
+      "updated": 1788786714278,
+      "link": null,
+      "locked": false,
+      "text": "",
+      "fontSize": 20,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "I5w7VStXf9Cc1RiH6rPLN",
+      "type": "text",
+      "x": 642.9619465977696,
+      "y": 11975.915984024046,
+      "width": 1133,
+      "height": 250,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b49",
+      "roundness": null,
+      "seed": 1261473001,
+      "version": 28,
+      "versionNonce": 1351594857,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1788789264283,
+      "link": null,
+      "locked": false,
+      "text": "Refresh tokens are often stored server-side, preferably as hashes, when we need revocation, rotation,\nlogout, session management, or token-reuse detection. This allows the server to invalidate a refresh \ntoken before its natural expiration.\n\nRefresh-token rotation means that every successful refresh request invalidates the old refresh token \nand issues a new refresh token. This makes refresh tokens effectively single-use and allows the server \nto detect reuse of an already-invalidated token, which can indicate token theft.\n\nIf we implement refresh-token rotation with server-side storage, then every successful refresh \nrequest involves server-side state, typically a DB update (or Redis).",
+      "fontSize": 20,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Refresh tokens are often stored server-side, preferably as hashes, when we need revocation, rotation,\nlogout, session management, or token-reuse detection. This allows the server to invalidate a refresh \ntoken before its natural expiration.\n\nRefresh-token rotation means that every successful refresh request invalidates the old refresh token \nand issues a new refresh token. This makes refresh tokens effectively single-use and allows the server \nto detect reuse of an already-invalidated token, which can indicate token theft.\n\nIf we implement refresh-token rotation with server-side storage, then every successful refresh \nrequest involves server-side state, typically a DB update (or Redis).",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "BKoh6iMw42xpPN3-kkzQY",
+      "type": "text",
+      "x": 617.9619465977696,
+      "y": 11946.162077774046,
+      "width": 561,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffffff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b4A",
+      "roundness": null,
+      "seed": 99786087,
+      "version": 7,
+      "versionNonce": 328873705,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1788789269646,
+      "link": null,
+      "locked": false,
+      "text": "Do we need to store refresh tokens in our database?",
+      "fontSize": 20,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Do we need to store refresh tokens in our database?",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
     }
   ],
   "appState": {
