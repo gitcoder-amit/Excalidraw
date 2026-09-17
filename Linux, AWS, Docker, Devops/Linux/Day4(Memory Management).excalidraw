@@ -28,15 +28,11 @@
       "version": 115,
       "versionNonce": 1138505099,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "hIQFZOcVi8kXHlxqEY3ol"
-        }
-      ],
+      "boundElements": [],
       "updated": 1788288733999,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "hIQFZOcVi8kXHlxqEY3ol",
@@ -73,7 +69,10 @@
       "containerId": "GPiQ8wpWmotZe5kY84C5k",
       "originalText": "Day 3 Part 2",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "TGwATWHk6wHQD914ckHJZ",
@@ -110,7 +109,10 @@
       "containerId": null,
       "originalText": "Today's session is one of my favorite topics because Docker, Kubernetes, Gunicorn, Celery, PostgreSQL—everything \ndepends on these Linux concepts.\n\nToday we'll answer questions like:\n\nWhy does kill -9 always work?\nWhat is a Zombie Process?\nWhy does Docker stop when PID 1 exits?\nWhy doesn't Linux kill processes immediately?\nWhat is fork()?\nWhat is exec()?\n\nDay 3 Part 2 Roadmap\n\n| Time   | Topic                       |\n| ------ | --------------------------- |\n| 15 min | Process States              |\n| 20 min | fork() & exec()             |\n| 15 min | Signals                     |\n| 10 min | Real-world Backend Examples |\n",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "Mow3e4WDfM1lfxpYulMbd",
@@ -147,7 +149,10 @@
       "containerId": null,
       "originalText": "Part 1 - Process States",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "FoHa4xLis7uxXO4nZpOGM",
@@ -184,7 +189,10 @@
       "containerId": null,
       "originalText": "Yesterday we learned: A process is a running program.\nBut is every process always using the CPU? -> No\n\nSuppose you open Chrome.\nYou don't touch it for 10 minutes.\nIs Chrome still running? -> Yes\nIs it continuously using the CPU?  -> No\n\nA process changes state throughout its lifetime.\n\nLinux Process Lifecycle\n\n            +---------+\n            |  New    |\n            +---------+\n                 │\n                 ▼\n          +--------------+\n          |   Runnable   |\n          +--------------+\n                 │\n          CPU Scheduler\n                 │\n        ┌────────┴────────┐\n        ▼                 ▼\n +---------------+   +------------+\n |    Running    |<->|  Runnable  |\n +---------------+   +------------+\n        │\n        ├───────────────┐\n        ▼               ▼\n +-------------+   +------------+\n |  Sleeping   |   |  Stopped   |\n +-------------+   +------------+\n        │\n        ▼\n +-------------+\n | Running     |\n +-------------+\n        │\n        ▼\n +-------------+\n | Terminated  |\n +-------------+\n\n\nProcess States You'll See\n    RUN -> ps -el -> it will show all the process states\n\nYou'll see process states like:\n    R, S, D, T, Z\n\n\n1. R → Running / Runnable\n    Example:\n        while True:\n            pass\n    This process continuously uses the CPU.\n    State: -> R\n    Meaning:\n\n        Running right now or\n        Ready to run when the scheduler gives it CPU time.\n\n2. S → Sleeping (Most Common)\n    Example:\n        import time\n        time.sleep(60)\n        The process isn't doing work. It's waiting.\n        State -> S\n\n    Most processes on Linux are sleeping.\n    Examples:\n\n    PostgreSQL waiting for queries.\n    Nginx waiting for requests.\n    Django waiting for API calls.\n    \n    This is completely normal.\n\n\n3. D → Uninterruptible Sleep\n\n    This one is interesting. Imagine PostgreSQL is reading data from disk.\n    Disk I/O takes time.\n    While waiting, Linux puts the process into: state D\n\n    Why \"Uninterruptible\"?\n        Because interrupting a process in the middle of critical disk I/O could leave data in an \n        inconsistent state.\n\n    Interview Question\n    Can kill -9 always kill a process in state D?\n    \n    No.A process in uninterruptible sleep is waiting for the kernel to complete certain operations \n    (often I/O). The signal is noted, but the process typically won't exit until it leaves the D state.\n\n    Many developers incorrectly believe kill -9 is absolutely unstoppable.\n\n\n4. T → Stopped\n    Example: Ctrl + Z\n    The process pauses. Not terminated. Just stopped.\n\n    For Resume RUN:\n        fg or bg\n\n5. Z → Zombie\n    One of the most famous Linux interview questions. Let's understand why zombies exist.",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "nkYNbsW1rnATTsbP5azSb",
@@ -221,7 +229,10 @@
       "containerId": null,
       "originalText": "Part 2 - Zombie Process",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "6rnHhhEgyvVao7RaPwr-R",
@@ -258,7 +269,10 @@
       "containerId": null,
       "originalText": "Imagine:\n    python app.py\n\nPython finishes.\nYou think:\nProcess disappears.\nNot immediately.\n\nEvery process has a parent.\nWhen the child exits:\n\nLinux keeps a tiny record containing:\n\nExit status\nResource usage\nPID\n\nWhy?\nBecause the parent may want to know:\nDid my child succeed?\n\nThe zombie occupies almost no memory and uses no CPU, but it still has a process table entry \nuntil the parent collects its exit status (using a system call like wait()).\n\n\nWhy Do Zombies Become a Problem?\n    One zombie? -> No issue.\n    Imagine: -> 50,000 Zombies\n    Every zombie occupies a process table slot.\n    Eventually:\n    Linux cannot create new processes.\n\nInterview Question\n\n1 Can a zombie be killed?\n    No. It's already dead.\n    The correct solution is:\n\n    The parent process calls wait() to reap it, or\n    If the parent has exited, PID 1 (systemd on most systems) adopts and reaps it\n\n    Sending kill -9 to a zombie doesn't help because there's no running process left to receive the signal.",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "CXM5UrqHzQt1zlq3WImV7",
@@ -295,7 +309,10 @@
       "containerId": null,
       "originalText": "Part 3 - fork()",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "mPzpmj4Vxp9QfFIlk1bet",
@@ -332,7 +349,10 @@
       "containerId": null,
       "originalText": "This is one of the most important Linux concepts.\n\nQuestion: When you type: python app.py, Who creates the Python process?\nAnswer: The shell. How? Using:fork()\n\nWhat Does fork() Do?\n    imagine bash call fork()\n\n    Now there are two processes.\n    bash (Parent) -> bash(child copy)\n\nnitially, the child is almost an identical copy of the parent (modern kernels optimize this with copy-on-write, so memory isn't fully duplicated immediately).\nSame memory layout.\nSame environment variables.\nSame working directory.\nDifferent PID.\n\nWhy Make a Copy?\n    Because the parent (your shell) should continue running after starting another program.\nIf Bash simply replaced itself with Python every time, you'd lose your shell after each command.\nInstead:\nBash creates a child with fork().\nThe child becomes Python.\nThe parent Bash waits for the child to finish and then shows the prompt again.\n\nexec()\n\nNow the child process is still Bash.\nWe don't want another Bash.\nWe want Python.\nThe child calls:\n    execve()\n\nexecve() replaces the child process's program image with the Python executable.\n\nAfter execve():\n\n    bash -> fork() -> child bash -> exec() -> Python\n\nThe PID stays the same, but the program running inside that process changes.\n\nWhy fork() + exec()?\n    Because we want:\n    Parent Bash alive.\n    Child becomes Python.\n\nWithout fork():\n    bash -> exec() -> python\n    Your shell would disappear.\n\nComplete Flow\n    Terminal -> bash -> fork() -> child bash -> exec(Python) -> Python Reads app.py -> Python Executes Code",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "HI2cw9zq--Pa-65AJvVYI",
@@ -369,7 +389,10 @@
       "containerId": null,
       "originalText": "Part 4 - Signals",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "ZMjsgrDGdMnLBAFjHQAix",
@@ -406,7 +429,10 @@
       "containerId": null,
       "originalText": "Suppose your program is running.\nHow do we communicate with it?\nSignals.\nSignals are asynchronous notifications sent by the kernel or another process.\n\nSIGINT\n    Ctrl + C\nMeaning:\nPlease interrupt.Many programs catch this signal and shut down gracefully.\n\nSIGTERM\n    kill PID\n    Default signal.\n    Meaning:\n        Please terminate gracefully.\n        The process can clean up resources before exiting.\n    This is what Docker and Kubernetes generally send first when stopping a container.\n\nSIGKILL\n    kill -9 PID\n    Meaning:\n            Stop immediately.\n    The kernel terminates the process without giving it a chance to clean up.\n    The process cannot ignore or handle SIGKILL.\n\n\nWhy is kill -9 Dangerous?\n    Imagine PostgreSQL.\n    It is writing:\n        Money Transfer -> Disk\n    You send:\n        kill -9 postgres\n\n    The process dies immediately.It doesn't get a chance to finish cleanup or shut down gracefully.\n     That's why SIGTERM is preferred first.\n\n\n\nDocker Connection\n    docker stop container\n    Docker first sends:\n        SIGTERM\n        If the process doesn't exit within the configured timeout:\n        Docker sends:\n            SIGKILL\n\n\nKubernetes Connection\nKubernetes behaves similarly:\n    SIGTERM -> wait(grace period) -> SIGKILL\n\nThis gives your application time to:\n    Finish requests.\n    Close database connections.\n    Flush logs.\n    Save state if necessary.",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "Qe1-8oea7f85pdP59nvGv",
@@ -443,7 +469,10 @@
       "containerId": null,
       "originalText": "Interview Questions",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "9JoZ4OYYcHwQdyAVkkIym",
@@ -480,7 +509,10 @@
       "containerId": null,
       "originalText": "Q1. Why does Bash use fork() before exec()?",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "j0HDHGm3GyPwHp45-U-H2",
@@ -517,7 +549,10 @@
       "containerId": null,
       "originalText": "Because the parent shell must continue running. fork() creates a child process, and the \nchild calls exec() to replace itself with the requested program.",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "F3c2Q2Fq6VDeswk0S2lyZ",
@@ -554,7 +589,10 @@
       "containerId": null,
       "originalText": "Q2. What is the difference between fork() and exec()?",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "dxd8cGTHGu5wWFgo2q5Iw",
@@ -591,7 +629,10 @@
       "containerId": null,
       "originalText": "| `fork()`                           | `exec()`                                              |\n| ---------------------------------- | ----------------------------------------------------- |\n| Creates a new process              | Replaces the current process image with a new program |\n| Parent and child continue to exist | No new process is created                             |\n| Child gets a new PID               | PID remains the same                                  |\n",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "wCZ7SzW4PehVuYOjbPSBO",
@@ -628,7 +669,10 @@
       "containerId": null,
       "originalText": "Q3. What is a Zombie Process?",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "aD-c4pB4DbHzhaq6s2Q1H",
@@ -665,7 +709,10 @@
       "containerId": null,
       "originalText": "A zombie is a process that has finished execution but still has an entry in the process table because \nits parent has not yet collected its exit status.",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "_UPnX1FJLbSc4JAGM4wvH",
@@ -702,7 +749,10 @@
       "containerId": null,
       "originalText": "Q4. Why can't you kill a Zombie?",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "Vxq4hkAMQOJHnpuTbgoD-",
@@ -739,7 +789,10 @@
       "containerId": null,
       "originalText": "Because it's already terminated. Only its process table entry remains until it is reaped.",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "m8YVXyJHw26N41MeJjaGb",
@@ -776,7 +829,10 @@
       "containerId": null,
       "originalText": "Q5. Difference between SIGTERM and SIGKILL?",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "PZXkcici6127UKN564BuX",
@@ -813,7 +869,10 @@
       "containerId": null,
       "originalText": "| SIGTERM                         | SIGKILL                           |\n| ------------------------------- | --------------------------------- |\n| Graceful shutdown request       | Immediate termination             |\n| Process can handle or ignore it | Process cannot catch or ignore it |\n| Allows cleanup                  | No cleanup                        |\n",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "rRRKciUPUWeaccInsd6qx",
@@ -850,7 +909,10 @@
       "containerId": null,
       "originalText": "What is ps -ef?",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "xxUdmR7FmIJ4g8IcTHYdu",
@@ -887,7 +949,10 @@
       "containerId": null,
       "originalText": "ps -> only shows current terminal's processes\nps -ef -> entire linux system\n    -e → Show every process on the system.\n    -f → Show the full format (more details).\n\nExample Output\n\n    UID        PID  PPID  C STIME TTY          TIME CMD\n    root         1     0  0 10:00 ?        00:00:03 /usr/lib/systemd/systemd\n    root       701     1  0 10:01 ?        00:00:00 sshd\n    amit      2501   701  0 10:15 pts/0    00:00:00 bash\n    amit      2610  2501  0 10:20 pts/0    00:00:02 python app.py\n    postgres   890     1  0 10:00 ?        00:00:05 postgres\n\nUID ->  Linux administrator started it.\nPID ->  Process ID.\nPPID -> Parent Process ID\nC -> CPU usage (historically the scheduling priority indicator; on many systems it \n    reflects recent CPU utilization). usually 0 , because most process are die\n\nSTIME -> Start time\nTTY -> Terminal associated with the process.\n    pts/0 -> means started from Terminal 0\n    ? -> No interactive Terminal\n    Background services like:\n\n    Docker\n    PostgreSQL\n    Nginx\n        usually shows ?\n\nTIME -> CPU time consumed by the process. 00:00:03 -> \n    The process has actually used 3 seconds of CPU time.\n    Even if it has been running for hours, it may have spent most of that time sleeping.\n\nCMD -> The command that started the process.\n     Example -> python app.py, postgres, systemd",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "jliacR9_cizbG5PZwqrkg",
@@ -924,7 +989,10 @@
       "containerId": null,
       "originalText": "Difference Between ps, ps -ef, and ps aux",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "jeeY6NKT0rNZm4psUs86P",
@@ -961,7 +1029,10 @@
       "containerId": null,
       "originalText": "| Command  | Shows                                                                      |\n| -------- | -------------------------------------------------------------------------- |\n| `ps`     | Processes attached to the current terminal                                 |\n| `ps -ef` | All system processes in full format                                        |\n| `ps aux` | All system processes with additional information like CPU and memory usage |\n",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "QDiynNLNfmSUCgV2Un-oA",
@@ -996,7 +1067,8 @@
       ],
       "updated": 1788288837750,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "WO8oSg8YXRi6IJkwXFF9P",
@@ -1021,7 +1093,7 @@
       "version": 261,
       "versionNonce": 1570544491,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788288837750,
       "link": null,
       "locked": false,
@@ -1033,7 +1105,10 @@
       "containerId": "QDiynNLNfmSUCgV2Un-oA",
       "originalText": "Day 4(Memory Management)",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "ATzgoQVbJHNC6MMQ1EBah",
@@ -1058,7 +1133,7 @@
       "version": 3,
       "versionNonce": 2129447333,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788288847878,
       "link": null,
       "locked": false,
@@ -1070,7 +1145,10 @@
       "containerId": null,
       "originalText": "Today's 1-hour plan",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "JVV9xIcgiQsCGd2jOKrhl",
@@ -1095,7 +1173,7 @@
       "version": 32,
       "versionNonce": 1410226859,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788288882819,
       "link": null,
       "locked": false,
@@ -1107,7 +1185,10 @@
       "containerId": null,
       "originalText": "| Time   | Topic                  |\n| ------ | ---------------------- |\n| 10 min | RAM and Virtual Memory |\n| 15 min | Process Memory         |\n| 15 min | Stack vs Heap          |\n| 10 min | Page / Page Cache      |\n| 10 min | Hands-on commands      |\n",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "7S97IqXDCnniCwezEVcrH",
@@ -1132,7 +1213,7 @@
       "version": 22,
       "versionNonce": 686241259,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788288884469,
       "link": null,
       "locked": false,
@@ -1144,7 +1225,10 @@
       "containerId": null,
       "originalText": "We'll leave Swap, OOM Killer, Docker memory limits, and Kubernetes memory limits \nfor the next part so we can go deeper.",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "hyNSW5OBg9KcRJqjxUbVs",
@@ -1169,7 +1253,7 @@
       "version": 4,
       "versionNonce": 1552845227,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788288897401,
       "link": null,
       "locked": false,
@@ -1181,7 +1265,10 @@
       "containerId": null,
       "originalText": "1. What is RAM?",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "p6MYhI0Z169QktA3hyQdd",
@@ -1206,7 +1293,7 @@
       "version": 27,
       "versionNonce": 2110908869,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788289043470,
       "link": null,
       "locked": false,
@@ -1218,7 +1305,10 @@
       "containerId": null,
       "originalText": "Let's start from the physical machine.\n\nYour computer has:\n    CPU\n     |\n     | communicates with\n     v\n    RAM\n     |\n     v\n    SSD\n\nVery simplified:\n\nSSD → persistent storage\nRAM → working memory\nCPU → executes instructions\n\nSuppose you have:\n\nSSD = 512 GB\nRAM = 16 GB\n\nYour SSD can store hundreds of GB of files.\nBut the CPU doesn't normally execute your application directly from the SSD.\nWhen your application runs, its required code/data are brought into RAM.",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "P6GrKL2dBlL95T_N8l2D7",
@@ -1243,7 +1333,7 @@
       "version": 4,
       "versionNonce": 798691845,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788289081536,
       "link": null,
       "locked": false,
@@ -1255,7 +1345,10 @@
       "containerId": null,
       "originalText": "2. What happens when our Python application starts?",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "dPlA-VLJFwg9ZY1tX33dX",
@@ -1280,7 +1373,7 @@
       "version": 30,
       "versionNonce": 1480097067,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788289205358,
       "link": null,
       "locked": false,
@@ -1292,7 +1385,10 @@
       "containerId": null,
       "originalText": "python app.py\n\nConceptually:\n\nSSD\n |\n | load required code/data\n v\nRAM\n |\n v\nCPU\n |\n v\nExecute\n\nSuppose our Python process needs:\n\nPython interpreter\napp.py\nvariables\nobjects\nlibraries\nbuffers\netc.\n\nAll of these require memory.\nSo we can think of:\n\nPython Process\n      |\n      v\n    RAM\n\nBut there's an important problem.",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "XfGJMvsT3z2r_JZndzwOn",
@@ -1317,7 +1413,7 @@
       "version": 3,
       "versionNonce": 2013489861,
       "isDeleted": true,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788289151352,
       "link": null,
       "locked": false,
@@ -1329,7 +1425,10 @@
       "containerId": null,
       "originalText": "",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "c_JbbeISHZOyVNAiiUcqH",
@@ -1354,7 +1453,7 @@
       "version": 81,
       "versionNonce": 919168325,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788289222178,
       "link": null,
       "locked": false,
@@ -1366,7 +1465,10 @@
       "containerId": null,
       "originalText": "3. Can a Process Directly Use Physical RAM?",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "qD3kexQeDF-6dmy8kfDvc",
@@ -1391,7 +1493,7 @@
       "version": 8,
       "versionNonce": 1490977541,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788289244659,
       "link": null,
       "locked": false,
@@ -1403,7 +1505,10 @@
       "containerId": null,
       "originalText": "Not directly.\nThis is one of the most important concepts today.\nA process doesn't normally say:\n\"Give me physical RAM address 0x123456.\"\nInstead, it sees something called Virtual Memory.",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "I8bLXeKae0PCLoH6xNf5Z",
@@ -1428,7 +1533,7 @@
       "version": 4,
       "versionNonce": 1198278539,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788289252011,
       "link": null,
       "locked": false,
@@ -1440,7 +1545,10 @@
       "containerId": null,
       "originalText": "4. Virtual Memory",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "2phI7W4ARGPm_6wdAtK5G",
@@ -1465,7 +1573,7 @@
       "version": 37,
       "versionNonce": 25642571,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788289394587,
       "link": null,
       "locked": false,
@@ -1477,7 +1585,10 @@
       "containerId": null,
       "originalText": "Imagine your machine has: 16 GB RAM\n\nYour Django process might see an address space that looks much larger than the actual physical \nRAM available to it.\n\nFor example:\n\nDjango Process\n\nVirtual Address Space\n────────────────────────\n0x00000000\n      |\n      |\n      |\n      |\n0xFFFFFFFF\n\nThe addresses the process uses are virtual addresses.\nThe operating system and CPU's memory-management hardware translate those virtual addresses \nto physical memory locations.\n\nConceptually:\n\nProcess\n  |\n  | Virtual Address\n  v\nCPU / MMU\n  |\n  | Translation\n  v\nPhysical RAM\n\nThis gives the OS much more control over memory.",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "Yn2BX7syH18Plk8Ok8f0p",
@@ -1502,7 +1613,7 @@
       "version": 25,
       "versionNonce": 1416685163,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788289405528,
       "link": null,
       "locked": false,
@@ -1514,7 +1625,10 @@
       "containerId": null,
       "originalText": "5. Why Do We Need Virtual Memory?",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "IcXozwGqjd6mPmX5dsa_B",
@@ -1539,7 +1653,7 @@
       "version": 36,
       "versionNonce": 819871691,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788289623869,
       "link": null,
       "locked": false,
@@ -1551,7 +1665,10 @@
       "containerId": null,
       "originalText": "There are several important reasons.\n\nReason 1 — Isolation\nSuppose:\n\nProcess A → Django\nProcess B → PostgreSQL\n\nYou don't want Django to randomly modify PostgreSQL's memory.\nVirtual memory helps provide isolation:\n\nDjango\nVirtual Memory\n     |\n     X\nPostgreSQL memory\n\nEach process gets its own virtual address space.\n\n\nReason 2 — Security\n\nImagine a malicious process trying to access another application's memory.\nThe OS can prevent that through memory protection.\n\nProcess A\n   |\n   X\nProcess B\n\nThis is one of the foundations of process isolation.",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "GSA7qbjwCeGUit9U100rp",
@@ -1576,7 +1693,7 @@
       "version": 4,
       "versionNonce": 820816779,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788289634211,
       "link": null,
       "locked": false,
@@ -1588,7 +1705,10 @@
       "containerId": null,
       "originalText": "6. Important Question",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "KXRIlStzE3ZDSJon4m0ho",
@@ -1613,7 +1733,7 @@
       "version": 44,
       "versionNonce": 1569678469,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788289755845,
       "link": null,
       "locked": false,
@@ -1625,7 +1745,10 @@
       "containerId": null,
       "originalText": "Suppose: RAM = 8 GB\nAnd we run:\n\nProcess A = 4 GB\nProcess B = 4 GB\nProcess C = 4 GB\n\nThat's: 12 GB requested\n\nBut we only have:  8 GB physical RAM\n\nDoes Linux immediately say: \"Impossible!\"\n\nNot necessarily.\n\nThis is where virtual memory, demand paging, page cache, swap, and eventually the \nOOM killer come into play.\nWe'll get to that.",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "ZbFIKXLw4jWDfOI-6VYEI",
@@ -1650,7 +1773,7 @@
       "version": 40,
       "versionNonce": 2014180261,
       "isDeleted": true,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788289670100,
       "link": null,
       "locked": false,
@@ -1662,7 +1785,10 @@
       "containerId": null,
       "originalText": "",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "xSyxddYDaBy19VvibLlIX",
@@ -1687,7 +1813,7 @@
       "version": 4,
       "versionNonce": 1160608965,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788289789712,
       "link": null,
       "locked": false,
@@ -1699,7 +1825,10 @@
       "containerId": null,
       "originalText": "7. Process Memory",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "YXDNGpG7HlTyGLC4WtwHI",
@@ -1724,7 +1853,7 @@
       "version": 22,
       "versionNonce": 121571819,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788289871433,
       "link": null,
       "locked": false,
@@ -1736,7 +1865,10 @@
       "containerId": null,
       "originalText": "A running process doesn't just have one giant block of memory.\nConceptually, its virtual address space contains regions such as:\n\nHigh Address\n┌─────────────────────┐\n│       Stack         │\n│         ↓           │\n├─────────────────────┤\n│                     │\n│       ...           │\n│                     │\n├─────────────────────┤\n│         ↑           │\n│       Heap          │\n├─────────────────────┤\n│ BSS                 │\n├─────────────────────┤\n│ Data                │\n├─────────────────────┤\n│ Code / Text         │\n└─────────────────────┘\nLow Address\n\nwe don't need to memorize the exact layout yet.\n\nThe important parts for us are:\nCode\nData\nHeap\nStack\nLet's understand them.",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "hwfKjvdIp9WrMg4oqkHYh",
@@ -1761,7 +1893,7 @@
       "version": 4,
       "versionNonce": 267839109,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788289973480,
       "link": null,
       "locked": false,
@@ -1773,7 +1905,10 @@
       "containerId": null,
       "originalText": "8. Code / Text Segment",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "CuCp7b8XKLXjOPB68IwnC",
@@ -1798,7 +1933,7 @@
       "version": 23,
       "versionNonce": 1738167979,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788290034544,
       "link": null,
       "locked": false,
@@ -1810,7 +1945,10 @@
       "containerId": null,
       "originalText": "Suppose:\n\ndef calculate():\n    return 10 + 20\n\nThe instructions needed to execute the program live in the program's code/text segment.\n\nConceptually:\n\nPython Process\n      |\n      ├── Code\n      ├── Data\n      ├── Heap\n      └── Stack\n\nThe code is generally read-only while executing.\nWhy?\nBecause you don't want random code execution paths modifying the application's instructions.",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "9RvY2sFnXuiL6kiBmHG8L",
@@ -1835,7 +1973,7 @@
       "version": 4,
       "versionNonce": 1109531243,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788290047214,
       "link": null,
       "locked": false,
@@ -1847,7 +1985,10 @@
       "containerId": null,
       "originalText": "9. Stack",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "j1pIKx7CbpGjfh_Wk50bB",
@@ -1872,7 +2013,7 @@
       "version": 36,
       "versionNonce": 369981509,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788290141273,
       "link": null,
       "locked": false,
@@ -1884,7 +2025,10 @@
       "containerId": null,
       "originalText": "The stack is used for function calls and local execution state.\nConsider:\n\ndef add(a, b):\n    result = a + b\n    return result\n\nadd(10, 20)\n\nWhen add() executes, the process needs information such as:\n\na\nb\nresult\nreturn information\n\nThe stack helps manage this function-call information.\n\nConceptually:\n\nmain()\n |\n └── add()\n      |\n      ├── a\n      ├── b\n      ├── result\n      └── return address\n\nadd()\nWhen the function finishes: its stack frame can be removed.",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "c9CAJyhOaDnt5EIvRqLE6",
@@ -1909,7 +2053,7 @@
       "version": 7,
       "versionNonce": 631191083,
       "isDeleted": true,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788290193634,
       "link": null,
       "locked": false,
@@ -1921,7 +2065,10 @@
       "containerId": null,
       "originalText": "",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "SDP73MQSHZklx2iwN3JGL",
@@ -1946,7 +2093,7 @@
       "version": 4,
       "versionNonce": 1507416555,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788290202491,
       "link": null,
       "locked": false,
@@ -1958,7 +2105,10 @@
       "containerId": null,
       "originalText": "10. Heap",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "FhWT7vT-oBzGXeIjz-lac",
@@ -1983,7 +2133,7 @@
       "version": 94,
       "versionNonce": 355455813,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788290297825,
       "link": null,
       "locked": false,
@@ -1995,7 +2145,10 @@
       "containerId": null,
       "originalText": "The heap is used for dynamically allocated memory.\nPython makes heavy use of dynamic memory.\nFor example:\n\nusers = []\n\nThen:\n\nusers.append(\"Amit\")\nusers.append(\"Rahul\")\nusers.append(\"Rishabh\")\n\nObjects created during execution require memory.\nConceptually:\n\nHeap\n│\n├── Python objects\n├── Lists\n├── Dictionaries\n├── Strings\n├── Django objects\n└── Other dynamically allocated data\n\nThis is why a Python application's memory usage can grow significantly depending \non what objects it keeps alive.",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "Kc4EvAGIeTtR4dkaivo3Y",
@@ -2020,7 +2173,7 @@
       "version": 3,
       "versionNonce": 457941867,
       "isDeleted": true,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788290240823,
       "link": null,
       "locked": false,
@@ -2032,7 +2185,10 @@
       "containerId": null,
       "originalText": "",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "GGsPqy_3X9Z37GxbgRakF",
@@ -2057,7 +2213,7 @@
       "version": 4,
       "versionNonce": 819714949,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788290318709,
       "link": null,
       "locked": false,
@@ -2069,7 +2225,10 @@
       "containerId": null,
       "originalText": "11. Stack vs Heap",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "yQhZWZINMeFZ_GaFEjkJ1",
@@ -2094,7 +2253,7 @@
       "version": 15,
       "versionNonce": 254658475,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788290371328,
       "link": null,
       "locked": false,
@@ -2106,7 +2265,10 @@
       "containerId": null,
       "originalText": "This is a common interview topic.\n\n| Stack                                     | Heap                                    |\n| ----------------------------------------- | --------------------------------------- |\n| Function-call information                 | Dynamically allocated objects           |\n| Usually smaller                           | Usually much larger                     |\n| Automatically managed as calls return     | Objects remain until released/reclaimed |\n| Very fast access                          | More flexible                           |\n| Stores stack frames/local execution state | Stores dynamically created data         |\n\n\nFor Python specifically, don't overgeneralize the C/C++ model: Python objects themselves generally \nlive in heap-managed memory, while the Python interpreter uses its own structures for execution frames.",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "SupHFJgaZoSR2UneJGvq2",
@@ -2131,7 +2293,7 @@
       "version": 4,
       "versionNonce": 179096427,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788290379642,
       "link": null,
       "locked": false,
@@ -2143,7 +2305,10 @@
       "containerId": null,
       "originalText": "12. Let's Connect This to Django",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "8zirt_3eQF9_KZdtRtCXx",
@@ -2168,7 +2333,7 @@
       "version": 25,
       "versionNonce": 318716619,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788290517819,
       "link": null,
       "locked": false,
@@ -2180,7 +2345,10 @@
       "containerId": null,
       "originalText": "Suppose you have:\n\nDjango\n |\n ├── Python interpreter\n ├── Django framework\n ├── Imported libraries\n ├── Database connection objects\n ├── Request objects\n ├── Query results\n └── Application objects\n\nAll of these consume memory.\nImagine your API does:\n\nusers = User.objects.all()\n\nand then loads a huge number of objects into memory.\nYou could suddenly have:\n\nDjango Worker\n\nRAM usage\n   ↑\n   |\n   |       █\n   |      ██\n   |     ███\n   |    ████\n   |   █████\n   +----------------> time\n\nThis becomes important later when we discuss:\nGunicorn workers + Docker + Kubernetes memory limits.",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "kJHf6mheoyDIe6fDpTQuL",
@@ -2205,7 +2373,7 @@
       "version": 4,
       "versionNonce": 1816229477,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788291180564,
       "link": null,
       "locked": false,
@@ -2217,7 +2385,10 @@
       "containerId": null,
       "originalText": "13. What is a Page?",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "pL2OO-2E0UeH-V25P0CBv",
@@ -2242,7 +2413,7 @@
       "version": 35,
       "versionNonce": 458327339,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788291260930,
       "link": null,
       "locked": false,
@@ -2254,7 +2425,10 @@
       "containerId": null,
       "originalText": "Linux doesn't normally manage memory as one giant continuous chunk.\nMemory is divided into fixed-size pieces called pages.\nA common page size is: 4 KB\n\nSo instead of thinking: Process needs 100 MB\n\nthe OS can think:\n\nPage\nPage\nPage\nPage\nPage\n...\n\nThe virtual memory system maps these pages to physical memory.\n\nConceptually:\n\nVirtual Memory\n\nPage 1 ──────────┐\nPage 2 ──────────┤\nPage 3 ──────────┼──> Physical RAM\nPage 4 ──────────┤\nPage 5 ──────────┘\n\nThis page-based system is fundamental to Linux memory management.",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "yW4UJmAVbbp_zM4o-k7sl",
@@ -2279,7 +2453,7 @@
       "version": 4,
       "versionNonce": 1866754283,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788291268116,
       "link": null,
       "locked": false,
@@ -2291,7 +2465,10 @@
       "containerId": null,
       "originalText": "14. Why Pages Are Important for Docker/Kubernetes",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "EYpCYY4zTYSBiXuS3f9xi",
@@ -2316,7 +2493,7 @@
       "version": 19,
       "versionNonce": 83134987,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788291307045,
       "link": null,
       "locked": false,
@@ -2328,7 +2505,10 @@
       "containerId": null,
       "originalText": "Later we'll configure something like:\n\nresources:\n  limits:\n    memory: \"512Mi\"\n\nKubernetes isn't magically giving your application exactly 512 MB of special RAM.\nIt is enforcing a memory resource limit through Linux's underlying mechanisms.\nEventually we'll connect:\n\nKubernetes\n     ↓\nContainer\n     ↓\nLinux cgroups\n     ↓\nMemory accounting/limits\n     ↓\nPhysical memory\n\nSo understanding Linux memory first makes Kubernetes much easier.",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "TwRAPZ_TmhK09C-sw8q_J",
@@ -2353,7 +2533,7 @@
       "version": 3,
       "versionNonce": 686679141,
       "isDeleted": true,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788291278862,
       "link": null,
       "locked": false,
@@ -2365,7 +2545,10 @@
       "containerId": null,
       "originalText": "",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "iUbRx7hGUfV4gWg9Kb6-m",
@@ -2390,7 +2573,7 @@
       "version": 4,
       "versionNonce": 854724709,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788291398417,
       "link": null,
       "locked": false,
@@ -2402,7 +2585,10 @@
       "containerId": null,
       "originalText": "15. Hands-on: See Your Memory",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "bGXZmD_nox_SqYLoPJBQw",
@@ -2427,7 +2613,7 @@
       "version": 28,
       "versionNonce": 841339013,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788291451005,
       "link": null,
       "locked": false,
@@ -2439,7 +2625,10 @@
       "containerId": null,
       "originalText": "free -h\n\nYou'll see something similar to:\n               total        used        free\nMem:            16Gi        7.2Gi       1.5Gi\nSwap:            4Gi        0.0Gi       4Gi\n\nDon't worry about interpreting every column yet.\nFor now, just understand:\n\nfree -h\n\ngives you an overview of system memory and swap.",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "7F2njeWqLDOCGCpCQ-ViP",
@@ -2464,7 +2653,7 @@
       "version": 3,
       "versionNonce": 780430315,
       "isDeleted": true,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788291411085,
       "link": null,
       "locked": false,
@@ -2476,7 +2665,10 @@
       "containerId": null,
       "originalText": "",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "hfrIZbH3D5ulGHcREjXG4",
@@ -2501,7 +2693,7 @@
       "version": 4,
       "versionNonce": 151185605,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788291457285,
       "link": null,
       "locked": false,
@@ -2513,7 +2705,10 @@
       "containerId": null,
       "originalText": "16. See Processes Using Memory",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "Fvjmz7Z6xcj-oSWeah7MF",
@@ -2538,7 +2733,7 @@
       "version": 31,
       "versionNonce": 741167877,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788291509091,
       "link": null,
       "locked": false,
@@ -2550,7 +2745,10 @@
       "containerId": null,
       "originalText": "top ->\nYou'll see processes and their memory usage.\nYou can also run:\n\nps aux\n\nLook at:\n\n%MEM. and: RSS\n\nWe'll properly understand these metrics later.",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "cwFoZ7YujUCjuCAPHGmMj",
@@ -2575,7 +2773,7 @@
       "version": 4,
       "versionNonce": 1629915973,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788291515885,
       "link": null,
       "locked": false,
@@ -2587,7 +2785,10 @@
       "containerId": null,
       "originalText": "17. The /proc Filesystem",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "1zj-t6HhvAHcjKmzrJc9P",
@@ -2612,7 +2813,7 @@
       "version": 28,
       "versionNonce": 722414315,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788291566715,
       "link": null,
       "locked": false,
@@ -2624,7 +2825,10 @@
       "containerId": null,
       "originalText": "Remember Day 2 when we discussed filesystems?\nLinux has a special filesystem:\n\n/proc\n\nIt exposes information about the running kernel and processes.\nFor example:\n\ncat /proc/meminfo\n\nThis gives detailed memory information.\nYou'll see things such as:\n\nMemTotal\nMemFree\nMemAvailable\nBuffers\nCached\nSwapTotal\nSwapFree\n\nThis is incredibly useful when debugging Linux servers.",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "RBg_YJdW5klO4SgBenXBz",
@@ -2649,7 +2853,7 @@
       "version": 4,
       "versionNonce": 1333444267,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788291594000,
       "link": null,
       "locked": false,
@@ -2661,7 +2865,10 @@
       "containerId": null,
       "originalText": "18. Very Important: Free Memory ≠ Available Memory",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
     },
     {
       "id": "7PnLx3e6NffkHGe-DwiLc",
@@ -2686,7 +2893,7 @@
       "version": 47,
       "versionNonce": 1201006149,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788291703465,
       "link": null,
       "locked": false,
@@ -2698,7 +2905,290 @@
       "containerId": null,
       "originalText": "Suppose: RAM = 16 GB\n\nYou run: free -h\nand see: Free = 1 GB\n\nDon't immediately think:\n\"Only 1 GB RAM is available!\"\nLinux deliberately uses otherwise-unused RAM for things like file/page cache.\nThat's why available is generally more useful than simply looking at free.\nWe'll go deep into this in the next part.\n\nToday's Mental Model\nYou should now have this picture:\n\n                 Linux\n                   │\n             Virtual Memory\n                   │\n        ┌──────────┴──────────┐\n        │                     │\n   Process A              Process B\n   Django                  PostgreSQL\n        │                     │\n   Virtual Memory        Virtual Memory\n        │                     │\n        └──────────┬──────────┘\n                   │\n                Physical\n                  RAM\n                   │\n                  CPU\n\n\nAnd inside a process:\n\nProcess\n│\n├── Code\n├── Data\n├── Heap\n├── Stack\n└── Other mappings\n\nAnd memory is managed in:  Pages",
       "autoResize": true,
-      "lineHeight": 1.25
+      "lineHeight": 1.25,
+      "created": null,
+      "labelPosition": null,
+      "baseFontSize": null
+    },
+    {
+      "id": "Y5p4XHTBd2oNc887bZl-N",
+      "type": "text",
+      "x": 533.9387146898734,
+      "y": 18684.012612313432,
+      "width": 176,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b5K",
+      "roundness": null,
+      "seed": 1663195332,
+      "version": 22,
+      "versionNonce": 1402426948,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1789657395526,
+      "created": 1789657391243,
+      "link": null,
+      "locked": false,
+      "text": "Next Session -> ",
+      "fontSize": 20,
+      "baseFontSize": null,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Next Session -> ",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "EJBM_PWD_bHO2Wrp5E96t",
+      "type": "text",
+      "x": 588.9387146898734,
+      "y": 18724.012612313432,
+      "width": 198,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b5L",
+      "roundness": null,
+      "seed": 415648964,
+      "version": 8,
+      "versionNonce": 1621747652,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1789657412318,
+      "created": 1789657396706,
+      "link": null,
+      "locked": false,
+      "text": "Part 1: Page Cache",
+      "fontSize": 20,
+      "baseFontSize": null,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Part 1: Page Cache",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "8MlU_-DiZbdrNHU3bdNWZ",
+      "type": "text",
+      "x": 620.9543396898734,
+      "y": 18768.278237313432,
+      "width": 1188,
+      "height": 1075,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b5M",
+      "roundness": null,
+      "seed": 324663164,
+      "version": 98,
+      "versionNonce": 576061252,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1789657816420,
+      "created": 1789657414089,
+      "link": null,
+      "locked": false,
+      "text": "Before we move to Docker/Kubernetes, let's understand one important Linux behavior:\nLinux uses unused RAM as a cache to make disk access faster.\n\nLinux keeps frequently\n used file data in RAM\n\nFor example, suppose your application repeatedly reads:\n\nconfig.json\nusers.csv\nsome_library.so\n\nInstead of going to the SSD every single time: Linux can keep recently/frequently accessed file data in RAM:\n\nApplication\n     ↓\nRAM (page cache)\n     ↓\nMuch faster\n\nSo if you see Linux using a lot of RAM, that doesn't automatically mean applications are \nconsuming all of it.\n\nSome of that RAM may be serving as cache and can be reclaimed when applications need memory.\n\nSimple example\n\nImagine: 16 GB RAM\nYour applications use: 8 GB\n\nLinux may use another: 5 GB → filesystem cache\nand perhaps only: 3 GB → currently unused\n\nThat's generally fine.\nIf your application suddenly needs another 2 GB, Linux can reclaim appropriate cache memory.\n\n🧠 Remember this\n\nFree RAM is wasted RAM, so Linux tries to use spare RAM as cache.\nThat's why yesterday we discussed:\nfree -h\n\nand why available is more useful than simply looking at free.",
+      "fontSize": 20,
+      "baseFontSize": null,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Before we move to Docker/Kubernetes, let's understand one important Linux behavior:\nLinux uses unused RAM as a cache to make disk access faster.\n\nLinux keeps frequently\n used file data in RAM\n\nFor example, suppose your application repeatedly reads:\n\nconfig.json\nusers.csv\nsome_library.so\n\nInstead of going to the SSD every single time: Linux can keep recently/frequently accessed file data in RAM:\n\nApplication\n     ↓\nRAM (page cache)\n     ↓\nMuch faster\n\nSo if you see Linux using a lot of RAM, that doesn't automatically mean applications are \nconsuming all of it.\n\nSome of that RAM may be serving as cache and can be reclaimed when applications need memory.\n\nSimple example\n\nImagine: 16 GB RAM\nYour applications use: 8 GB\n\nLinux may use another: 5 GB → filesystem cache\nand perhaps only: 3 GB → currently unused\n\nThat's generally fine.\nIf your application suddenly needs another 2 GB, Linux can reclaim appropriate cache memory.\n\n🧠 Remember this\n\nFree RAM is wasted RAM, so Linux tries to use spare RAM as cache.\nThat's why yesterday we discussed:\nfree -h\n\nand why available is more useful than simply looking at free.",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "eyg3aj4VeYNzCWCIr9T0l",
+      "type": "text",
+      "x": 570.9387146898734,
+      "y": 19906.012612313432,
+      "width": 143,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b5N",
+      "roundness": null,
+      "seed": 316273860,
+      "version": 4,
+      "versionNonce": 2091875140,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1789657859706,
+      "created": 1789657858193,
+      "link": null,
+      "locked": false,
+      "text": "Part 2 — Swap",
+      "fontSize": 20,
+      "baseFontSize": null,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Part 2 — Swap",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "A8IHiwqJRg5cEEGV3so8N",
+      "type": "text",
+      "x": 619.6613709398734,
+      "y": 19938.344643563432,
+      "width": 1771,
+      "height": 7475,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b5O",
+      "roundness": null,
+      "seed": 912874620,
+      "version": 274,
+      "versionNonce": 886867652,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1789658433535,
+      "created": 1789657868041,
+      "link": null,
+      "locked": false,
+      "text": "We already know:\n\nSSD → stores files\nRAM → working memory\nCPU → executes instructions\n\nNow imagine your machine has 8 GB RAM.\nYour applications currently need:\n\nRAM needed = 9 GB\nRAM available = 8 GB\n\nWhat can Linux do?\nThis is where Swap comes in.\n\n\n1. What is Swap?\n\nSwap is basically:\nA space on your SSD/disk that Linux can use when it needs to move some memory data out of RAM.\nThink of your RAM as your desk.\nYour SSD is your cupboard.\nYour desk is small:\n\nRAM\n┌─────────────────────────┐\n│ File A                  │\n│ File B                  │\n│ File C                  │\n│ File D                  │\n└─────────────────────────┘\n\nNow the desk is full.\nYou don't need File A right now.\nSo you put File A into the cupboard:\n\nRAM                         SSD / Swap\n┌──────────────────┐        ┌──────────────┐\n│ File B           │        │ File A       │\n│ File C           │  ←───  │              │\n│ File D           │        └──────────────┘\n└──────────────────┘\n\nNow RAM has some space.\n\nThat is roughly what swapping means.\n\n\n2. Why do we need Swap?\n\nSuppose: RAM = 8 GB\n\nApplications suddenly need more memory.\nWithout any mechanism:\n\nRAM\n8 GB\n████████████████\nFULL\n\nLinux needs another option.\nIt can move some less-active memory pages to swap:\n\nRAM                     Swap\n██████████████          ██\nActive pages            Less-active pages\n\nThen RAM becomes available for something else.\n\n\n\n3. Is Swap as fast as RAM?\n\nNo.\nThis is extremely important.\n\nRAM: VERY FAST\nSSD: MUCH SLOWER than RAM\n\nSo:\n\nRAM\n ↓\nFast\n\nSwap on SSD\n ↓\nMuch slower\n\nThat's why swap is not a replacement for having enough RAM.\nIt's more like a safety mechanism / overflow area.\n\n\n4. What exactly gets moved?\n\nRemember our previous lesson about pages?\nVirtual Memory\n┌─────────┐\n│ Page 1  │\n├─────────┤\n│ Page 2  │\n├─────────┤\n│ Page 3  │\n├─────────┤\n│ Page 4  │\n└─────────┘\n\nLinux manages memory in pages.\nSome pages may not be actively needed right now.\nLinux can move appropriate pages from RAM to swap.\n\nRAM                         Swap\n┌─────────┐                ┌─────────┐\n│ Page 1   │                │ Page 4  │\n│ Page 2   │ ────────────> │         │\n│ Page 3   │                └─────────┘\n└─────────┘\n\nSo remember:\n\nSwap works with memory pages.\n\n\n5. What happens if the application needs that page again?\n\nSuppose: Page 4\nwas moved to swap.\nLater the application needs it.\nLinux says:\n\"I need Page 4.\"\nBut Page 4 isn't currently in RAM.\nSo Linux brings it back:\n\nSwap\n  │\n  │ Page 4\n  ↓\nRAM\n\nThis is called a page fault in the relevant case: the process references a virtual page that isn't currently resident in physical RAM, so the OS must resolve it.\nFor now, don't worry about the different types of page faults.\nJust remember:\n\nPage needed\n     ↓\nNot in RAM\n     ↓\nGet it from disk/swap\n     ↓\nPut it into RAM\n     ↓\nContinue execution\n\nBecause disk is slower than RAM, lots of swapping can make the machine very slow.\n\n6. Check Swap on Linux\nRun: free -h\n\nYou may see:\n\n               total   used   free\nMem:            16Gi    10Gi   1Gi\nSwap:            4Gi     0Gi   4Gi\n\nHere:\n\nRAM  = 16 GB\nSwap = 4 GB\n\n\nYou can also run:\nswapon --show \nThis shows configured swap areas.\n\n\n7. Important interview question\n\"If my server has 16 GB RAM and 4 GB swap, does it have 20 GB RAM?\"\nNo.\n\nIt has:\nPhysical RAM = 16 GB\nSwap         = 4 GB\n\nSwap is disk-backed storage, not physical RAM.\nThink:\n\n16 GB actual desk\n+\n4 GB cupboard\n\n≠\n\n20 GB desk\n\n\n8. Now the important production scenario\nImagine your Django application is running on an EC2 server.\n\nEC2\n┌──────────────────────┐\n│ RAM = 8 GB           │\n│                      │\n│ Django               │\n│ Nginx                │\n│ Celery               │\n│ Other processes      │\n└──────────────────────┘\n\n\nSuddenly Django starts consuming a lot of memory.\nLinux may first try to manage memory pressure using reclaimable memory, including filesystem cache, and potentially swap if configured and appropriate.\nBut suppose memory pressure becomes extreme.\nEventually:\n\nRAM\n████████████████\nVERY HIGH PRESSURE\n\nAnd Linux cannot satisfy an allocation.\n\nNow we reach our next concept:\n\n🚨 OOM Killer\nOOM = Out Of Memory\n\n\nThe OOM killer is Linux's mechanism for terminating processes when the system cannot satisfy memory demands.\n\nConceptually:\n\n\nApplication needs memory\n        ↓\nLinux tries to reclaim memory\n        ↓\nSwap may be used if available/configured\n        ↓\nStill cannot satisfy memory allocation\n        ↓\nOOM situation\n        ↓\nLinux may kill a process\n\nThe goal is basically to recover enough memory so the system can continue operating.\n\n\n🧠 Don't memorize the details yet\n\nFor today, make sure these are crystal clear:\n\nPage Cache\n\nSpare RAM can be used to cache file data to make future disk reads faster.\n\nSwap\n\nDisk space used to hold some memory pages when RAM is under pressure.\n\nOOM\n\nThe system cannot satisfy memory allocation demands, so Linux may kill a process to recover memory.\n\nAnd the overall picture:\n\n\n                RAM\n                 │\n        ┌────────┴────────┐\n        │                 │\n   Application       Page Cache\n        │\n        ↓\n   Memory pressure\n        │\n        ↓\n      Swap\n        │\n        ↓\n   Still insufficient?\n        │\n        ↓\n    OOM Killer\n\n\nNext step\n\nNow we can connect this directly to Docker:\n\nLinux memory\n     ↓\nDocker container\n     ↓\nContainer memory limit\n     ↓\ncgroups\n     ↓\nContainer gets OOMKilled\n\nThat's where these concepts become very practical for a backend/DevOps engineer.",
+      "fontSize": 20,
+      "baseFontSize": null,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "We already know:\n\nSSD → stores files\nRAM → working memory\nCPU → executes instructions\n\nNow imagine your machine has 8 GB RAM.\nYour applications currently need:\n\nRAM needed = 9 GB\nRAM available = 8 GB\n\nWhat can Linux do?\nThis is where Swap comes in.\n\n\n1. What is Swap?\n\nSwap is basically:\nA space on your SSD/disk that Linux can use when it needs to move some memory data out of RAM.\nThink of your RAM as your desk.\nYour SSD is your cupboard.\nYour desk is small:\n\nRAM\n┌─────────────────────────┐\n│ File A                  │\n│ File B                  │\n│ File C                  │\n│ File D                  │\n└─────────────────────────┘\n\nNow the desk is full.\nYou don't need File A right now.\nSo you put File A into the cupboard:\n\nRAM                         SSD / Swap\n┌──────────────────┐        ┌──────────────┐\n│ File B           │        │ File A       │\n│ File C           │  ←───  │              │\n│ File D           │        └──────────────┘\n└──────────────────┘\n\nNow RAM has some space.\n\nThat is roughly what swapping means.\n\n\n2. Why do we need Swap?\n\nSuppose: RAM = 8 GB\n\nApplications suddenly need more memory.\nWithout any mechanism:\n\nRAM\n8 GB\n████████████████\nFULL\n\nLinux needs another option.\nIt can move some less-active memory pages to swap:\n\nRAM                     Swap\n██████████████          ██\nActive pages            Less-active pages\n\nThen RAM becomes available for something else.\n\n\n\n3. Is Swap as fast as RAM?\n\nNo.\nThis is extremely important.\n\nRAM: VERY FAST\nSSD: MUCH SLOWER than RAM\n\nSo:\n\nRAM\n ↓\nFast\n\nSwap on SSD\n ↓\nMuch slower\n\nThat's why swap is not a replacement for having enough RAM.\nIt's more like a safety mechanism / overflow area.\n\n\n4. What exactly gets moved?\n\nRemember our previous lesson about pages?\nVirtual Memory\n┌─────────┐\n│ Page 1  │\n├─────────┤\n│ Page 2  │\n├─────────┤\n│ Page 3  │\n├─────────┤\n│ Page 4  │\n└─────────┘\n\nLinux manages memory in pages.\nSome pages may not be actively needed right now.\nLinux can move appropriate pages from RAM to swap.\n\nRAM                         Swap\n┌─────────┐                ┌─────────┐\n│ Page 1   │                │ Page 4  │\n│ Page 2   │ ────────────> │         │\n│ Page 3   │                └─────────┘\n└─────────┘\n\nSo remember:\n\nSwap works with memory pages.\n\n\n5. What happens if the application needs that page again?\n\nSuppose: Page 4\nwas moved to swap.\nLater the application needs it.\nLinux says:\n\"I need Page 4.\"\nBut Page 4 isn't currently in RAM.\nSo Linux brings it back:\n\nSwap\n  │\n  │ Page 4\n  ↓\nRAM\n\nThis is called a page fault in the relevant case: the process references a virtual page that isn't currently resident in physical RAM, so the OS must resolve it.\nFor now, don't worry about the different types of page faults.\nJust remember:\n\nPage needed\n     ↓\nNot in RAM\n     ↓\nGet it from disk/swap\n     ↓\nPut it into RAM\n     ↓\nContinue execution\n\nBecause disk is slower than RAM, lots of swapping can make the machine very slow.\n\n6. Check Swap on Linux\nRun: free -h\n\nYou may see:\n\n               total   used   free\nMem:            16Gi    10Gi   1Gi\nSwap:            4Gi     0Gi   4Gi\n\nHere:\n\nRAM  = 16 GB\nSwap = 4 GB\n\n\nYou can also run:\nswapon --show \nThis shows configured swap areas.\n\n\n7. Important interview question\n\"If my server has 16 GB RAM and 4 GB swap, does it have 20 GB RAM?\"\nNo.\n\nIt has:\nPhysical RAM = 16 GB\nSwap         = 4 GB\n\nSwap is disk-backed storage, not physical RAM.\nThink:\n\n16 GB actual desk\n+\n4 GB cupboard\n\n≠\n\n20 GB desk\n\n\n8. Now the important production scenario\nImagine your Django application is running on an EC2 server.\n\nEC2\n┌──────────────────────┐\n│ RAM = 8 GB           │\n│                      │\n│ Django               │\n│ Nginx                │\n│ Celery               │\n│ Other processes      │\n└──────────────────────┘\n\n\nSuddenly Django starts consuming a lot of memory.\nLinux may first try to manage memory pressure using reclaimable memory, including filesystem cache, and potentially swap if configured and appropriate.\nBut suppose memory pressure becomes extreme.\nEventually:\n\nRAM\n████████████████\nVERY HIGH PRESSURE\n\nAnd Linux cannot satisfy an allocation.\n\nNow we reach our next concept:\n\n🚨 OOM Killer\nOOM = Out Of Memory\n\n\nThe OOM killer is Linux's mechanism for terminating processes when the system cannot satisfy memory demands.\n\nConceptually:\n\n\nApplication needs memory\n        ↓\nLinux tries to reclaim memory\n        ↓\nSwap may be used if available/configured\n        ↓\nStill cannot satisfy memory allocation\n        ↓\nOOM situation\n        ↓\nLinux may kill a process\n\nThe goal is basically to recover enough memory so the system can continue operating.\n\n\n🧠 Don't memorize the details yet\n\nFor today, make sure these are crystal clear:\n\nPage Cache\n\nSpare RAM can be used to cache file data to make future disk reads faster.\n\nSwap\n\nDisk space used to hold some memory pages when RAM is under pressure.\n\nOOM\n\nThe system cannot satisfy memory allocation demands, so Linux may kill a process to recover memory.\n\nAnd the overall picture:\n\n\n                RAM\n                 │\n        ┌────────┴────────┐\n        │                 │\n   Application       Page Cache\n        │\n        ↓\n   Memory pressure\n        │\n        ↓\n      Swap\n        │\n        ↓\n   Still insufficient?\n        │\n        ↓\n    OOM Killer\n\n\nNext step\n\nNow we can connect this directly to Docker:\n\nLinux memory\n     ↓\nDocker container\n     ↓\nContainer memory limit\n     ↓\ncgroups\n     ↓\nContainer gets OOMKilled\n\nThat's where these concepts become very practical for a backend/DevOps engineer.",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "ABQyMhNTIB8b0DYQtpwTm",
+      "type": "text",
+      "x": 821.9387146898734,
+      "y": 23883.012612313432,
+      "width": 11,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b5P",
+      "roundness": null,
+      "seed": 1855172732,
+      "version": 3,
+      "versionNonce": 517809220,
+      "isDeleted": true,
+      "boundElements": null,
+      "updated": 1789658229843,
+      "created": 1789658229459,
+      "link": null,
+      "locked": false,
+      "text": "",
+      "fontSize": 20,
+      "baseFontSize": null,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "0raMQuNe84zIH9fNvY8Lj",
+      "type": "text",
+      "x": 679.2277771898734,
+      "y": 24124.246987313432,
+      "width": 187,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b5Q",
+      "roundness": null,
+      "seed": 1175835004,
+      "version": 3,
+      "versionNonce": 791978620,
+      "isDeleted": true,
+      "boundElements": null,
+      "updated": 1789658255514,
+      "created": 1789658254408,
+      "link": null,
+      "locked": false,
+      "text": "You can also run:",
+      "fontSize": 20,
+      "baseFontSize": null,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "You can also run:",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
     }
   ],
   "appState": {
