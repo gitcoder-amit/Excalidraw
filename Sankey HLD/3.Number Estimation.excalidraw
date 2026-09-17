@@ -28,15 +28,11 @@
       "version": 89,
       "versionNonce": 432626181,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "ZqTyR4YzpboctsKf5BPLO"
-        }
-      ],
+      "boundElements": [],
       "updated": 1788790259984,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "ZqTyR4YzpboctsKf5BPLO",
@@ -74,7 +70,9 @@
       "originalText": "Distributed System",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "zVYM84QrA4mpiZXsn49UQ",
@@ -112,7 +110,9 @@
       "originalText": "A distributed system is a collection of independent computers that appear to the user as a single \nunit.",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "bJYmUx0yQAwsgnzBZoISh",
@@ -139,15 +139,11 @@
       "version": 175,
       "versionNonce": 1347560299,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "id": "W3RE8oRyz_NLM_LL8Rp8-",
-          "type": "arrow"
-        }
-      ],
+      "boundElements": [],
       "updated": 1788790259984,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "mDCHCoJv5UW-F-dRkf_2F",
@@ -177,7 +173,8 @@
       "boundElements": [],
       "updated": 1788790259984,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "0yHxBIQJ2zm9N7gpN7UG_",
@@ -215,7 +212,9 @@
       "originalText": "MS Word",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "Dmbs40hG8p-hfkafQt36y",
@@ -242,19 +241,11 @@
       "version": 84,
       "versionNonce": 1260813349,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "LutPIq7zGYSPvFPkiRt53"
-        },
-        {
-          "id": "5TI8Gonww_ZwPq0v5PA21",
-          "type": "arrow"
-        }
-      ],
+      "boundElements": [],
       "updated": 1788790259984,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "LutPIq7zGYSPvFPkiRt53",
@@ -292,7 +283,9 @@
       "originalText": "UI",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "5gJENMGieELhCpijOw8i4",
@@ -330,7 +323,9 @@
       "originalText": "Process",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "EazR8oQWgkNna5mYIAxlr",
@@ -355,12 +350,7 @@
       "version": 7,
       "versionNonce": 1927984971,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "id": "W3RE8oRyz_NLM_LL8Rp8-",
-          "type": "arrow"
-        }
-      ],
+      "boundElements": [],
       "updated": 1788790259984,
       "link": null,
       "locked": false,
@@ -373,7 +363,9 @@
       "originalText": "RAM",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "ko-XH9UTvaa8_Z0-7zYCE",
@@ -398,12 +390,7 @@
       "version": 8,
       "versionNonce": 263681765,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "id": "5TI8Gonww_ZwPq0v5PA21",
-          "type": "arrow"
-        }
-      ],
+      "boundElements": [],
       "updated": 1788790259984,
       "link": null,
       "locked": false,
@@ -416,7 +403,9 @@
       "originalText": "DISK",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "W3RE8oRyz_NLM_LL8Rp8-",
@@ -475,7 +464,8 @@
       },
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "5TI8Gonww_ZwPq0v5PA21",
@@ -534,7 +524,8 @@
       },
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "b_yaHlJPkS8Nwl6mer9is",
@@ -572,7 +563,9 @@
       "originalText": "Computer",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "tdmJWemvSms149OxsbRkS",
@@ -599,15 +592,11 @@
       "version": 75,
       "versionNonce": 517521829,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "IXcLkvbAPvmEdCTTg1mGw"
-        }
-      ],
+      "boundElements": [],
       "updated": 1788790259984,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "IXcLkvbAPvmEdCTTg1mGw",
@@ -645,7 +634,9 @@
       "originalText": "Client\n(Browser)",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "sjgvlb4PoQy6lpCwFLcHC",
@@ -672,15 +663,11 @@
       "version": 109,
       "versionNonce": 737887493,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "qdx7Nggc9M4AYRhclOLbD"
-        }
-      ],
+      "boundElements": [],
       "updated": 1788790259984,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "qdx7Nggc9M4AYRhclOLbD",
@@ -718,7 +705,9 @@
       "originalText": "A\nP\nI\n\nG\nA\nT\nE\nW\nA\nY",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "hp3HFqld-OFoz_XB0wi51",
@@ -745,19 +734,11 @@
       "version": 100,
       "versionNonce": 750148709,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "xsaf-Q5HXr-LXLAi9lZBF"
-        },
-        {
-          "id": "74H4cFPkEv0GQ32D53f54",
-          "type": "arrow"
-        }
-      ],
+      "boundElements": [],
       "updated": 1788790259984,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "xsaf-Q5HXr-LXLAi9lZBF",
@@ -795,7 +776,9 @@
       "originalText": "LB",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "0LWsmK6oeuzj8-PPl-t2h",
@@ -822,19 +805,11 @@
       "version": 167,
       "versionNonce": 1222084549,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "ckzJKkNvV5vJUdHZnTEtU"
-        },
-        {
-          "id": "74H4cFPkEv0GQ32D53f54",
-          "type": "arrow"
-        }
-      ],
+      "boundElements": [],
       "updated": 1788790259984,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "ckzJKkNvV5vJUdHZnTEtU",
@@ -872,7 +847,9 @@
       "originalText": "AS1",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "HtM2R0ZQWE0b7t2sTdMGz",
@@ -899,19 +876,11 @@
       "version": 243,
       "versionNonce": 1383876389,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "AMpqXm80KU8FQToiJ---H"
-        },
-        {
-          "id": "DvNUyu0-ymODCVVDZKpHC",
-          "type": "arrow"
-        }
-      ],
+      "boundElements": [],
       "updated": 1788790259984,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "AMpqXm80KU8FQToiJ---H",
@@ -949,7 +918,9 @@
       "originalText": "AS2",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "PdfJDj2uA5UKOnL_rxV41",
@@ -976,15 +947,11 @@
       "version": 287,
       "versionNonce": 2081561221,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "g92Ydr5ryNncCFGljS0x3"
-        }
-      ],
+      "boundElements": [],
       "updated": 1788790259984,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "g92Ydr5ryNncCFGljS0x3",
@@ -1022,7 +989,9 @@
       "originalText": "AS3",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "k_LTpF33jLiwDpMD9p-v2",
@@ -1049,15 +1018,11 @@
       "version": 63,
       "versionNonce": 1314292197,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "EVcO-PbXnsvmfqMahxOG-"
-        }
-      ],
+      "boundElements": [],
       "updated": 1788790259984,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "EVcO-PbXnsvmfqMahxOG-",
@@ -1095,7 +1060,9 @@
       "originalText": "Doc\n(Metadata\nto DB)",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "qxGCUueXr5NmsDV4gcnzk",
@@ -1122,19 +1089,11 @@
       "version": 61,
       "versionNonce": 1582759237,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "09TU5iw-BsznAVzIlOUGh"
-        },
-        {
-          "id": "PTaLtqIi2Df8JQXEewSiQ",
-          "type": "arrow"
-        }
-      ],
+      "boundElements": [],
       "updated": 1788790259984,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "09TU5iw-BsznAVzIlOUGh",
@@ -1172,7 +1131,9 @@
       "originalText": "Azure Blob\nStorage",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "xfNZ0UuPwEPYgmcJS7Ry-",
@@ -1217,7 +1178,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "x3I47FitX4kGceuLEsCNa",
@@ -1262,7 +1224,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "74H4cFPkEv0GQ32D53f54",
@@ -1321,7 +1284,8 @@
       },
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "DvNUyu0-ymODCVVDZKpHC",
@@ -1373,7 +1337,8 @@
       },
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "7YlO9KmPYXqOiGGTmsXgE",
@@ -1418,7 +1383,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "K62TF306XNHqTdejuNXAo",
@@ -1463,7 +1429,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "FsnsHGXrgp8XnyXWelYhF",
@@ -1508,7 +1475,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "PTaLtqIi2Df8JQXEewSiQ",
@@ -1560,7 +1528,8 @@
       },
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "o1nFmvOFb1EvgSp9s7rtM",
@@ -1605,7 +1574,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "O3_oIL_K_mGF_Uew2txMP",
@@ -1643,7 +1613,9 @@
       "originalText": "2 General Problem in Distributed system -> ",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "eaUaEPsrLYTaEz3lXbhy2",
@@ -1670,15 +1642,11 @@
       "version": 93,
       "versionNonce": 555451781,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "DWj0_OHqjldBmPw747vi7"
-        }
-      ],
+      "boundElements": [],
       "updated": 1788790259984,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "DWj0_OHqjldBmPw747vi7",
@@ -1716,7 +1684,9 @@
       "originalText": "Army1",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "pvdOJE1xUk_IRpL0XmD54",
@@ -1743,15 +1713,11 @@
       "version": 152,
       "versionNonce": 83528933,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "dEAk5nce1NQh_eViDFZDS"
-        }
-      ],
+      "boundElements": [],
       "updated": 1788790259984,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "dEAk5nce1NQh_eViDFZDS",
@@ -1789,7 +1755,9 @@
       "originalText": "Army2",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "JOryEs5Jb_zaTUgZLO8k8",
@@ -1816,15 +1784,11 @@
       "version": 95,
       "versionNonce": 1514252357,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "EW3ih4WDqPNBnYORm0Wxx"
-        }
-      ],
+      "boundElements": [],
       "updated": 1788790259984,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "EW3ih4WDqPNBnYORm0Wxx",
@@ -1862,7 +1826,9 @@
       "originalText": "City",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "mjoxzQ8mrgVV3l3e7skUU",
@@ -1907,7 +1873,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "enlGCBtLyeH8euRmxJFTC",
@@ -1952,7 +1919,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "CjrNR-tv-dvJOSH-5LS08",
@@ -1995,7 +1963,8 @@
       "endBinding": null,
       "startArrowhead": "arrow",
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "K0gqN390zScvICI9AUCyP",
@@ -2033,7 +2002,9 @@
       "originalText": "Messangers",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "cN43cKGj0WuvXoGUXD1gz",
@@ -2071,7 +2042,9 @@
       "originalText": "General1",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "ma94uyL29Vc2u-pdkAnx5",
@@ -2109,7 +2082,9 @@
       "originalText": "General2",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "7Sk_rLLj4COW22e7WlRr3",
@@ -2147,7 +2122,9 @@
       "originalText": "Messanger tell General1 and General 2 we are ready to attack on city.\n\n\nThere are lot of problems that can occur in between \n\nWhat if Messager is caught by some guard of the city\nwhat if G2 has got message g1 is prepared but G1 was not able to, then G2 only will attack",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "lpHchVegKYzgCcbU8BHU_",
@@ -2192,7 +2169,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": null,
-      "polygon": false
+      "polygon": false,
+      "created": null
     },
     {
       "id": "GvJciY1MDVZI3pCtcH7tL",
@@ -2237,7 +2215,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": null,
-      "polygon": false
+      "polygon": false,
+      "created": null
     },
     {
       "id": "igwU0qRY3NqrmOlbpo3el",
@@ -2275,7 +2254,9 @@
       "originalText": "G1",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "wa5X_obbUbv8UzXzr76xe",
@@ -2313,7 +2294,9 @@
       "originalText": "G2",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "ZogwwWQtxkCUPqLykl69W",
@@ -2338,12 +2321,7 @@
       "version": 56,
       "versionNonce": 678364747,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "xDu0nykPr282fnUouys_O"
-        }
-      ],
+      "boundElements": [],
       "updated": 1788790259984,
       "link": null,
       "locked": false,
@@ -2361,7 +2339,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "xDu0nykPr282fnUouys_O",
@@ -2399,7 +2378,9 @@
       "originalText": "Case1",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "jVDlSEIsd8qShj4oD11V9",
@@ -2444,7 +2425,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": null,
-      "polygon": false
+      "polygon": false,
+      "created": null
     },
     {
       "id": "qvWUWoJaTUuzfll_96uUp",
@@ -2489,7 +2471,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": null,
-      "polygon": false
+      "polygon": false,
+      "created": null
     },
     {
       "id": "3N1v5673FgFqzahlbAWaa",
@@ -2514,12 +2497,7 @@
       "version": 111,
       "versionNonce": 2052337547,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "BuQXpK1H0yD2HXDU4H8vy"
-        }
-      ],
+      "boundElements": [],
       "updated": 1788790259984,
       "link": null,
       "locked": false,
@@ -2537,7 +2515,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "BuQXpK1H0yD2HXDU4H8vy",
@@ -2575,7 +2554,9 @@
       "originalText": "Case2",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "LhRgQsVKJw-XJen5rGsQY",
@@ -2618,7 +2599,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "UB5zKXhI0B3zv3vXsr7eg",
@@ -2663,7 +2645,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": null,
-      "polygon": false
+      "polygon": false,
+      "created": null
     },
     {
       "id": "ADCqu2GnEw7hEfHtuFEsb",
@@ -2708,7 +2691,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": null,
-      "polygon": false
+      "polygon": false,
+      "created": null
     },
     {
       "id": "HQ8ckoYyeescKSU5i0Lnx",
@@ -2746,7 +2730,9 @@
       "originalText": "This is callecd No Common Knowledge Problem. Because only way is communication, the mechanism\nof communication is not reliable.",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "UsjTNriq0qDbryzlmm1ID",
@@ -2784,7 +2770,9 @@
       "originalText": "Lets say Army1 and Army2 are individual services, lets say service1 will only work if service2\nwill gives a response. And same service2 will only work if service1 will give response. Both are\nshould be like in kind of concensess. Like we are going to work if both are going to work. In that\ncase we are not have a reliable mechanism when both are able to coordinate to each other.\n\nLets say we have 2 service, order management service and payment service, order management will\nonly dispatch order if payment happens successfully, and lets say we charge a credit card if the\norder management service says that yes, we are ready to dispatch the order. now may be messages\nare lost in between, sometime both of them receive the message, they are like okay, but then its\na problem of acknowledgement also.\n\nThis is the problem of 2 generals, and too be honest there is not good any existing solution\nfor a 2 general problem, Only solution is having good retries and desigining our system in a\nway that we dont landup in a situation of this kind of situation like a deadlock.",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "n0Z-PCj07veHliPJYunoU",
@@ -2822,7 +2810,9 @@
       "originalText": "The Byzantine General Problem",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "QLROcu_Ku2GYnhEFYu8qF",
@@ -2860,7 +2850,9 @@
       "originalText": "this is kind of variation of 2 general problem. but for 2 general problem, communication mechanism\nwas faulty, but in this scenario we assume that messengers are all good, this time its more like\ntry party thing.",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "8wzYyE7rarUMa7Y3fnNca",
@@ -2887,15 +2879,11 @@
       "version": 163,
       "versionNonce": 874227749,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "-I7bqwFeiA2urKB4qJ89n"
-        }
-      ],
+      "boundElements": [],
       "updated": 1788790259984,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "-I7bqwFeiA2urKB4qJ89n",
@@ -2933,7 +2921,9 @@
       "originalText": "Army1",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "8T2ocFSCYmJm_MZpnbwBQ",
@@ -2960,15 +2950,11 @@
       "version": 251,
       "versionNonce": 354245509,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "YXO4iQkRsWV4S1ZnqS-rt"
-        }
-      ],
+      "boundElements": [],
       "updated": 1788790259984,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "YXO4iQkRsWV4S1ZnqS-rt",
@@ -3006,7 +2992,9 @@
       "originalText": "Army2",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "h1myP4-QELabiTRwdHhu0",
@@ -3033,15 +3021,11 @@
       "version": 259,
       "versionNonce": 106013413,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "Sq2OOdmmnGs5xoPWd6hsg"
-        }
-      ],
+      "boundElements": [],
       "updated": 1788790259984,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "Sq2OOdmmnGs5xoPWd6hsg",
@@ -3079,7 +3063,9 @@
       "originalText": "Army3",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "yM0nQdpfgfPg8KhlMC8V5",
@@ -3106,15 +3092,11 @@
       "version": 61,
       "versionNonce": 205913669,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "pdNWXzbWWV9HRA4961eLH"
-        }
-      ],
+      "boundElements": [],
       "updated": 1788790259984,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "pdNWXzbWWV9HRA4961eLH",
@@ -3152,7 +3134,9 @@
       "originalText": "City",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "nG7CyZzjgOEBECrSGWTvs",
@@ -3177,12 +3161,7 @@
       "version": 101,
       "versionNonce": 1037561253,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "M2GBYZgYBspDZOvZwLwaz"
-        }
-      ],
+      "boundElements": [],
       "updated": 1788790259984,
       "link": null,
       "locked": false,
@@ -3200,7 +3179,8 @@
       "endBinding": null,
       "startArrowhead": "arrow",
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "M2GBYZgYBspDZOvZwLwaz",
@@ -3238,7 +3218,9 @@
       "originalText": "Messenger",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": 0.5
+      "labelPosition": 0.5,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "Ozxud1R4pcO_cv6lp5GGd",
@@ -3263,12 +3245,7 @@
       "version": 78,
       "versionNonce": 2050289925,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "HMRSyC2W4jw941Hy_1XcA"
-        }
-      ],
+      "boundElements": [],
       "updated": 1788790259984,
       "link": null,
       "locked": false,
@@ -3286,7 +3263,8 @@
       "endBinding": null,
       "startArrowhead": "arrow",
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "HMRSyC2W4jw941Hy_1XcA",
@@ -3324,7 +3302,9 @@
       "originalText": "Messenger",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": 0.5
+      "labelPosition": 0.5,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "cUy5om0-eMHoG5XDx7kO4",
@@ -3349,12 +3329,7 @@
       "version": 84,
       "versionNonce": 1591380069,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "wCn186WtnhLJbD6OHJSer"
-        }
-      ],
+      "boundElements": [],
       "updated": 1788790259985,
       "link": null,
       "locked": false,
@@ -3372,7 +3347,8 @@
       "endBinding": null,
       "startArrowhead": "arrow",
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "wCn186WtnhLJbD6OHJSer",
@@ -3410,7 +3386,9 @@
       "originalText": "Messenger",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": 0.5
+      "labelPosition": 0.5,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "3UgshWj2YQeTFqwIJ2_Rj",
@@ -3453,7 +3431,8 @@
       "endBinding": null,
       "startArrowhead": "arrow",
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "wH8DbxrS4B2ZDazqflIxY",
@@ -3491,7 +3470,9 @@
       "originalText": "All three armies are trying to attack city. the problem is all 3 have to attack together. So\nagain we need to figure out messanger mechanism that all 3 going to send messages to each \nother, This time messengers are all good. There is no problem with the messenger they are good and\nreliable. But we have a traitor General, Lets say G2 is traitor, G1 send message to G2 lets attach but\nG2 passed message G1 said not attack, so in this scenario we have faulty service or node is there \nin our Distributed system.",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "_h6VA2Vfi7vcXFbgAob7I",
@@ -3534,7 +3515,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "QsVGnGzA3Dn-y0PSe60Qj",
@@ -3577,7 +3559,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "ueQwzrgnqxN_rTt4gKTEP",
@@ -3620,7 +3603,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "Tnr14i-dE2-GhljNGuVgd",
@@ -3658,7 +3642,9 @@
       "originalText": "G1",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "qKXZ_XK-fZvbqPrqzxRFM",
@@ -3696,7 +3682,9 @@
       "originalText": "G2",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "AUxDfcwl6G10qyOg0P77Q",
@@ -3734,7 +3722,9 @@
       "originalText": "G3",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "jb_7HVKa1iMAAaNP4c9Ll",
@@ -3772,7 +3762,9 @@
       "originalText": "G1",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "xl_igoNy03sbuAbSfwNXH",
@@ -3810,7 +3802,9 @@
       "originalText": "G2",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "UjDpqKk0PD5rvtyKBh9m0",
@@ -3848,7 +3842,9 @@
       "originalText": "G3",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "J4HK7waHNDkSBo5Ah3r4Z",
@@ -3893,7 +3889,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": null,
-      "polygon": false
+      "polygon": false,
+      "created": null
     },
     {
       "id": "8iIQNFkjkylGtYLdv4vkO",
@@ -3938,7 +3935,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": null,
-      "polygon": false
+      "polygon": false,
+      "created": null
     },
     {
       "id": "xYKzUAHmEoazGHSgJh9YO",
@@ -3983,7 +3981,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": null,
-      "polygon": false
+      "polygon": false,
+      "created": null
     },
     {
       "id": "eJdwbjm3PPzr7gzFHRTEi",
@@ -4026,7 +4025,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "WOsbBtioZqA0ZiUvbrhxB",
@@ -4069,7 +4069,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "C6UCEenAy_50Qcddjd8b2",
@@ -4112,7 +4113,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "xNFupSlGhyfe1tBfk5Kuk",
@@ -4150,7 +4152,9 @@
       "originalText": "Attack",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "inR1MYHUUCgc70ulrMbSY",
@@ -4188,7 +4192,9 @@
       "originalText": "Attack",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "5z9qnmlAHILabi1rVnQwC",
@@ -4226,7 +4232,9 @@
       "originalText": "Hey G1 said backed off",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "GV-0qCnkaz51X9x2SzVNy",
@@ -4264,7 +4272,9 @@
       "originalText": "Case 1 -> G3 is in confusion,\nG2 is traitor",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "n_TINYnbL6-xZykuETrNS",
@@ -4307,7 +4317,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "DklUkNfVZLkbiufCspOBR",
@@ -4345,7 +4356,9 @@
       "originalText": "Attack",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "QLv3c1m89r99G2ZzmTsk-",
@@ -4388,7 +4401,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "o8u65s7ERUZgr5KYvp1QL",
@@ -4426,7 +4440,9 @@
       "originalText": "retreat",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "eIzMggar4EjkN2g_n4ypi",
@@ -4469,7 +4485,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "N1GyUtI7gLdz4DkxbgSTV",
@@ -4507,7 +4524,9 @@
       "originalText": "retreat",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "p72bNc-3WFgCXvbo54PWn",
@@ -4545,7 +4564,9 @@
       "originalText": "Case 2 -> G3 is confused,\nG1 is traitor",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "xfhfMh_SPig34BNCwMeow",
@@ -4583,7 +4604,9 @@
       "originalText": "this is the problem of \nbyzantine general problem",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "cFgqdSgtV-CEVZabrW9bV",
@@ -4621,7 +4644,9 @@
       "originalText": "Theorem ->",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "ZiVzFwKUpecPO-cMj-gDS",
@@ -4659,7 +4684,9 @@
       "originalText": "lets say we have f traitor general, we need in total 3f+1 general to tolerate the faults,\nIn order to make sure that our system is not faulty,we need to have atleast 3f+1 nodes if\nf of them are expected to be faulty at any point of time.\n\n6:00",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "CpkEkWXZhdhSBSomDST2w",
@@ -4686,15 +4713,11 @@
       "version": 208,
       "versionNonce": 524330603,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "8PSnyeRqyb1Pds20evZTL"
-        }
-      ],
+      "boundElements": [],
       "updated": 1788790259985,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "8PSnyeRqyb1Pds20evZTL",
@@ -4732,7 +4755,9 @@
       "originalText": "Order Management System",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "f3EjbfCWmyn9hJjAk8Lc7",
@@ -4759,15 +4784,11 @@
       "version": 293,
       "versionNonce": 148283659,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "ZGtXFqtKzQEF2mXjTha7R"
-        }
-      ],
+      "boundElements": [],
       "updated": 1788790259985,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "ZGtXFqtKzQEF2mXjTha7R",
@@ -4805,7 +4826,9 @@
       "originalText": "Customer Client",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "Is6YsNIShu1_Bhd3xfnT9",
@@ -4832,15 +4855,11 @@
       "version": 302,
       "versionNonce": 1326729131,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "C9QI8hFN8Y_OhBLpaKGRh"
-        }
-      ],
+      "boundElements": [],
       "updated": 1788790259985,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "C9QI8hFN8Y_OhBLpaKGRh",
@@ -4878,7 +4897,9 @@
       "originalText": "Payment",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "I37W1PxQKlxroaO7pm8tM",
@@ -4905,15 +4926,11 @@
       "version": 104,
       "versionNonce": 1478761035,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "46l0N1WfW8Ckw6wm-rRH6"
-        }
-      ],
+      "boundElements": [],
       "updated": 1788790259985,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "46l0N1WfW8Ckw6wm-rRH6",
@@ -4951,7 +4968,9 @@
       "originalText": "Order",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "RBSfUaM33bQVL8BREOLIE",
@@ -4976,12 +4995,7 @@
       "version": 144,
       "versionNonce": 1625331947,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "G-vG6lAqJlS0iCBre7UBv"
-        }
-      ],
+      "boundElements": [],
       "updated": 1788790259985,
       "link": null,
       "locked": false,
@@ -4999,7 +5013,8 @@
       "endBinding": null,
       "startArrowhead": "arrow",
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "G-vG6lAqJlS0iCBre7UBv",
@@ -5037,7 +5052,9 @@
       "originalText": "rpc/apis",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": 0.5
+      "labelPosition": 0.5,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "jYIEZmjowMURrQdM-Z7C2",
@@ -5062,12 +5079,7 @@
       "version": 121,
       "versionNonce": 651445131,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "91sbpVRtda63qB7Hzb4iw"
-        }
-      ],
+      "boundElements": [],
       "updated": 1788790259985,
       "link": null,
       "locked": false,
@@ -5085,7 +5097,8 @@
       "endBinding": null,
       "startArrowhead": "arrow",
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "91sbpVRtda63qB7Hzb4iw",
@@ -5123,7 +5136,9 @@
       "originalText": "rpc/apis",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": 0.5
+      "labelPosition": 0.5,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "Pqyg6SWkASqol2ylABRcb",
@@ -5148,12 +5163,7 @@
       "version": 130,
       "versionNonce": 1379506731,
       "isDeleted": true,
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "rJICyXrymxy5F_OGGAHAE"
-        }
-      ],
+      "boundElements": [],
       "updated": 1788790259985,
       "link": null,
       "locked": false,
@@ -5171,7 +5181,8 @@
       "endBinding": null,
       "startArrowhead": "arrow",
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "rJICyXrymxy5F_OGGAHAE",
@@ -5209,7 +5220,9 @@
       "originalText": "rpc/apis",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": 0.5
+      "labelPosition": 0.5,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "Zi8WSMM43PPFhS3q2cSSB",
@@ -5252,7 +5265,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "wkqwi3aJgg3lM32hT5tIR",
@@ -5295,7 +5309,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "6spU7RMS7WP1RhqUM-9eM",
@@ -5338,7 +5353,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "CaErSdLCJ9t2Hk60cmBXx",
@@ -5376,7 +5392,9 @@
       "originalText": "Service1",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "t3nwMQz9FOo1jd23gOick",
@@ -5414,7 +5432,9 @@
       "originalText": "S2",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "g-vTiIWFD5coeSgQybbP7",
@@ -5452,7 +5472,9 @@
       "originalText": "S3",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "zMFZhYkHnCuBXeWVgA7hp",
@@ -5490,7 +5512,9 @@
       "originalText": "We need common concesses from all services for order , maybe customer client service is faulty, lets\nsay it is sending wrong data to OMS and payments, CC will say payment is successful, but Payment will\nsay I have not received payment and OMS is now in confused state, this can happen may be wrong code\ndeployed to CC or there is some intermediate issue due to which this is happening\n\nIn actual system we try to ensure that atleast we dont landup in a situation, where we are not able\nto come into common concesses, and if that point comes where we have to draw concenssees, then there\nis dedicated concess algorithm that we are going to talk about later",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "lBVKb1KQe4iJkc9delZv7",
@@ -5517,10 +5541,11 @@
       "version": 85,
       "versionNonce": 1972876997,
       "isDeleted": true,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788790275834,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "rh95e1QumNHnx2bQql38C",
@@ -5555,7 +5580,8 @@
       ],
       "updated": 1788790327280,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "DvL_Ca7IrTzLCO3jV6SXz",
@@ -5580,7 +5606,7 @@
       "version": 34,
       "versionNonce": 84297771,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788790334543,
       "link": null,
       "locked": false,
@@ -5593,7 +5619,9 @@
       "originalText": "Important number for estimations",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "k_OKwdXEhFfHKQL9BL2hH",
@@ -5618,7 +5646,7 @@
       "version": 1213,
       "versionNonce": 1482988741,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788790799090,
       "link": null,
       "locked": false,
@@ -5631,7 +5659,9 @@
       "originalText": "A lot of time what happened is, in case of designing a system, we try to over estimate the amount of\neffort that we might have to put in order to execute a task.\n\nNow a day, in lot of systems what we find is we have significant amount of machine capabilities \navailable, probably for our system we dont need to over designed anything that is technically not\neven required, just knowing the terms like sharding, partitioning, caching might not help alot\nin our interviews because we might throw these terms randomly here and there, eventually leading up\nto the fact that we might introduct things in the system which are probably not even required.\nthat what we are trying to get some lights on.\nand try to understand that what are the decent capabilities of the lot of machinaries available that\nwe can use, and we will talk about what kind of latency they actually provide in order to have a\ngood calculative call that we can take. in order to choose something over some other.",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "47Lj6waqZ_PiEd7qum49v",
@@ -5656,7 +5686,7 @@
       "version": 136,
       "versionNonce": 367350091,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788790887807,
       "link": null,
       "locked": false,
@@ -5669,7 +5699,9 @@
       "originalText": "When we actually design any particular system then technically we are mainly handling at some point of\ntime these factors",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "MYjajqtQtdHlp4wkvTWzR",
@@ -5694,7 +5726,7 @@
       "version": 40,
       "versionNonce": 1813292229,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788790911423,
       "link": null,
       "locked": false,
@@ -5707,7 +5739,9 @@
       "originalText": "1. Figure out Read/Write Latency ->",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "jN1uUmA3nEtqQ7Ifp2iwr",
@@ -5732,7 +5766,7 @@
       "version": 160,
       "versionNonce": 1812486187,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788790993776,
       "link": null,
       "locked": false,
@@ -5745,7 +5779,9 @@
       "originalText": "Lets say to provision some memory, lets say we want to read from primary memory/secondary memory\nour latencies can be a bit different all together",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "OHE3Ag9-SrE279GfB_566",
@@ -5770,7 +5806,7 @@
       "version": 47,
       "versionNonce": 1261754469,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788791020194,
       "link": null,
       "locked": false,
@@ -5783,7 +5819,9 @@
       "originalText": "2. Figure Out what compute do we need ->",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "7cdCmM8wqCxgzdMj12DOn",
@@ -5808,7 +5846,7 @@
       "version": 3,
       "versionNonce": 1784755371,
       "isDeleted": true,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788791009410,
       "link": null,
       "locked": false,
@@ -5821,7 +5859,9 @@
       "originalText": "",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "kECIzTp7RdO1bkrJXXcf_",
@@ -5846,7 +5886,7 @@
       "version": 3,
       "versionNonce": 843577669,
       "isDeleted": true,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788791023735,
       "link": null,
       "locked": false,
@@ -5859,7 +5899,9 @@
       "originalText": "",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "WKJt2wBjhDbhDye7IsgQ6",
@@ -5884,7 +5926,7 @@
       "version": 68,
       "versionNonce": 616487301,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788791048942,
       "link": null,
       "locked": false,
@@ -5897,7 +5939,9 @@
       "originalText": "we need powerfull machines like GPUs or something like that",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "okkx2kfomMkBBHE0voHzA",
@@ -5922,7 +5966,7 @@
       "version": 59,
       "versionNonce": 642234597,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788791073308,
       "link": null,
       "locked": false,
@@ -5935,7 +5979,9 @@
       "originalText": "3 Figure our Storage and bandwidth requirement ->",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "XV1IvvaAGgXr8GZBUCJhM",
@@ -5960,7 +6006,7 @@
       "version": 147,
       "versionNonce": 1338552389,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788791213617,
       "link": null,
       "locked": false,
@@ -5973,7 +6019,9 @@
       "originalText": "these above are some imp things that lot of doing definitely impact our decisions on picking up\nsomething on top of another.",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "2Oo9Ed-RvD-cwqg7zwaEs",
@@ -5998,7 +6046,7 @@
       "version": 32,
       "versionNonce": 580504549,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788791248471,
       "link": null,
       "locked": false,
@@ -6011,15 +6059,17 @@
       "originalText": "Cache -> Redis/Memcache",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "HTdV3OLRNGNSOaHRhiv6W",
       "type": "text",
-      "x": 1852.9692155451967,
-      "y": 22386.50840383637,
-      "width": 1056,
-      "height": 500,
+      "x": 1855.4262467951967,
+      "y": 22388.19981008637,
+      "width": 1199,
+      "height": 900,
       "angle": 0,
       "strokeColor": "#1971c2",
       "backgroundColor": "#a5d8ff",
@@ -6033,20 +6083,662 @@
       "index": "bOb",
       "roundness": null,
       "seed": 388086277,
-      "version": 1130,
-      "versionNonce": 770579211,
+      "version": 2690,
+      "versionNonce": 516620253,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1788791985376,
+      "boundElements": [],
+      "updated": 1789048798453,
       "link": null,
       "locked": false,
-      "text": "1. Do we even need a cache ?\n2. Do we need distributed cache?\n\nA good scaled instance of Redis lets say use something like Azure or AWS, A good scaled\ninstance of Redis can comfortabally handle few GBs of data\n\nElastic Amazon cache can help us to prepare Redis instance or memcache instance prepared\nwe can see here like\ncache.r6g.16xlarge machine having more than 400 GB of space and price of this is approx\n5$ per hour.\n\nPoint here is that, if the data that we want to store is probably like few GBs like 10 GB\nor 20 GB data then we can store that in a single instance pretty easily, we dont need to \nunnecessarily even have a sharded and distributed instance on Redis.\n\nLets say we want to design a Leaderboard where we have 1 Million concurrent users, if lets say\nwe have 1 million users for which we want to store the data. For 1M user, lets say the metadata \nthat we want to store is around 1 KB thats going to be only 1 GB of RAM.\n\n16:00",
+      "text": "1. Do we even need a cache ?\n2. Do we need distributed cache?\n\nA good scaled instance of Redis lets say use something like Azure or AWS, A good scaled\ninstance of Redis can comfortabally handle few GBs of data\n\nElastic Amazon cache can help us to prepare Redis instance or memcache instance prepared\nwe can see here like\ncache.r6g.16xlarge machine having more than 400 GB of space and price of this is approx\n5$ per hour.\n\nPoint here is that, if the data that we want to store is probably like few GBs like 10 GB\nor 20 GB data then we can store that in a single instance pretty easily, we dont need to \nunnecessarily even have a sharded and distributed instance on Redis.\n\nLets say we want to design a Leaderboard where we have 1 Million concurrent users, if lets say\nwe have 1 million users for which we want to store the data. For 1M user, lets say the metadata \nthat we want to store is around 1 KB thats going to be only 1 GB of RAM. We dont need to unnecessarily\ndata distributed across nodes of Redis. This is very easily handlable by Redis.\n\n\n50M * 10KB -> 500 GB -> very less storage, using AWS hosted Mysql or Postgresql or Aurora we can use Terabyte\nof storage.\n\n\nThe point here is that we have good compute and storage capabilities available now a days in cloud\ninstances, if we are managing everything on ourselves then also we can get pretty heavy computable\nmachines but then we have to manage everything by ourselves. But unless that management is done by\nourself we no need to go there.\nwe will be talking about some numbers, this should set the context what do I want to say, that initially\nwe might think that storing 50 Million records might be too much but when we actually do the estimations\nwhat we actually calculate the number, what we actually realise is probably we will not need so much\namount of data 500GB is like nothing. A Iphone now a days has TB of storage available.\nUnless the storage is that we need to handle is too much like we start optimizing column oriented databases\n, we start optimizing sharding, xyz, first understand what do we need. Do we need something or we are\njust overprovisioning thing or over optimizing things.",
       "fontSize": 20,
       "fontFamily": 8,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "1. Do we even need a cache ?\n2. Do we need distributed cache?\n\nA good scaled instance of Redis lets say use something like Azure or AWS, A good scaled\ninstance of Redis can comfortabally handle few GBs of data\n\nElastic Amazon cache can help us to prepare Redis instance or memcache instance prepared\nwe can see here like\ncache.r6g.16xlarge machine having more than 400 GB of space and price of this is approx\n5$ per hour.\n\nPoint here is that, if the data that we want to store is probably like few GBs like 10 GB\nor 20 GB data then we can store that in a single instance pretty easily, we dont need to \nunnecessarily even have a sharded and distributed instance on Redis.\n\nLets say we want to design a Leaderboard where we have 1 Million concurrent users, if lets say\nwe have 1 million users for which we want to store the data. For 1M user, lets say the metadata \nthat we want to store is around 1 KB thats going to be only 1 GB of RAM.\n\n16:00",
+      "originalText": "1. Do we even need a cache ?\n2. Do we need distributed cache?\n\nA good scaled instance of Redis lets say use something like Azure or AWS, A good scaled\ninstance of Redis can comfortabally handle few GBs of data\n\nElastic Amazon cache can help us to prepare Redis instance or memcache instance prepared\nwe can see here like\ncache.r6g.16xlarge machine having more than 400 GB of space and price of this is approx\n5$ per hour.\n\nPoint here is that, if the data that we want to store is probably like few GBs like 10 GB\nor 20 GB data then we can store that in a single instance pretty easily, we dont need to \nunnecessarily even have a sharded and distributed instance on Redis.\n\nLets say we want to design a Leaderboard where we have 1 Million concurrent users, if lets say\nwe have 1 million users for which we want to store the data. For 1M user, lets say the metadata \nthat we want to store is around 1 KB thats going to be only 1 GB of RAM. We dont need to unnecessarily\ndata distributed across nodes of Redis. This is very easily handlable by Redis.\n\n\n50M * 10KB -> 500 GB -> very less storage, using AWS hosted Mysql or Postgresql or Aurora we can use Terabyte\nof storage.\n\n\nThe point here is that we have good compute and storage capabilities available now a days in cloud\ninstances, if we are managing everything on ourselves then also we can get pretty heavy computable\nmachines but then we have to manage everything by ourselves. But unless that management is done by\nourself we no need to go there.\nwe will be talking about some numbers, this should set the context what do I want to say, that initially\nwe might think that storing 50 Million records might be too much but when we actually do the estimations\nwhat we actually calculate the number, what we actually realise is probably we will not need so much\namount of data 500GB is like nothing. A Iphone now a days has TB of storage available.\nUnless the storage is that we need to handle is too much like we start optimizing column oriented databases\n, we start optimizing sharding, xyz, first understand what do we need. Do we need something or we are\njust overprovisioning thing or over optimizing things.",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
+    },
+    {
+      "id": "hSZsiZAcu4iXpA8vZEJia",
+      "type": "text",
+      "x": 1790.9731217951967,
+      "y": 23372.22715383637,
+      "width": 528,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bOc",
+      "roundness": null,
+      "seed": 346138973,
+      "version": 82,
+      "versionNonce": 859334781,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1789048915725,
+      "link": null,
+      "locked": false,
+      "text": "Lets say we are provisioning Caching instance ->",
+      "fontSize": 20,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Lets say we are provisioning Caching instance ->",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
+    },
+    {
+      "id": "MesVFsmkVDKOg-rJnQKEV",
+      "type": "text",
+      "x": 1871.5824967951967,
+      "y": 23413.86387258637,
+      "width": 1034,
+      "height": 400,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bOd",
+      "roundness": null,
+      "seed": 2066578845,
+      "version": 1080,
+      "versionNonce": 506177181,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1789049500112,
+      "link": null,
+      "locked": false,
+      "text": "memory storage available -> 50 GB to 1 TB memory optimized instance.\nLatency -> Read -> ~1ms within the same region \n    Write -> 1-2 ms(mili seconds)\n    we can also improve latency by taking more powerful, faster instance.\n\n\nThroughput -> easily 100k req per second instance for aws elastic cache.\n\nSometimes a lot of interviews, interviewers talk about some very specific scenario, that\nwe have to design the system and the overall latency that we can maximum spend is like\n100 ms, we have to complete everything within 100 ms, then now its up to us, try to understand\nlets say ok, \nlets say we are doing database read on SSD and lets say our SLA is 100 ms, then a 10-20 ms\ndatabase read is going to be fine but lets say we have a very tight SLA lets say we have\nto complete full operation within 30 ms or 20 ms then probably we need to go to caches bcz\nthere the latency is going to be around 1 ms.",
+      "fontSize": 20,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "memory storage available -> 50 GB to 1 TB memory optimized instance.\nLatency -> Read -> ~1ms within the same region \n    Write -> 1-2 ms(mili seconds)\n    we can also improve latency by taking more powerful, faster instance.\n\n\nThroughput -> easily 100k req per second instance for aws elastic cache.\n\nSometimes a lot of interviews, interviewers talk about some very specific scenario, that\nwe have to design the system and the overall latency that we can maximum spend is like\n100 ms, we have to complete everything within 100 ms, then now its up to us, try to understand\nlets say ok, \nlets say we are doing database read on SSD and lets say our SLA is 100 ms, then a 10-20 ms\ndatabase read is going to be fine but lets say we have a very tight SLA lets say we have\nto complete full operation within 30 ms or 20 ms then probably we need to go to caches bcz\nthere the latency is going to be around 1 ms.",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
+    },
+    {
+      "id": "JsP44RrEW81EVeO25NMwz",
+      "type": "text",
+      "x": 2359.9692155451967,
+      "y": 23384.00840383637,
+      "width": 11,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bOe",
+      "roundness": null,
+      "seed": 373817843,
+      "version": 3,
+      "versionNonce": 59228029,
+      "isDeleted": true,
+      "boundElements": [],
+      "updated": 1789048948844,
+      "link": null,
+      "locked": false,
+      "text": "",
+      "fontSize": 20,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
+    },
+    {
+      "id": "-cgY5OJCec_f06m-plNsG",
+      "type": "text",
+      "x": 1871.9692155451967,
+      "y": 23850.00840383637,
+      "width": 297,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bOf",
+      "roundness": null,
+      "seed": 303624221,
+      "version": 30,
+      "versionNonce": 656578301,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1789049577883,
+      "link": null,
+      "locked": false,
+      "text": "When to Shard our Cache -> ",
+      "fontSize": 20,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "When to Shard our Cache -> ",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
+    },
+    {
+      "id": "qvkdbMMNAg8Ixyt-VbBFM",
+      "type": "text",
+      "x": 1906.3403092951967,
+      "y": 23878.27012258637,
+      "width": 1089,
+      "height": 100,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bOg",
+      "roundness": null,
+      "seed": 1855905843,
+      "version": 322,
+      "versionNonce": 983425298,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1789651240554,
+      "link": null,
+      "locked": false,
+      "text": "If our data is going beyound 500GB or 1 TB, then we should start thinking about cachin mechanism\nand lets say bcz of our load, our read latency is increasing because our overall load is increasing\nthen may be bit of horizontal scaling is useful.\n",
+      "fontSize": 20,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "If our data is going beyound 500GB or 1 TB, then we should start thinking about cachin mechanism\nand lets say bcz of our load, our read latency is increasing because our overall load is increasing\nthen may be bit of horizontal scaling is useful.\n",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
+    },
+    {
+      "id": "-xd018YNtr-kYNSRqqOMt",
+      "type": "text",
+      "x": 2295.9692155451967,
+      "y": 23848.00840383637,
+      "width": 11,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bOh",
+      "roundness": null,
+      "seed": 810582163,
+      "version": 3,
+      "versionNonce": 1496621789,
+      "isDeleted": true,
+      "boundElements": [],
+      "updated": 1789049651234,
+      "link": null,
+      "locked": false,
+      "text": "",
+      "fontSize": 20,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
+    },
+    {
+      "id": "lVbBTwDWNsvyJya6zXFvk",
+      "type": "text",
+      "x": 2646.9692155451967,
+      "y": 23847.00840383637,
+      "width": 11,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bOi",
+      "roundness": null,
+      "seed": 926296701,
+      "version": 3,
+      "versionNonce": 37613331,
+      "isDeleted": true,
+      "boundElements": [],
+      "updated": 1789049701968,
+      "link": null,
+      "locked": false,
+      "text": "",
+      "fontSize": 20,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
+    },
+    {
+      "id": "h5gsii-TKnTXDn2e7lNs9",
+      "type": "text",
+      "x": 1830.6664811701967,
+      "y": 24059.10606008637,
+      "width": 528,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bOj",
+      "roundness": null,
+      "seed": 478119310,
+      "version": 66,
+      "versionNonce": 717679826,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1789651268976,
+      "created": 1789651241946,
+      "link": null,
+      "locked": false,
+      "text": "We had to design a badging system for employees?",
+      "fontSize": 20,
+      "baseFontSize": null,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "We had to design a badging system for employees?",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "b2ycDtOfKQ533dqbZJws4",
+      "type": "text",
+      "x": 1867.4242936701967,
+      "y": 24097.68027883637,
+      "width": 1155,
+      "height": 475,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bOk",
+      "roundness": null,
+      "seed": 1750146062,
+      "version": 1865,
+      "versionNonce": 1910918350,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1789652106365,
+      "created": 1789651290126,
+      "link": null,
+      "locked": false,
+      "text": "lets say 100 K employees, Badging system needs to be very fast, like the moment we tap it immediately\ntells, whethere we are able to authenticaate or not.\n\nwhat will be peak load coming from these 100 thousand employees, All will not badge in at same time\nobviously, lets say everyone coming into office, then also everybody will not badge in the same time,\nbadge in technically limited by the number of badge in machines, Lets say we have 10 offices, And in each\noffice we have 2 badge in machines, So at any point of time maximum 20 badge in will come at max.\nso 20 is peak load in our system.\nOnce we realize we need to do 20 badge per second max, then now we have to figure out the SLA, Now this\nSLA part may be our interviewer will give, we can ask interviewer how fast you want system will respond\nto us. Then our interviewer will say lets say overall latency is < 1 sec. Now within 1 sec we want to \nknow whether the user is able to authenticate or not. Now we will start figuring out that where we need\nto store the data. Because the employee data is the data that doesn't very frequently change. Once data\nhas been written it doesn't change alot.\nBecause the scenario we computed, we realize that we need to store the data in a cache, then already\nread on the employee data is going to be around 1 ms and we have 1 sec of SLA. Like within a sec we want\nthe system to respond.\nwe just need to check badgeId is valid or not, we can do it in redis easily within 1 ms, now we have to \nfigure out where else the time will go, may be time will go in cryptographic conversions",
+      "fontSize": 20,
+      "baseFontSize": null,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "lets say 100 K employees, Badging system needs to be very fast, like the moment we tap it immediately\ntells, whethere we are able to authenticaate or not.\n\nwhat will be peak load coming from these 100 thousand employees, All will not badge in at same time\nobviously, lets say everyone coming into office, then also everybody will not badge in the same time,\nbadge in technically limited by the number of badge in machines, Lets say we have 10 offices, And in each\noffice we have 2 badge in machines, So at any point of time maximum 20 badge in will come at max.\nso 20 is peak load in our system.\nOnce we realize we need to do 20 badge per second max, then now we have to figure out the SLA, Now this\nSLA part may be our interviewer will give, we can ask interviewer how fast you want system will respond\nto us. Then our interviewer will say lets say overall latency is < 1 sec. Now within 1 sec we want to \nknow whether the user is able to authenticate or not. Now we will start figuring out that where we need\nto store the data. Because the employee data is the data that doesn't very frequently change. Once data\nhas been written it doesn't change alot.\nBecause the scenario we computed, we realize that we need to store the data in a cache, then already\nread on the employee data is going to be around 1 ms and we have 1 sec of SLA. Like within a sec we want\nthe system to respond.\nwe just need to check badgeId is valid or not, we can do it in redis easily within 1 ms, now we have to \nfigure out where else the time will go, may be time will go in cryptographic conversions",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "D-ZyMZayibtc7yAgzf32u",
+      "type": "text",
+      "x": 2526.6664811701967,
+      "y": 24546.10606008637,
+      "width": 11,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bOl",
+      "roundness": null,
+      "seed": 295054674,
+      "version": 3,
+      "versionNonce": 805186894,
+      "isDeleted": true,
+      "boundElements": null,
+      "updated": 1789652069484,
+      "created": 1789652068972,
+      "link": null,
+      "locked": false,
+      "text": "",
+      "fontSize": 20,
+      "baseFontSize": null,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "6UguWfSwm7xf7bIAZTAAN",
+      "type": "text",
+      "x": 1750.6664811701967,
+      "y": 24711.10606008637,
+      "width": 132,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bOm",
+      "roundness": null,
+      "seed": 1240555662,
+      "version": 29,
+      "versionNonce": 185655182,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1789652495620,
+      "created": 1789652487890,
+      "link": null,
+      "locked": false,
+      "text": "Databases ->",
+      "fontSize": 20,
+      "baseFontSize": null,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Databases ->",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "zxAedv0_7O3oC_HCeOy89",
+      "type": "text",
+      "x": 1828.6664811701967,
+      "y": 24738.97324758637,
+      "width": 979,
+      "height": 50,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bOn",
+      "roundness": null,
+      "seed": 2101440914,
+      "version": 118,
+      "versionNonce": 1034836302,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1789652543319,
+      "created": 1789652504517,
+      "link": null,
+      "locked": false,
+      "text": "Lets say we want to store data in databases, then what kind of storage capacity we should\nuse?",
+      "fontSize": 20,
+      "baseFontSize": null,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Lets say we want to store data in databases, then what kind of storage capacity we should\nuse?",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "faIpA28lZYXHlFoeE0fFq",
+      "type": "text",
+      "x": 1863.6664811701967,
+      "y": 24796.10606008637,
+      "width": 11,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bOo",
+      "roundness": null,
+      "seed": 1839592462,
+      "version": 3,
+      "versionNonce": 197576846,
+      "isDeleted": true,
+      "boundElements": null,
+      "updated": 1789652567471,
+      "created": 1789652566334,
+      "link": null,
+      "locked": false,
+      "text": "",
+      "fontSize": 20,
+      "baseFontSize": null,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "9OC6gdpLVRjaV85lI1ZVn",
+      "type": "text",
+      "x": 1876.6703874201967,
+      "y": 24802.03574758637,
+      "width": 1056,
+      "height": 625,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bOp",
+      "roundness": null,
+      "seed": 2145758030,
+      "version": 1359,
+      "versionNonce": 1445546318,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1789653352875,
+      "created": 1789652572387,
+      "link": null,
+      "locked": false,
+      "text": "Most of the systems are somehow supported by SQL, assuming this we can initially think\nSQL system to start with like MySQL and PgSQL.\nFew Terra Byte (TB) of data we should be able to very easily handled\n\nSQL RDS -> 64TB we can easily go with RDS, if we want to extend it to 128TB then we can\n        go with Amazon Aurora.\n\nBut in a nutshell a few TB of data should not bother us to store in a single instance,\nthis everything we are talking about single instance. no horizontally scaled or sharded\nor partitioned data.\n\nLatency & Throughput of read and write in MYSQL RDS instances maximum ->\nLatency -> Read latency around 5-30 ms, considering we are not doing n+1 query\n    write -> 5-30 ms\n\nThroughput -> upto 50K transactions persecond for read, 20K transactions per second for \n    writes\n\n-> If storage is beyond 50 TB or 100 TB then we can consider sharding.\n\n\n-> if we want to reduce latency for reads , then good strategy would be cross region replication\n    if we want sub mili second latency then cachine we can think of.\n\nSo if we have few 100 GBs of data, dont start sharding unnecessarily.",
+      "fontSize": 20,
+      "baseFontSize": null,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Most of the systems are somehow supported by SQL, assuming this we can initially think\nSQL system to start with like MySQL and PgSQL.\nFew Terra Byte (TB) of data we should be able to very easily handled\n\nSQL RDS -> 64TB we can easily go with RDS, if we want to extend it to 128TB then we can\n        go with Amazon Aurora.\n\nBut in a nutshell a few TB of data should not bother us to store in a single instance,\nthis everything we are talking about single instance. no horizontally scaled or sharded\nor partitioned data.\n\nLatency & Throughput of read and write in MYSQL RDS instances maximum ->\nLatency -> Read latency around 5-30 ms, considering we are not doing n+1 query\n    write -> 5-30 ms\n\nThroughput -> upto 50K transactions persecond for read, 20K transactions per second for \n    writes\n\n-> If storage is beyond 50 TB or 100 TB then we can consider sharding.\n\n\n-> if we want to reduce latency for reads , then good strategy would be cross region replication\n    if we want sub mili second latency then cachine we can think of.\n\nSo if we have few 100 GBs of data, dont start sharding unnecessarily.",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "8p8M95C87XXSQwpnJwLmO",
+      "type": "text",
+      "x": 2499.6664811701967,
+      "y": 25353.10606008637,
+      "width": 11,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bOq",
+      "roundness": null,
+      "seed": 319196370,
+      "version": 3,
+      "versionNonce": 994665934,
+      "isDeleted": true,
+      "boundElements": null,
+      "updated": 1789653271507,
+      "created": 1789653271060,
+      "link": null,
+      "locked": false,
+      "text": "",
+      "fontSize": 20,
+      "baseFontSize": null,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "qwMj4WnjdgnQEEGZbDVPo",
+      "type": "text",
+      "x": 1742.7836686701967,
+      "y": 25528.22324758637,
+      "width": 638,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bOr",
+      "roundness": null,
+      "seed": 1933929742,
+      "version": 109,
+      "versionNonce": 997321298,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1789653553703,
+      "created": 1789653515428,
+      "link": null,
+      "locked": false,
+      "text": "When to Horizontaly scale our application service -> 49:30",
+      "fontSize": 20,
+      "baseFontSize": null,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "When to Horizontaly scale our application service -> 49:30",
       "autoResize": true,
       "lineHeight": 1.25,
       "labelPosition": null
