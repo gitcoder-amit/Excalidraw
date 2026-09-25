@@ -31,7 +31,8 @@
       "boundElements": [],
       "updated": 1788232574677,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "vjzyuWljPjcrWrTyb-51a",
@@ -69,7 +70,9 @@
       "originalText": "LangChain Components",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "RsigEA0NYWejGFu6Pv6Pc",
@@ -107,7 +110,9 @@
       "originalText": "langchain is an open source framework for developing applications powered by LLM.",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "xUeaCK9XM9HQi0UNXPhti",
@@ -145,7 +150,9 @@
       "originalText": "In Langchain we have 6 components\n1 Models\n2 Prompts\n3 Chains\n4 Memory\n5 Indexes\n6 Agents",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "Q1uKvC4wC52Hyo35muPqq",
@@ -183,7 +190,9 @@
       "originalText": "Models ->",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "Pr_BSbi-JAPLrg8zvyNd7",
@@ -221,7 +230,9 @@
       "originalText": "In langchain models are the core interfaces through which we interact with AI models.\n\nIn NLP people want to make Chatbot, IN the world of NLP everyone want to create their own\nchatbot. but there were 2 majore issues, like \n1 user query how our chatbot will understand\n2 Even if chatbot is getting query, then it should give correct response, this is also a big\nchallenge\n\nTo solve these 2 , lot of work was done, eventually LLM comes, and LLM solved both of these together.\nTo train LLM we have used whole internet data, due to that it has Natural Language understading, also\nit has context aware text generation capability.\n\nthese two problems are solved but one new problem into the picture, due to LLM are trained on internet\ndata, it has billions of parameters, due to that size of LLM is very huze like greater than 100 GB.\ndue to that small companies can't run this by putting it in their machines. itna jada cloud ka bill aega\nki we will not pay.\n\nThis challenge was solved by APIs, Google, OpenAI have prepared APIs, we just need to call API and api will\ngive response, howmuch we will use api, we will pay accordingly.\n\n",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "WwiOwu226u9vP2aXkv1F2",
@@ -256,7 +267,8 @@
         1,
         1
       ],
-      "crop": null
+      "crop": null,
+      "created": null
     },
     {
       "id": "-or2ZypFA9kuI7Rtk-Zdy",
@@ -294,7 +306,9 @@
       "originalText": "These are the codes of OpenAI and claude API ",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "EJVabGvcK3QY7lCnu6CTj",
@@ -332,7 +346,9 @@
       "originalText": "We can see some changes are there in both LLMs and if we want to use two different LLM in our Application\nthen we need to write two diff types of code.\nOr initially we have written code using OpenAI apis and after some time due to it is costly we want\nto use Claude API, then we need to change our code base, which is big task.\nSo Standarization became a challenge, OpenAI models, Gemini Models, Clause models are behaving differently;\neven the response we are getting from all these, that is diff also.\n\nLangchain Identified this problem and they said what if we create a standarized interface , using which\nanyone can talk to anycompany in a standardized fashion. Means we dont need to change major things just\nwith small change we can talk to diff diff company apis. this is model interface.",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "jrdPKp2H29v__4rXqOpqP",
@@ -367,7 +383,8 @@
         1,
         1
       ],
-      "crop": null
+      "crop": null,
+      "created": null
     },
     {
       "id": "KbHy6bVZ1f3UoyKCYW41Z",
@@ -405,7 +422,9 @@
       "originalText": "Using Langchain we can do just two line of code, and our code can talk to any model, also calling\nis also same, so we get results also almost similar, so parsing is also easy.",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "-naun7FUkU7_fjMuitSoL",
@@ -443,7 +462,9 @@
       "originalText": "In Langchain we can talk with two type of models\n1. Language Models -> these are basically LLM, which will take text input, and give text output as response.\n2. Embedding Models -> these are the models, that take text as input and give response as vector. main usecase\n        of this is semantic search.",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "i1L7BCj2pnCGrXpaUxgqF",
@@ -481,7 +502,9 @@
       "originalText": "Prompts ->",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "eR9Gu9mHhSm6VBXNLu_94",
@@ -519,7 +542,9 @@
       "originalText": "input of LLM is prompt\nprompts are very important for LLM, output of LLM is much more dependent on LLM. these are very \nsensitive towards prompt, if we will change little in prompt,response will change much more.\nthere is field of study around Prompt, around this we will see multiple job opportunities as \nwell, the name of this field is prompt engineering. job profile is prompt engineers.",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "CclRv2cyMC0F99bGZRp06",
@@ -554,7 +579,8 @@
         1,
         1
       ],
-      "crop": null
+      "crop": null,
+      "created": null
     },
     {
       "id": "jDhsv53t6saPGczGUDXdf",
@@ -589,7 +615,8 @@
         1,
         1
       ],
-      "crop": null
+      "crop": null,
+      "created": null
     },
     {
       "id": "tJajX5FkkAuxDqbbip0pJ",
@@ -624,7 +651,8 @@
         1,
         1
       ],
-      "crop": null
+      "crop": null,
+      "created": null
     },
     {
       "id": "Y_VJ8N9D4Q3-NHANhcBdW",
@@ -662,7 +690,9 @@
       "originalText": "Chains -> ",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "jtRYnjU7AQVXWsNQqObw7",
@@ -700,7 +730,9 @@
       "originalText": "Important componet, on top of this its name is langchain\nwith the help of chains we can create pipeline, any application we can break into pipeline and this\npipeline we can create using chains.\n\nExample -> we need to create LLM application where user will give english text around 1000 word and \n    we need to give 100 word summary\n\n\n\ninput -> LLM -> transated text by LLM -> LLM -> this will generate summary \n\nif we dont have chains, we need to do it manually. here in this we need to take output from one step\nand we will send it to next step\n\nbut chains will automatically send output of one as input of next, so we no need to send input \nmanually.\n\nprevious stage output will automatically become input for next stage. \n\nWith the help of chains we can create complex pipelines.",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "fqbTIEhUjXmCFElJ96u7V",
@@ -730,7 +762,8 @@
       "boundElements": [],
       "updated": 1788232574677,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "ePhaamNRCWUK-bWp0ypj9",
@@ -768,7 +801,9 @@
       "originalText": "Input",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "FtIHLQ3-B4YYrQeLrxvSG",
@@ -798,7 +833,8 @@
       "boundElements": [],
       "updated": 1788232574677,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "UfnOXYhkw6XMxxoFJTroe",
@@ -836,7 +872,9 @@
       "originalText": "LLM1",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "vmrQCOY9u_YfECcO2qzCv",
@@ -866,7 +904,8 @@
       "boundElements": [],
       "updated": 1788232574677,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "EY1tBDlpJYOSZdh4BkqCO",
@@ -904,7 +943,9 @@
       "originalText": "LLM2",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "P1o3lM4R7Dkk9UuwNUCKP",
@@ -934,7 +975,8 @@
       "boundElements": [],
       "updated": 1788232574677,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "MtaXJ54ThOP51dj1NJoZs",
@@ -972,7 +1014,9 @@
       "originalText": "Report",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "vmYduIKv3TFYL7-LVGh0b",
@@ -1002,7 +1046,8 @@
       "boundElements": [],
       "updated": 1788232574677,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "EciRQm8zWCcWw4ahRk7zc",
@@ -1040,7 +1085,9 @@
       "originalText": "Combine",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "6PoobmdvgwyBby0d-pBDI",
@@ -1070,7 +1117,8 @@
       "boundElements": [],
       "updated": 1788232574677,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "tkm1Mb_0X-evo7Jd6vJym",
@@ -1108,7 +1156,9 @@
       "originalText": "Output",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "W1q2wPnXvAo2doflbi5tV",
@@ -1153,7 +1203,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": null,
-      "polygon": false
+      "polygon": false,
+      "created": null
     },
     {
       "id": "ZpJqla553y1Z_x3xcGzWr",
@@ -1198,7 +1249,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": null,
-      "polygon": false
+      "polygon": false,
+      "created": null
     },
     {
       "id": "gS6-8i_8g2kfNp3IHS4O1",
@@ -1243,7 +1295,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": null,
-      "polygon": false
+      "polygon": false,
+      "created": null
     },
     {
       "id": "ns8nLeVB5J8Mq57lEOCpC",
@@ -1288,7 +1341,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": null,
-      "polygon": false
+      "polygon": false,
+      "created": null
     },
     {
       "id": "Sy_dnCB-32kXCzAOiVGUq",
@@ -1333,7 +1387,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": null,
-      "polygon": false
+      "polygon": false,
+      "created": null
     },
     {
       "id": "Jtz19GV-JYAeMZZ90mlSR",
@@ -1378,7 +1433,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": null,
-      "polygon": false
+      "polygon": false,
+      "created": null
     },
     {
       "id": "0kD1yeJy_Jn3zMgF30uwL",
@@ -1423,7 +1479,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": null,
-      "polygon": false
+      "polygon": false,
+      "created": null
     },
     {
       "id": "DsQkrwiDelA4K3S6vaZg_",
@@ -1461,7 +1518,9 @@
       "originalText": "Parallel Chains",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "M4NhRNVLEW7nVLV_jfgK8",
@@ -1499,7 +1558,9 @@
       "originalText": "Conditional Chains",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "iGbv-2D_bGOr99VuMYfTM",
@@ -1537,7 +1598,9 @@
       "originalText": "AI Agent Feedback",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "6bt5F5FQnnXjCXPxMR1DV",
@@ -1567,7 +1630,8 @@
       "boundElements": [],
       "updated": 1788232574677,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "qlbC0KIXNYi4CsH-RQigI",
@@ -1605,7 +1669,9 @@
       "originalText": "Input",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "V_Ltj7Fa1s_M4EEWWtOL9",
@@ -1635,7 +1701,8 @@
       "boundElements": [],
       "updated": 1788232574677,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "F3B1fJ6I-khDVpxLg_gTf",
@@ -1673,7 +1740,9 @@
       "originalText": "Process",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "IaoqNB_h5WlMqWjN9GXMf",
@@ -1703,7 +1772,8 @@
       "boundElements": [],
       "updated": 1788232574677,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "j_RUdA7Pe2Gj9Y65j-7m9",
@@ -1741,7 +1811,9 @@
       "originalText": "Good",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "-WVbj9V5x34ajYQF5Qj6o",
@@ -1771,7 +1843,8 @@
       "boundElements": [],
       "updated": 1788232574677,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "_WHVYAdMzgwIoQLed-4Jq",
@@ -1809,7 +1882,9 @@
       "originalText": "Bad",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "udWFSD0hum35IWjnRL1eH",
@@ -1839,7 +1914,8 @@
       "boundElements": [],
       "updated": 1788232574677,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "S5tQHM1OojK7IS299a4cc",
@@ -1877,7 +1953,9 @@
       "originalText": "Thank You",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "fpMj0BEVxAuHWJuY1RF8s",
@@ -1907,7 +1985,8 @@
       "boundElements": [],
       "updated": 1788232574677,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "gC36RPWe31rIcLbBKzLEP",
@@ -1945,7 +2024,9 @@
       "originalText": "Email",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "OdiJpG5luSM9lbwPaFeAN",
@@ -1990,7 +2071,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": null,
-      "polygon": false
+      "polygon": false,
+      "created": null
     },
     {
       "id": "lrhQ2ylXG-DN5lcfGacnK",
@@ -2035,7 +2117,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": null,
-      "polygon": false
+      "polygon": false,
+      "created": null
     },
     {
       "id": "rIctF_MbLFEis6PQzMJsx",
@@ -2080,7 +2163,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": null,
-      "polygon": false
+      "polygon": false,
+      "created": null
     },
     {
       "id": "P8F4xiNbnZVOwgZy8Janl",
@@ -2125,7 +2209,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": null,
-      "polygon": false
+      "polygon": false,
+      "created": null
     },
     {
       "id": "8N6boMXCfhKDOq_U5V9ER",
@@ -2170,7 +2255,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": null,
-      "polygon": false
+      "polygon": false,
+      "created": null
     },
     {
       "id": "AfQTUX_aaQTKzLbq6jwwP",
@@ -2208,7 +2294,9 @@
       "originalText": "Index ->",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "0cptugMR_6RhS4MUuMCnn",
@@ -2246,7 +2334,9 @@
       "originalText": "Indexes connect our application to external knowledge, such as pdfs, websites or databases\nHere 4 things comes\n\n1 Document Loader\n2 Text Splitter\n3 Vector Store\n4 Retrievers\n\nwe use ChatGPT for out queries and it gives all answer due to it trained on internet data.\nbut there are certain scenarios where ChatGPT can't answer, lets say we are working on a company\nand we have asked ChatGPT, what is the leave policy of my company xyz, or what is the notice\nperiod policy of this company xyz. ChatGPT can't answer due to these are private qus of my \ncompany because it is not trained on this data.\n\nSolution is , we can connect our LLM to external knowledge source, like we can provice rule book\nof our company to LLM.\n\nIf we ask general question like who is PM of India, it can answer by its own if we ask for \nour company then it will take knowledge of external source that we provided, if that has answer\nit can answer.\n\nTo build these kind of applications we can use indexes.",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "VEuqPqfMO_Dpqp5L3Z7PH",
@@ -2281,7 +2371,8 @@
         1,
         1
       ],
-      "crop": null
+      "crop": null,
+      "created": null
     },
     {
       "id": "F7j6Nv2sScT3kmW7oEAiv",
@@ -2316,7 +2407,8 @@
         1,
         1
       ],
-      "crop": null
+      "crop": null,
+      "created": null
     },
     {
       "id": "hvW-SHiJEE8_ecdjUEnb_",
@@ -2351,7 +2443,8 @@
         1,
         1
       ],
-      "crop": null
+      "crop": null,
+      "created": null
     },
     {
       "id": "00cKleLN1s7WcJuqSesQ0",
@@ -2389,7 +2482,9 @@
       "originalText": "Memory ->",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "zUw2MSP4kCC8ZjDQ-1Ocq",
@@ -2427,7 +2522,9 @@
       "originalText": "LLM APi calls are stateless, it does not know about previous chats or previous data. LLM treats every\nrequest as independent request, it has no memory. this problem is solved by this Component of Langchain\nthat is memory. We can add memory with the help of this.",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "zhwlczG2FkfrrtxMytorm",
@@ -2462,7 +2559,8 @@
         1,
         1
       ],
-      "crop": null
+      "crop": null,
+      "created": null
     },
     {
       "id": "9j6qSYaMMNffSJdlCBrtM",
@@ -2497,7 +2595,8 @@
         1,
         1
       ],
-      "crop": null
+      "crop": null,
+      "created": null
     },
     {
       "id": "bvn-D_tTPeqfaZ8TZumEN",
@@ -2535,7 +2634,9 @@
       "originalText": "Agents ->",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "_bf96_3uVLPzbR5jR3Xn-",
@@ -2573,7 +2674,9 @@
       "originalText": "AI agents are different from Chatbots due to it has reasoning capabilities and access of tools.\nSo it is just evolved form of chatbot, where we can perform some action with the help of tools.",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "mgtMDgOZHEyPNiXJ494-m",
@@ -2608,7 +2711,8 @@
       ],
       "updated": 1788232606743,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "kzey32qEDlZUPIHmDLfx6",
@@ -2646,7 +2750,9 @@
       "originalText": "Langchain Models",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "LAIVp5Z2qZP3t_6bFMI5c",
@@ -2684,7 +2790,9 @@
       "originalText": "the model component in LangChain is a crucial part of framework, designed to facilitate interaction\nwith various language models and embedding models.",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "0MgIOY5GizL-hzl84HqxG",
@@ -2719,7 +2827,8 @@
       ],
       "updated": 1788232870285,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "veZjpg7AhosE2xge4tO10",
@@ -2757,7 +2866,9 @@
       "originalText": "Models",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "jdFfV0NYqJQdtqB3BlqI_",
@@ -2792,7 +2903,8 @@
       ],
       "updated": 1788232962728,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "RS0LaKTjvv2w2QBbCgRh_",
@@ -2830,7 +2942,9 @@
       "originalText": "Language Models",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "CLZ8FLraMJwgSYUn5DQOo",
@@ -2865,7 +2979,8 @@
       ],
       "updated": 1788232863532,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "26Sos3rsq4ExHmIZOkh-q",
@@ -2903,7 +3018,9 @@
       "originalText": "Embedding Models",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "jUC8FHsz8cKdPAMyYM6VH",
@@ -2941,7 +3058,9 @@
       "originalText": "",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "avU2qz0JCSVPoi19W12cf",
@@ -2976,7 +3095,8 @@
       ],
       "updated": 1788232884564,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "JoEVAWpjIMnYa_s0zT132",
@@ -3014,7 +3134,9 @@
       "originalText": "LLMs",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "MRDVOUJGgJRoKdsytxk9Z",
@@ -3049,7 +3171,8 @@
       ],
       "updated": 1788232894547,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "UVrudl2fdtyNqeDr6xwJO",
@@ -3087,7 +3210,9 @@
       "originalText": "Chat Models",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "5OYbkon36QCgZGnzC1i4x",
@@ -3132,7 +3257,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "e2VmrM2r0v3xywrhHCoIT",
@@ -3177,7 +3303,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "FNoT6cdQxBaZzSsx_LwhO",
@@ -3222,7 +3349,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "b87l452sbGWFQEHPGlEqj",
@@ -3267,7 +3395,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "eGn9d_eht0k1NIcE3hRNg",
@@ -3319,7 +3448,8 @@
       },
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "eVM-1aR0M_XUMLIza3PW8",
@@ -3358,7 +3488,8 @@
       ],
       "updated": 1788233120849,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "uZQrfh1Y7fyMbruS_CKPq",
@@ -3396,7 +3527,9 @@
       "originalText": "Language Models",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "Vytwfcib9CvgdVPQugVb3",
@@ -3434,7 +3567,9 @@
       "originalText": "Text\n(What is the capital of india)",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "WQXvxay0pxYQAaDHAE3H1",
@@ -3479,7 +3614,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "VOQuuebrDEicmymdbNW7I",
@@ -3517,7 +3653,9 @@
       "originalText": "Delhi",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "Yg6KbdNPsLVSabwgHaUhh",
@@ -3555,7 +3693,9 @@
       "originalText": "It will understand\nthe query, process that\nand return response, as req\nby user. We can create Chatbots\nusing this.",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "SXm_vvtjtWl7uJl39ojrg",
@@ -3594,7 +3734,8 @@
       ],
       "updated": 1788233113144,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "SdW3F3LCTnKzvhispid4g",
@@ -3632,7 +3773,9 @@
       "originalText": "Embedding Models",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "Tk4Q4wAQwewhD4YtcJB-P",
@@ -3670,7 +3813,9 @@
       "originalText": "Text\n(What is the capital of india)",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "t7fhdmuWnylkQSI24Gv1U",
@@ -3715,7 +3860,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "3tQg2DJBRxNknO8vgvfN4",
@@ -3753,7 +3899,9 @@
       "originalText": "Series of numbers\n(Vectors) this represent\ncontextual meaning of query",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "PrjIKk9uA8az2WKl2sTqU",
@@ -3805,7 +3953,8 @@
       },
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "BYN6hKkih1n72Ssy6z9Wv",
@@ -3857,7 +4006,8 @@
       },
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "I01uqawFXHb5VfGwRYg1R",
@@ -3895,7 +4045,9 @@
       "originalText": "this help in \nsemantic search.\nwe can create RAG based\napplication with the help\nof this",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "U_AzVrPwPv94eP5BXoPwV",
@@ -3930,7 +4082,8 @@
         1,
         1
       ],
-      "crop": null
+      "crop": null,
+      "created": null
     },
     {
       "id": "8CezCacIeA6ESdgXY4mZe",
@@ -3968,7 +4121,9 @@
       "originalText": "Language Models ->",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "iqKytdS0jZeJqcwQJ1rRa",
@@ -4006,7 +4161,9 @@
       "originalText": "",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "uyzWXQ4tSbYB05mideZow",
@@ -4044,7 +4201,9 @@
       "originalText": "Language Models are AI system design to process, generate and understand natural language text.",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "eIaEii8XZA2Tg3toDG0Vi",
@@ -4079,7 +4238,8 @@
       ],
       "updated": 1788233485329,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "s7aO3Ytas5QruY_ZyjEMH",
@@ -4117,7 +4277,9 @@
       "originalText": "Language Models",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "HPrkJ1NoizQXdrjFYXWf6",
@@ -4152,7 +4314,8 @@
       ],
       "updated": 1788233485329,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "ygbeHda1tBYhX20DKIgeQ",
@@ -4190,7 +4353,9 @@
       "originalText": "LLMs",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "o5oXy-fOr8lBjzDyfdS8N",
@@ -4225,7 +4390,8 @@
       ],
       "updated": 1788233485329,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "-PCoIshxbHfGqgUKawJ2l",
@@ -4263,7 +4429,9 @@
       "originalText": "Chat Models",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "LWUWT4Nn37GaiK9oVAHyL",
@@ -4308,7 +4476,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "1H2yfRSQBsJ1xCKfvtbOZ",
@@ -4353,7 +4522,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "wQfulkxqE9aNKn2yyWwKE",
@@ -4391,7 +4561,9 @@
       "originalText": "LLMs ->",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "23Ls43HEDwcw_D1SdEoT4",
@@ -4429,7 +4601,9 @@
       "originalText": "",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "V1ek01p-l-w50lFc2afAa",
@@ -4467,7 +4641,9 @@
       "originalText": "General Purpose models  that is used for raw text generation, they take a string(or plain text)\nas input and return a string(plain text), these are traditionally older models and are not used\nmuch now.",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "H5q84HcK-0g5xHpe9J6kH",
@@ -4505,7 +4681,9 @@
       "originalText": "ChatModels ->",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "QL9qWgxsUhi_zgp9Oge4z",
@@ -4543,7 +4721,9 @@
       "originalText": "Language models that are specialized for conversational tasks, they take a sequence of messages\nas inputs and return chat messages as outputs(as opposed to using plain text). these are \ntraditionaly newer models and used more in comparison to LLMs.",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "5F2e6uFtcedAo9S7bQB4F",
@@ -4578,7 +4758,8 @@
         1,
         1
       ],
-      "crop": null
+      "crop": null,
+      "created": null
     },
     {
       "id": "PbAHh7tRxsXTQgRkuoUne",
@@ -4616,7 +4797,9 @@
       "originalText": "LLMs ka support slowly decreasing in industry while chat models we are using now a days in place\nof LLMs.",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "s0yaaB0NaM4Gz8l6tZD54",
@@ -4654,7 +4837,9 @@
       "originalText": "",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "Ribgqf7mmnuKVYbtEdmFv",
@@ -4692,7 +4877,9 @@
       "originalText": "",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "1AvPm9CCo61J-rzU_VR7D",
@@ -4730,7 +4917,9 @@
       "originalText": "Temprature -> ",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "YUSkpC0Q5ojHBmDRYFFec",
@@ -4768,7 +4957,9 @@
       "originalText": "It is a parameter that controls the randomness of the language model output, It affects how creative\nor deterministic the responses are.\nLower value(0.0 to 0.3) -> more deterministic and predictable\nHigher Value (0.7 to 1.5) -> More random, creative and diverse",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "Bn9V1_6kprP-tHEmkWD2l",
@@ -4806,7 +4997,9 @@
       "originalText": "Use Case\nFactual Answers(Math, code, facts)\nBalanced Response (General QA explanations)\nCreative Writing, storytelling jokes\nMax randomness(wild ideas, brainstorming)",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "P3PN9jlLY-30hToA5Wjj8",
@@ -4844,7 +5037,9 @@
       "originalText": "Recommended Temprature\n0.0-0.3\n0.5-0.7\n0.9-1.2\n1.5+",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "tXzPnoPUd4NgpqCLq7jCt",
@@ -4882,7 +5077,9 @@
       "originalText": "",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "lTH4c3bw982GC4pRgRTg6",
@@ -4920,7 +5117,9 @@
       "originalText": ".env",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "1OCcrMrl8g-AbeHwcq2w0",
@@ -4945,7 +5144,7 @@
       "version": 91,
       "versionNonce": 1659504580,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788930979661,
       "link": null,
       "locked": false,
@@ -4958,7 +5157,9 @@
       "originalText": "OPENAI_API_KEY = \".\"\n\nANTHROPIC_API_KEY = \".\"\nGOOGLE_API_KEY = \".\"\n\nall above three are paid and close source means\n\n\nfrom langchain_openai import ChatOpenAI # it inherit BaseChatModel\nfrom dotenv import load_dotenv\n\nload_dotenv()\n\nmodel = ChatOpenAI(model = \"gpt-4\", temperature = 0.7, max_completion_tokens = 20)\n# max_completion_tokens -> this will make sure only 20 tokens are generated in the response, if the model tries to generate more than 20 tokens, it will be truncated. and it helps in reducing the cost of the API call.\n# temperature -> this will make sure the response is more creative and less deterministic. if you want a more deterministic response, you can set the temperature to 0.0\nresult = model.invoke(\"What is the capital of India?\")\nprint(\"Result:\", result)\nprint(\"Answer:\", result.content)\n\n\n\n\n# This is to integrate claude model from anthropic with langchain.\n\nfrom langchain_anthropic import ChatAnthropic # it inherit BaseChatModel\nfrom dotenv import load_dotenv\n\nload_dotenv()\n\nmodel = ChatAnthropic(model = \"claude-v1\", temperature = 0.7)\n\nresult = model.invoke(\"What is the capital of India?\")\nprint(result.content)\n\n\n\n# this is to integrate google gemini model with langchain.\n\nfrom langchain_google_genai import ChatGoogleGenerativeAI # it inherit BaseChatModel\nfrom dotenv import load_dotenv\n\nload_dotenv()\n\nmodel = ChatGoogleGenerativeAI(model = 'gemini-3.7-flash')\nresult = model.invoke(\"What is the capital of India?\")\n\nprint(\"Result:\", result.content[0]['text'])",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "TYEsrXpJlZ8d8citGsb1T",
@@ -4993,7 +5194,8 @@
       ],
       "updated": 1788930215358,
       "link": null,
-      "locked": false
+      "locked": false,
+      "created": null
     },
     {
       "id": "Zg_3xKiBRtVL1SCCcjm4g",
@@ -5018,7 +5220,7 @@
       "version": 316,
       "versionNonce": 1791038148,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788930215358,
       "link": null,
       "locked": false,
@@ -5031,7 +5233,9 @@
       "originalText": "Models inside\ncompanies seriver and they will give API to use",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "67k1MYT_ZNnvGOZ7JllGl",
@@ -5056,7 +5260,7 @@
       "version": 45,
       "versionNonce": 579449284,
       "isDeleted": true,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788929959297,
       "link": null,
       "locked": false,
@@ -5074,7 +5278,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "K3BKK_3oFcR5j2v-Djt4u",
@@ -5099,7 +5304,7 @@
       "version": 19,
       "versionNonce": 1108732796,
       "isDeleted": true,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788929958643,
       "link": null,
       "locked": false,
@@ -5117,7 +5322,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "GkIXzPRG8QKc-emiZwoO8",
@@ -5142,7 +5348,7 @@
       "version": 357,
       "versionNonce": 706353732,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788930215358,
       "link": null,
       "locked": false,
@@ -5164,7 +5370,8 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": "arrow",
-      "elbowed": false
+      "elbowed": false,
+      "created": null
     },
     {
       "id": "zzyAmqPj-W4mWOfUMG4bB",
@@ -5189,7 +5396,7 @@
       "version": 280,
       "versionNonce": 937832900,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788930215358,
       "link": null,
       "locked": false,
@@ -5202,7 +5409,9 @@
       "originalText": "Client will call APIs.",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "SZiCfuEZ_jQsaIptQ8W8g",
@@ -5227,7 +5436,7 @@
       "version": 495,
       "versionNonce": 1933793604,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788930215358,
       "link": null,
       "locked": false,
@@ -5240,7 +5449,9 @@
       "originalText": "Two flaws to use above\n1. we need to pay to use these apis\n2. we can talk all above with the help of API, hence we dont have control to change anything.\n\n\nThese flaws are solved by open source modesl",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "1u9Crm0bWrJws2vKLVOQR",
@@ -5265,7 +5476,7 @@
       "version": 33,
       "versionNonce": 1112088516,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788930232857,
       "link": null,
       "locked": false,
@@ -5278,14 +5489,16 @@
       "originalText": "Open Source Models -> ",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "9vLu1rMZ014yep59zY4II",
       "type": "text",
-      "x": 467.5869465977694,
+      "x": 467.7041340977694,
       "y": 21267.724577774046,
-      "width": 1045,
+      "width": 1089,
       "height": 125,
       "angle": 0,
       "strokeColor": "#1971c2",
@@ -5300,30 +5513,32 @@
       "index": "b4t",
       "roundness": null,
       "seed": 2015960516,
-      "version": 504,
-      "versionNonce": 408376828,
+      "version": 514,
+      "versionNonce": 187075195,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1788930428049,
+      "boundElements": [],
+      "updated": 1790318146658,
       "link": null,
       "locked": false,
-      "text": "It is an AI model, that is properly trained by some company or organization and they left this \nmodel in internet, Now as a use we can download this trained model in our machine, and \n1. Now we can do anything with this, now we dont need to pay anything to use this.\n2. Since it is present in our machine now we can fine tune this also, if we want , we can \n    deploy this also. so we have full control over it.",
+      "text": "It is an AI model, that is properly trained by some company or organization and they left this \nmodel in internet, Now as a use we can download this trained model in our machine, and \n1. Now we can do anything with this, now we dont need to pay anything to use this.\n2. Since it is present in our machine now we can fine tune this also, if we want , we can download \n    deploy this also. so we have full control over it.",
       "fontSize": 20,
       "fontFamily": 8,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "It is an AI model, that is properly trained by some company or organization and they left this \nmodel in internet, Now as a use we can download this trained model in our machine, and \n1. Now we can do anything with this, now we dont need to pay anything to use this.\n2. Since it is present in our machine now we can fine tune this also, if we want , we can \n    deploy this also. so we have full control over it.",
+      "originalText": "It is an AI model, that is properly trained by some company or organization and they left this \nmodel in internet, Now as a use we can download this trained model in our machine, and \n1. Now we can do anything with this, now we dont need to pay anything to use this.\n2. Since it is present in our machine now we can fine tune this also, if we want , we can download \n    deploy this also. so we have full control over it.",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "efwt-xtrL7_ApEtd-ohMT",
       "type": "text",
       "x": 469.1064778477694,
-      "y": 21444.603484024046,
-      "width": 55,
+      "y": 21444.478484024046,
+      "width": 11,
       "height": 25,
       "angle": 0,
       "strokeColor": "#1971c2",
@@ -5338,23 +5553,25 @@
       "index": "b4u",
       "roundness": null,
       "seed": 1983694716,
-      "version": 7,
-      "versionNonce": 406321788,
-      "isDeleted": false,
-      "boundElements": null,
-      "updated": 1788930452608,
+      "version": 10,
+      "versionNonce": 1507614523,
+      "isDeleted": true,
+      "boundElements": [],
+      "updated": 1790318065423,
       "link": null,
       "locked": false,
-      "text": "54:00",
+      "text": "",
       "fontSize": 20,
       "fontFamily": 8,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "54:00",
+      "originalText": "",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "DNwgrZbMfWSUYNum2enbE",
@@ -5379,7 +5596,7 @@
       "version": 3,
       "versionNonce": 654030916,
       "isDeleted": true,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1788930668085,
       "link": null,
       "locked": false,
@@ -5392,13 +5609,15 @@
       "originalText": "",
       "autoResize": true,
       "lineHeight": 1.25,
-      "labelPosition": null
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
     },
     {
       "id": "vbZj8YOgcqXJBsJceTNkb",
       "type": "text",
-      "x": 427.8564778477694,
-      "y": 21555.384734024046,
+      "x": 399.5361653477694,
+      "y": 21488.908171524046,
       "width": 968,
       "height": 1550,
       "angle": 0,
@@ -5414,11 +5633,11 @@
       "index": "b4w",
       "roundness": null,
       "seed": 415467516,
-      "version": 174,
-      "versionNonce": 1997891268,
+      "version": 210,
+      "versionNonce": 1665973691,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1788931336985,
+      "boundElements": [],
+      "updated": 1790318066386,
       "link": null,
       "locked": false,
       "text": "git reset --soft HEAD~1 means:\n\"Undo my latest commit, but keep all the changes I made in that commit.\"\nIt does not delete your code/files.\n\nExample\n\nSuppose your history is:\n\nA → B → C\n        ↑\n      HEAD\n\nYou made commit C:\ngit add .\ngit commit -m \"Add LangChain models\"\n\nThen you run:\ngit reset --soft HEAD~1\n\nYour history becomes:\nA → B\n\nCommit C is removed from the branch history.\nBut the changes from C are still there and are staged:\n\nWorking files:\n    ✅ changes still present\n\nStaging area:\n    ✅ changes still staged\n\nGit history:\n    ❌ commit C removed\n\nYou can verify with:\n\n\ngit status\n\n\nWhy this helps in your case\nGitHub found the API key in commit: 603a90788a3023dbd0e0f8d2aca236381caaafc6\n\nIf that commit is your latest commit, you can do:\ngit reset --soft HEAD~1\n\nThen remove the API key from the Excalidraw file.\nAfter that:\ngit add .\ngit commit -m \"Add LangChain models\"\ngit push\n\nNow the new commit won't contain the secret.\nOne important distinction\n\nThere are three common reset modes:\n\ngit reset --soft HEAD~1 ➡️ Remove commit, keep changes staged\ngit reset --mixed HEAD~1  ➡️ Remove commit, keep changes but unstaged\ngit reset --hard HEAD~1 ➡️ Remove commit and delete the changes ⚠️\n\nFor your situation, --soft is the safer choice because you don't want to lose your work.",
@@ -5428,6 +5647,328 @@
       "verticalAlign": "top",
       "containerId": null,
       "originalText": "git reset --soft HEAD~1 means:\n\"Undo my latest commit, but keep all the changes I made in that commit.\"\nIt does not delete your code/files.\n\nExample\n\nSuppose your history is:\n\nA → B → C\n        ↑\n      HEAD\n\nYou made commit C:\ngit add .\ngit commit -m \"Add LangChain models\"\n\nThen you run:\ngit reset --soft HEAD~1\n\nYour history becomes:\nA → B\n\nCommit C is removed from the branch history.\nBut the changes from C are still there and are staged:\n\nWorking files:\n    ✅ changes still present\n\nStaging area:\n    ✅ changes still staged\n\nGit history:\n    ❌ commit C removed\n\nYou can verify with:\n\n\ngit status\n\n\nWhy this helps in your case\nGitHub found the API key in commit: 603a90788a3023dbd0e0f8d2aca236381caaafc6\n\nIf that commit is your latest commit, you can do:\ngit reset --soft HEAD~1\n\nThen remove the API key from the Excalidraw file.\nAfter that:\ngit add .\ngit commit -m \"Add LangChain models\"\ngit push\n\nNow the new commit won't contain the secret.\nOne important distinction\n\nThere are three common reset modes:\n\ngit reset --soft HEAD~1 ➡️ Remove commit, keep changes staged\ngit reset --mixed HEAD~1  ➡️ Remove commit, keep changes but unstaged\ngit reset --hard HEAD~1 ➡️ Remove commit and delete the changes ⚠️\n\nFor your situation, --soft is the safer choice because you don't want to lose your work.",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null,
+      "created": null,
+      "baseFontSize": null
+    },
+    {
+      "id": "V2UAEP1vunzJp-C1CO-DP",
+      "type": "text",
+      "x": 601.8564778477694,
+      "y": 23143.884734024046,
+      "width": 11,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b4x",
+      "roundness": null,
+      "seed": 120377045,
+      "version": 3,
+      "versionNonce": 1409888827,
+      "isDeleted": true,
+      "boundElements": null,
+      "updated": 1790318182707,
+      "created": 1790318169409,
+      "link": null,
+      "locked": false,
+      "text": "",
+      "fontSize": 20,
+      "baseFontSize": null,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "SzIgr9ywknIaJXn45LKcG",
+      "type": "text",
+      "x": 459.8564778477694,
+      "y": 23141.884734024046,
+      "width": 11,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b4y",
+      "roundness": null,
+      "seed": 1466441595,
+      "version": 3,
+      "versionNonce": 1935457467,
+      "isDeleted": true,
+      "boundElements": null,
+      "updated": 1790318185218,
+      "created": 1790318183007,
+      "link": null,
+      "locked": false,
+      "text": "",
+      "fontSize": 20,
+      "baseFontSize": null,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "toJV-Z2ytdmu8HjarRWvC",
+      "type": "text",
+      "x": 325.3994465977694,
+      "y": 23163.072234024046,
+      "width": 1320,
+      "height": 150,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b4z",
+      "roundness": null,
+      "seed": 64885403,
+      "version": 1089,
+      "versionNonce": 1156353973,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1790318557837,
+      "created": 1790318187657,
+      "link": null,
+      "locked": false,
+      "text": "Features               Open Source Models                                   Closed-Source Models\nCost                   Free to use(NO API Costs)                            Paid API usage(i.e OpenAI charges per token)\nControl                Can modify, download, deploy                         Locked to Provider's infrastructure\nData Privacy           Runs Locally                                         Send queries to provider's server\nCustomization          Can fine tune on specific DS                         No access to fine tuning\nDeployment             can be deployed on on-premise or cloud server.       Must use vendor's api",
+      "fontSize": 20,
+      "baseFontSize": null,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Features               Open Source Models                                   Closed-Source Models\nCost                   Free to use(NO API Costs)                            Paid API usage(i.e OpenAI charges per token)\nControl                Can modify, download, deploy                         Locked to Provider's infrastructure\nData Privacy           Runs Locally                                         Send queries to provider's server\nCustomization          Can fine tune on specific DS                         No access to fine tuning\nDeployment             can be deployed on on-premise or cloud server.       Must use vendor's api",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "l2qQ0qo_EWnyyZmJ_oeHj",
+      "type": "text",
+      "x": 324.2197590977694,
+      "y": 23404.759734024046,
+      "width": 330,
+      "height": 150,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b50",
+      "roundness": null,
+      "seed": 786386901,
+      "version": 121,
+      "versionNonce": 1592365947,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1790318711283,
+      "created": 1790318631270,
+      "link": null,
+      "locked": false,
+      "text": "Some Famous Open Source Models\n1. LLama -> by Meta(Facebook)\n2. Mextral\n3. Mistral\n4. Falcon\n5. Bloom",
+      "fontSize": 20,
+      "baseFontSize": null,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Some Famous Open Source Models\n1. LLama -> by Meta(Facebook)\n2. Mextral\n3. Mistral\n4. Falcon\n5. Bloom",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "HONOC5b47exG_xrxrMfaW",
+      "type": "text",
+      "x": 323.9775715977694,
+      "y": 23623.763640274046,
+      "width": 594,
+      "height": 75,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b51",
+      "roundness": null,
+      "seed": 909212475,
+      "version": 135,
+      "versionNonce": 1191723163,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1790318813265,
+      "created": 1790318727471,
+      "link": null,
+      "locked": false,
+      "text": "Where to find then Open Source Models -> \n\nHuggingFace -> Largest Repository for Open Source LLMs",
+      "fontSize": 20,
+      "baseFontSize": null,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Where to find then Open Source Models -> \n\nHuggingFace -> Largest Repository for Open Source LLMs",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "aXndZBml-LnQwbb4WGF6M",
+      "type": "text",
+      "x": 321.8564778477694,
+      "y": 23761.005827774046,
+      "width": 385,
+      "height": 75,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b52",
+      "roundness": null,
+      "seed": 2101325173,
+      "version": 112,
+      "versionNonce": 639531765,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1790318885280,
+      "created": 1790318831992,
+      "link": null,
+      "locked": false,
+      "text": "Ways to use Open Source Models ->\n1 Using Hugging Face inference APIs\n2. Running Locally",
+      "fontSize": 20,
+      "baseFontSize": null,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Ways to use Open Source Models ->\n1 Using Hugging Face inference APIs\n2. Running Locally",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "tvEkx1WK0RLX5_EVGNzB7",
+      "type": "text",
+      "x": 420.8564778477694,
+      "y": 23747.884734024046,
+      "width": 11,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b53",
+      "roundness": null,
+      "seed": 1409975579,
+      "version": 3,
+      "versionNonce": 671182037,
+      "isDeleted": true,
+      "boundElements": null,
+      "updated": 1790318838427,
+      "created": 1790318837477,
+      "link": null,
+      "locked": false,
+      "text": "",
+      "fontSize": 20,
+      "baseFontSize": null,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "",
+      "autoResize": true,
+      "lineHeight": 1.25,
+      "labelPosition": null
+    },
+    {
+      "id": "JrYFMyA_c2mO6RFKdHpbQ",
+      "type": "text",
+      "x": 319.9619465977694,
+      "y": 23908.517546524046,
+      "width": 1012,
+      "height": 225,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b54",
+      "roundness": null,
+      "seed": 1448739605,
+      "version": 567,
+      "versionNonce": 199967099,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1790320590200,
+      "created": 1790318922428,
+      "link": null,
+      "locked": false,
+      "text": "Disadvantages of Open Source LLM models ->\n1 High Hardware Requirements -> running large models(e.g LLama-2-70B) requires expensive GPU\n2 Setup complexity -> requires installation of dependencies like Pytorch, CUDA, Transformers\n3 Lack of RLHF -> Most Open source models don't have fine tuning with human feedback, making\n            them weaker in instruction following\n4 Limited Multimodal Abilities -> Open modesl dont supports images, audios or videos like\n    GPT\n\n1 hour 18 minutes",
+      "fontSize": 20,
+      "baseFontSize": null,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Disadvantages of Open Source LLM models ->\n1 High Hardware Requirements -> running large models(e.g LLama-2-70B) requires expensive GPU\n2 Setup complexity -> requires installation of dependencies like Pytorch, CUDA, Transformers\n3 Lack of RLHF -> Most Open source models don't have fine tuning with human feedback, making\n            them weaker in instruction following\n4 Limited Multimodal Abilities -> Open modesl dont supports images, audios or videos like\n    GPT\n\n1 hour 18 minutes",
       "autoResize": true,
       "lineHeight": 1.25,
       "labelPosition": null
